@@ -1,0 +1,633 @@
+2021-04-14 13:55:15.629 [main] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: mdc-access-servlet-filter urls=[/*] order=2147483647, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-04-14 13:55:15.629 [main] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2021-04-14 13:55:19.725 [main] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-04-14 13:55:19.788 [main] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 34 mappings in 'requestMappingHandlerMapping'
+2021-04-14 13:55:19.803 [main] "  " DEBUG o.s.web.servlet.config.annotation.WebMvcConfigurer - Default resource handling disabled
+2021-04-14 13:55:19.819 [main] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/assets/**] in 'resourceHandlerMapping'
+2021-04-14 13:55:19.835 [main] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-04-14 13:55:20.163 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-04-14 13:55:20.178 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 查询日志记录的用户(String), 日志(String)
+2021-04-14 13:55:20.241 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-04-14 13:55:20.257 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-04-14 13:55:20.257 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 查询所有日志(String), 日志(String)
+2021-04-14 13:55:20.304 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-04-14 13:55:20.304 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-04-14 13:55:20.304 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 搜索日志(String), 日志(String)
+2021-04-14 13:55:20.335 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-04-14 13:55:20.350 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-04-14 13:55:20.350 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 搜索日志(String), 日志(String)
+2021-04-14 13:55:20.382 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-04-14 13:55:20.382 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-04-14 13:55:20.382 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 删除图书(String), 图书(String)
+2021-04-14 13:55:20.428 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-04-14 13:55:20.428 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-04-14 13:55:20.428 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 查询所有日志(String), 日志(String)
+2021-04-14 13:55:20.475 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-04-14 13:55:20.475 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-04-14 13:55:20.475 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 查询日志记录的用户(String), 日志(String)
+2021-04-14 13:55:20.507 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-04-14 13:55:20.507 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-04-14 13:55:20.507 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 删除图书(String), 图书(String)
+2021-04-14 13:55:20.553 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-04-14 13:55:20.553 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectList - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL
+2021-04-14 13:55:20.553 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectList - ==> Parameters: 
+2021-04-14 13:55:20.585 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectList - <==      Total: 4
+2021-04-14 13:57:16.966 [main] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: mdc-access-servlet-filter urls=[/*] order=2147483647, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-04-14 13:57:16.966 [main] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2021-04-14 13:57:20.566 [main] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-04-14 13:57:20.629 [main] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 34 mappings in 'requestMappingHandlerMapping'
+2021-04-14 13:57:20.644 [main] "  " DEBUG o.s.web.servlet.config.annotation.WebMvcConfigurer - Default resource handling disabled
+2021-04-14 13:57:20.660 [main] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/assets/**] in 'resourceHandlerMapping'
+2021-04-14 13:57:20.676 [main] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-04-14 13:57:20.941 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-04-14 13:57:20.988 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 查询所有日志(String), 日志(String)
+2021-04-14 13:57:21.066 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-04-14 13:57:21.066 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-04-14 13:57:21.066 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 搜索日志(String), 日志(String)
+2021-04-14 13:57:21.098 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-04-14 13:57:21.098 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-04-14 13:57:21.098 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 搜索日志(String), 日志(String)
+2021-04-14 13:57:21.144 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-04-14 13:57:21.144 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-04-14 13:57:21.144 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 删除图书(String), 图书(String)
+2021-04-14 13:57:21.191 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-04-14 13:57:21.191 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-04-14 13:57:21.191 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 查询日志记录的用户(String), 日志(String)
+2021-04-14 13:57:21.223 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-04-14 13:57:21.223 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-04-14 13:57:21.238 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 查询所有日志(String), 日志(String)
+2021-04-14 13:57:21.270 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-04-14 13:57:21.285 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-04-14 13:57:21.285 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 查询日志记录的用户(String), 日志(String)
+2021-04-14 13:57:21.332 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-04-14 13:57:21.347 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-04-14 13:57:21.347 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 删除图书(String), 图书(String)
+2021-04-14 13:57:21.379 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-04-14 13:57:21.379 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectList - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL
+2021-04-14 13:57:21.379 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectList - ==> Parameters: 
+2021-04-14 13:57:21.442 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectList - <==      Total: 4
+2021-04-14 14:00:39.911 [main] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: mdc-access-servlet-filter urls=[/*] order=2147483647, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-04-14 14:00:39.911 [main] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2021-04-14 14:00:43.607 [main] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-04-14 14:00:43.669 [main] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 34 mappings in 'requestMappingHandlerMapping'
+2021-04-14 14:00:43.685 [main] "  " DEBUG o.s.web.servlet.config.annotation.WebMvcConfigurer - Default resource handling disabled
+2021-04-14 14:00:43.701 [main] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/assets/**] in 'resourceHandlerMapping'
+2021-04-14 14:00:43.716 [main] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-04-14 14:00:43.998 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-04-14 14:00:44.044 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 查询日志记录的用户(String), 日志(String)
+2021-04-14 14:00:44.122 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-04-14 14:00:44.122 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-04-14 14:00:44.122 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 搜索日志(String), 日志(String)
+2021-04-14 14:00:44.154 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-04-14 14:00:44.169 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-04-14 14:00:44.169 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 查询所有日志(String), 日志(String)
+2021-04-14 14:00:44.201 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-04-14 14:00:44.201 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-04-14 14:00:44.216 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 搜索日志(String), 日志(String)
+2021-04-14 14:00:44.247 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-04-14 14:00:44.263 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-04-14 14:00:44.263 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 查询日志记录的用户(String), 日志(String)
+2021-04-14 14:00:44.294 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-04-14 14:00:44.310 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-04-14 14:00:44.310 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 查询所有日志(String), 日志(String)
+2021-04-14 14:00:44.341 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-04-14 14:00:44.341 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-04-14 14:00:44.341 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 删除图书(String), 图书(String)
+2021-04-14 14:00:44.388 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-04-14 14:00:44.404 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-04-14 14:00:44.404 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 删除图书(String), 图书(String)
+2021-04-14 14:00:44.435 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-04-14 14:00:44.450 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectList - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL
+2021-04-14 14:00:44.450 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectList - ==> Parameters: 
+2021-04-14 14:00:44.482 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectList - <==      Total: 4
+2021-04-14 14:11:31.700 [http-nio-5000-exec-1] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2021-04-14 14:11:31.712 [http-nio-5000-exec-1] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-04-14 14:11:31.725 [http-nio-5000-exec-1] "OPTIONS /cms/user/login HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - OPTIONS "/cms/user/login", parameters={}
+2021-04-14 14:11:31.727 [http-nio-5000-exec-1] "OPTIONS /cms/user/login HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.cms.UserController#login(LoginDTO)
+2021-04-14 14:11:31.753 [http-nio-5000-exec-1] "OPTIONS /cms/user/login HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2021-04-14 14:11:31.766 [http-nio-5000-exec-2] "POST /cms/user/login HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/cms/user/login", parameters={}
+2021-04-14 14:11:31.766 [http-nio-5000-exec-2] "POST /cms/user/login HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.cms.UserController#login(LoginDTO)
+2021-04-14 14:11:31.838 [http-nio-5000-exec-2] "POST /cms/user/login HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [LoginDTO(username=root, password=123456)]
+2021-04-14 14:11:41.570 [http-nio-5000-exec-3] "POST /cms/user/login HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/cms/user/login", parameters={}
+2021-04-14 14:11:41.571 [http-nio-5000-exec-3] "POST /cms/user/login HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.cms.UserController#login(LoginDTO)
+2021-04-14 14:11:41.572 [http-nio-5000-exec-3] "POST /cms/user/login HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [LoginDTO(username=root, password=123456)]
+2021-04-14 14:11:58.379 [main] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: mdc-access-servlet-filter urls=[/*] order=2147483647, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-04-14 14:11:58.379 [main] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2021-04-14 14:12:01.816 [main] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-04-14 14:12:01.863 [main] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 34 mappings in 'requestMappingHandlerMapping'
+2021-04-14 14:12:01.894 [main] "  " DEBUG o.s.web.servlet.config.annotation.WebMvcConfigurer - Default resource handling disabled
+2021-04-14 14:12:01.910 [main] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/assets/**] in 'resourceHandlerMapping'
+2021-04-14 14:12:01.910 [main] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-04-14 14:12:02.223 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-04-14 14:12:02.270 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 查询所有日志(String), 日志(String)
+2021-04-14 14:12:02.332 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-04-14 14:12:02.332 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-04-14 14:12:02.332 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 搜索日志(String), 日志(String)
+2021-04-14 14:12:02.379 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-04-14 14:12:02.379 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-04-14 14:12:02.379 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 查询所有日志(String), 日志(String)
+2021-04-14 14:12:02.426 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-04-14 14:12:02.426 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-04-14 14:12:02.426 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 搜索日志(String), 日志(String)
+2021-04-14 14:12:02.473 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-04-14 14:12:02.473 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-04-14 14:12:02.473 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 删除图书(String), 图书(String)
+2021-04-14 14:12:02.504 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-04-14 14:12:02.519 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-04-14 14:12:02.519 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 查询日志记录的用户(String), 日志(String)
+2021-04-14 14:12:02.551 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-04-14 14:12:02.566 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-04-14 14:12:02.566 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 查询日志记录的用户(String), 日志(String)
+2021-04-14 14:12:02.598 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-04-14 14:12:02.613 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-04-14 14:12:02.613 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 删除图书(String), 图书(String)
+2021-04-14 14:12:02.645 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-04-14 14:12:02.660 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectList - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL
+2021-04-14 14:12:02.660 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectList - ==> Parameters: 
+2021-04-14 14:12:02.707 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectList - <==      Total: 4
+2021-04-14 14:12:29.575 [http-nio-5000-exec-2] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2021-04-14 14:12:29.586 [http-nio-5000-exec-2] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-04-14 14:12:29.595 [http-nio-5000-exec-2] "POST /cms/user/login HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/cms/user/login", parameters={}
+2021-04-14 14:12:29.598 [http-nio-5000-exec-2] "POST /cms/user/login HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.cms.UserController#login(LoginDTO)
+2021-04-14 14:12:29.670 [http-nio-5000-exec-2] "POST /cms/user/login HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [LoginDTO(username=root, password=123456)]
+2021-04-14 14:12:29.791 [http-nio-5000-exec-2] "POST /cms/user/login HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectOne - ==>  Preparing: SELECT id,username,nickname,avatar,email,create_time,update_time,delete_time FROM lin_user WHERE delete_time IS NULL AND (username = ?)
+2021-04-14 14:12:29.792 [http-nio-5000-exec-2] "POST /cms/user/login HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectOne - ==> Parameters: root(String)
+2021-04-14 14:12:29.834 [http-nio-5000-exec-2] "POST /cms/user/login HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectOne - <==      Total: 1
+2021-04-14 14:12:29.855 [http-nio-5000-exec-2] "POST /cms/user/login HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserIdentityMapper.selectOne - ==>  Preparing: SELECT id,user_id,identity_type,identifier,credential,create_time,update_time,delete_time FROM lin_user_identity WHERE delete_time IS NULL AND (user_id = ? AND identity_type = ? AND identifier = ?)
+2021-04-14 14:12:29.856 [http-nio-5000-exec-2] "POST /cms/user/login HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserIdentityMapper.selectOne - ==> Parameters: 1(Integer), USERNAME_PASSWORD(String), root(String)
+2021-04-14 14:12:29.895 [http-nio-5000-exec-2] "POST /cms/user/login HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserIdentityMapper.selectOne - <==      Total: 1
+2021-04-14 14:12:31.243 [http-nio-5000-exec-2] "POST /cms/user/login HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-04-14 14:12:31.243 [http-nio-5000-exec-2] "POST /cms/user/login HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Tokens{accessToken='eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6MSwic2NvcGUiOiJsaW4iLCJ0eXB (truncated)...]
+2021-04-14 14:12:31.258 [http-nio-5000-exec-2] "POST /cms/user/login HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2021-04-14 14:12:31.267 [http-nio-5000-exec-1] "OPTIONS /cms/user/permissions HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - OPTIONS "/cms/user/permissions", parameters={}
+2021-04-14 14:12:31.268 [http-nio-5000-exec-1] "OPTIONS /cms/user/permissions HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.cms.UserController#getPermissions()
+2021-04-14 14:12:31.269 [http-nio-5000-exec-1] "OPTIONS /cms/user/permissions HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2021-04-14 14:12:31.278 [http-nio-5000-exec-3] "GET /cms/user/permissions HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/cms/user/permissions", parameters={}
+2021-04-14 14:12:31.278 [http-nio-5000-exec-3] "GET /cms/user/permissions HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.cms.UserController#getPermissions()
+2021-04-14 14:12:31.337 [http-nio-5000-exec-3] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - ==>  Preparing: SELECT id,username,nickname,avatar,email,create_time,update_time,delete_time FROM lin_user WHERE id=? AND delete_time IS NULL
+2021-04-14 14:12:31.338 [http-nio-5000-exec-3] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - ==> Parameters: 1(Integer)
+2021-04-14 14:12:31.385 [http-nio-5000-exec-3] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - <==      Total: 1
+2021-04-14 14:12:31.404 [http-nio-5000-exec-3] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.GroupMapper.selectOne - ==>  Preparing: SELECT id,name,info,`level`,create_time,update_time,delete_time FROM lin_group WHERE delete_time IS NULL AND (`level` = ?)
+2021-04-14 14:12:31.404 [http-nio-5000-exec-3] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.GroupMapper.selectOne - ==> Parameters: 1(Integer)
+2021-04-14 14:12:31.450 [http-nio-5000-exec-3] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.GroupMapper.selectOne - <==      Total: 1
+2021-04-14 14:12:31.469 [http-nio-5000-exec-3] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserGroupMapper.selectOne - ==>  Preparing: SELECT id,user_id,group_id FROM lin_user_group WHERE (user_id = ? AND group_id = ?)
+2021-04-14 14:12:31.469 [http-nio-5000-exec-3] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserGroupMapper.selectOne - ==> Parameters: 1(Integer), 1(Integer)
+2021-04-14 14:12:31.508 [http-nio-5000-exec-3] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserGroupMapper.selectOne - <==      Total: 1
+2021-04-14 14:12:31.509 [http-nio-5000-exec-3] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.t.l.mapper.GroupMapper.selectUserGroupIds - ==>  Preparing: SELECT g.id from lin_group AS g WHERE g.delete_time IS NULL AND g.id IN ( SELECT ug.group_id FROM lin_user AS u LEFT JOIN lin_user_group as ug ON ug.user_id = u.id WHERE u.id = ? AND u.delete_time IS NULL )
+2021-04-14 14:12:31.510 [http-nio-5000-exec-3] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.t.l.mapper.GroupMapper.selectUserGroupIds - ==> Parameters: 1(Integer)
+2021-04-14 14:12:31.549 [http-nio-5000-exec-3] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.t.l.mapper.GroupMapper.selectUserGroupIds - <==      Total: 1
+2021-04-14 14:12:31.556 [http-nio-5000-exec-3] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.t.l.m.P.selectPermissionsByGroupIds - ==>  Preparing: SELECT p.id, p.name, p.module, p.mount, p.create_time, p.update_time, p.delete_time FROM lin_permission AS p WHERE p.delete_time IS NULL AND p.mount = true AND p.id IN ( SELECT gp.permission_id FROM lin_group_permission AS gp WHERE gp.group_id IN ( ? ) )
+2021-04-14 14:12:31.558 [http-nio-5000-exec-3] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.t.l.m.P.selectPermissionsByGroupIds - ==> Parameters: 1(Integer)
+2021-04-14 14:12:31.601 [http-nio-5000-exec-3] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.t.l.m.P.selectPermissionsByGroupIds - <==      Total: 0
+2021-04-14 14:12:31.629 [http-nio-5000-exec-3] "GET /cms/user/permissions HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-04-14 14:12:31.630 [http-nio-5000-exec-3] "GET /cms/user/permissions HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [UserPermissionVO(id=1, nickname=root, avatar=null, admin=true, email=null, permissions=[])]
+2021-04-14 14:12:31.636 [http-nio-5000-exec-3] "GET /cms/user/permissions HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2021-04-14 14:12:46.335 [http-nio-5000-exec-5] "OPTIONS /cms/log/users HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - OPTIONS "/cms/log/users?count=5&page=0", parameters={masked}
+2021-04-14 14:12:46.336 [http-nio-5000-exec-5] "OPTIONS /cms/log/users HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.cms.LogController#getUsers(Integer, Integer)
+2021-04-14 14:12:46.337 [http-nio-5000-exec-5] "OPTIONS /cms/log/users HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2021-04-14 14:12:46.344 [http-nio-5000-exec-4] "GET /cms/log/users HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/cms/log/users?count=5&page=0", parameters={masked}
+2021-04-14 14:12:46.345 [http-nio-5000-exec-4] "GET /cms/log/users HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.cms.LogController#getUsers(Integer, Integer)
+2021-04-14 14:12:46.384 [http-nio-5000-exec-4] "GET /cms/log/users HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - ==>  Preparing: SELECT id,username,nickname,avatar,email,create_time,update_time,delete_time FROM lin_user WHERE id=? AND delete_time IS NULL
+2021-04-14 14:12:46.385 [http-nio-5000-exec-4] "GET /cms/log/users HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - ==> Parameters: 1(Integer)
+2021-04-14 14:12:46.431 [http-nio-5000-exec-4] "GET /cms/log/users HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - <==      Total: 1
+2021-04-14 14:12:46.433 [http-nio-5000-exec-4] "GET /cms/log/users HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.GroupMapper.selectOne - ==>  Preparing: SELECT id,name,info,`level`,create_time,update_time,delete_time FROM lin_group WHERE delete_time IS NULL AND (`level` = ?)
+2021-04-14 14:12:46.433 [http-nio-5000-exec-4] "GET /cms/log/users HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.GroupMapper.selectOne - ==> Parameters: 1(Integer)
+2021-04-14 14:12:46.475 [http-nio-5000-exec-4] "GET /cms/log/users HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.GroupMapper.selectOne - <==      Total: 1
+2021-04-14 14:12:46.477 [http-nio-5000-exec-4] "GET /cms/log/users HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserGroupMapper.selectOne - ==>  Preparing: SELECT id,user_id,group_id FROM lin_user_group WHERE (user_id = ? AND group_id = ?)
+2021-04-14 14:12:46.477 [http-nio-5000-exec-4] "GET /cms/log/users HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserGroupMapper.selectOne - ==> Parameters: 1(Integer), 1(Integer)
+2021-04-14 14:12:46.516 [http-nio-5000-exec-4] "GET /cms/log/users HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserGroupMapper.selectOne - <==      Total: 1
+2021-04-14 14:12:46.588 [http-nio-5000-exec-4] "GET /cms/log/users HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.LogMapper.getUserNames - ==>  Preparing: SELECT COUNT(1) FROM (SELECT l.username FROM lin_log l WHERE l.delete_time IS NULL GROUP BY l.username HAVING COUNT(l.username) > 0) TOTAL
+2021-04-14 14:12:46.589 [http-nio-5000-exec-4] "GET /cms/log/users HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.LogMapper.getUserNames - ==> Parameters: 
+2021-04-14 14:12:46.657 [http-nio-5000-exec-4] "GET /cms/log/users HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-04-14 14:12:46.657 [http-nio-5000-exec-4] "GET /cms/log/users HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [PageResponseVO(total=0, items=[], page=0, count=5)]
+2021-04-14 14:12:46.660 [http-nio-5000-exec-4] "GET /cms/log/users HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2021-04-14 14:12:46.669 [http-nio-5000-exec-6] "OPTIONS /cms/log HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - OPTIONS "/cms/log?count=15&page=0", parameters={masked}
+2021-04-14 14:12:46.670 [http-nio-5000-exec-6] "OPTIONS /cms/log HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.cms.LogController#getLogs(Date, Date, String, Integer, Integer)
+2021-04-14 14:12:46.671 [http-nio-5000-exec-6] "OPTIONS /cms/log HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2021-04-14 14:12:46.676 [http-nio-5000-exec-7] "GET /cms/log HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/cms/log?count=15&page=0", parameters={masked}
+2021-04-14 14:12:46.676 [http-nio-5000-exec-7] "GET /cms/log HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.cms.LogController#getLogs(Date, Date, String, Integer, Integer)
+2021-04-14 14:12:46.677 [http-nio-5000-exec-7] "GET /cms/log HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - ==>  Preparing: SELECT id,username,nickname,avatar,email,create_time,update_time,delete_time FROM lin_user WHERE id=? AND delete_time IS NULL
+2021-04-14 14:12:46.678 [http-nio-5000-exec-7] "GET /cms/log HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - ==> Parameters: 1(Integer)
+2021-04-14 14:12:46.719 [http-nio-5000-exec-7] "GET /cms/log HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - <==      Total: 1
+2021-04-14 14:12:46.719 [http-nio-5000-exec-7] "GET /cms/log HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.GroupMapper.selectOne - ==>  Preparing: SELECT id,name,info,`level`,create_time,update_time,delete_time FROM lin_group WHERE delete_time IS NULL AND (`level` = ?)
+2021-04-14 14:12:46.719 [http-nio-5000-exec-7] "GET /cms/log HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.GroupMapper.selectOne - ==> Parameters: 1(Integer)
+2021-04-14 14:12:46.770 [http-nio-5000-exec-7] "GET /cms/log HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.GroupMapper.selectOne - <==      Total: 1
+2021-04-14 14:12:46.774 [http-nio-5000-exec-7] "GET /cms/log HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserGroupMapper.selectOne - ==>  Preparing: SELECT id,user_id,group_id FROM lin_user_group WHERE (user_id = ? AND group_id = ?)
+2021-04-14 14:12:46.775 [http-nio-5000-exec-7] "GET /cms/log HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserGroupMapper.selectOne - ==> Parameters: 1(Integer), 1(Integer)
+2021-04-14 14:12:46.814 [http-nio-5000-exec-7] "GET /cms/log HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserGroupMapper.selectOne - <==      Total: 1
+2021-04-14 14:12:46.819 [http-nio-5000-exec-7] "GET /cms/log HTTP/1.1" DEBUG i.g.t.l.m.LogMapper.findLogsByUsernameAndRange - ==>  Preparing: SELECT COUNT(1) FROM lin_log l WHERE l.delete_time IS NULL
+2021-04-14 14:12:46.819 [http-nio-5000-exec-7] "GET /cms/log HTTP/1.1" DEBUG i.g.t.l.m.LogMapper.findLogsByUsernameAndRange - ==> Parameters: 
+2021-04-14 14:12:46.862 [http-nio-5000-exec-7] "GET /cms/log HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-04-14 14:12:46.862 [http-nio-5000-exec-7] "GET /cms/log HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [PageResponseVO(total=0, items=[], page=0, count=15)]
+2021-04-14 14:12:46.863 [http-nio-5000-exec-7] "GET /cms/log HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2021-04-14 14:12:56.020 [http-nio-5000-exec-8] "OPTIONS /v1/book HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - OPTIONS "/v1/book", parameters={}
+2021-04-14 14:12:56.021 [http-nio-5000-exec-8] "OPTIONS /v1/book HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.v1.BookController#getBooks()
+2021-04-14 14:12:56.024 [http-nio-5000-exec-8] "OPTIONS /v1/book HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2021-04-14 14:12:56.032 [http-nio-5000-exec-9] "GET /v1/book HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/v1/book", parameters={}
+2021-04-14 14:12:56.032 [http-nio-5000-exec-9] "GET /v1/book HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.v1.BookController#getBooks()
+2021-04-14 14:12:56.084 [http-nio-5000-exec-9] "GET /v1/book HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.BookMapper.selectList - ==>  Preparing: SELECT id,title,author,summary,image,create_time,update_time,delete_time FROM book WHERE delete_time IS NULL
+2021-04-14 14:12:56.085 [http-nio-5000-exec-9] "GET /v1/book HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.BookMapper.selectList - ==> Parameters: 
+2021-04-14 14:12:56.125 [http-nio-5000-exec-9] "GET /v1/book HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.BookMapper.selectList - <==      Total: 3
+2021-04-14 14:12:56.128 [http-nio-5000-exec-9] "GET /v1/book HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-04-14 14:12:56.128 [http-nio-5000-exec-9] "GET /v1/book HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[BookDO(title=深入理解计算机系统, author=Randal E.Bryant, summary=从程序员的视角，看计算机系统！
+本书适用于那些想要写出更快、更可靠程序的程序员。通过掌 (truncated)...]
+2021-04-14 14:12:56.137 [http-nio-5000-exec-9] "GET /v1/book HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2021-04-14 14:13:02.090 [http-nio-5000-exec-10] "GET /v1/book HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/v1/book", parameters={}
+2021-04-14 14:13:02.091 [http-nio-5000-exec-10] "GET /v1/book HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.v1.BookController#getBooks()
+2021-04-14 14:13:02.134 [http-nio-5000-exec-10] "GET /v1/book HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.BookMapper.selectList - ==>  Preparing: SELECT id,title,author,summary,image,create_time,update_time,delete_time FROM book WHERE delete_time IS NULL
+2021-04-14 14:13:02.135 [http-nio-5000-exec-10] "GET /v1/book HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.BookMapper.selectList - ==> Parameters: 
+2021-04-14 14:13:02.173 [http-nio-5000-exec-10] "GET /v1/book HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.BookMapper.selectList - <==      Total: 3
+2021-04-14 14:13:02.174 [http-nio-5000-exec-10] "GET /v1/book HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-04-14 14:13:02.174 [http-nio-5000-exec-10] "GET /v1/book HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[BookDO(title=深入理解计算机系统, author=Randal E.Bryant, summary=从程序员的视角，看计算机系统！
+本书适用于那些想要写出更快、更可靠程序的程序员。通过掌 (truncated)...]
+2021-04-14 14:13:02.176 [http-nio-5000-exec-10] "GET /v1/book HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2021-04-14 14:13:05.690 [http-nio-5000-exec-2] "OPTIONS /cms/admin/users HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - OPTIONS "/cms/admin/users?count=10&page=0", parameters={masked}
+2021-04-14 14:13:05.691 [http-nio-5000-exec-2] "OPTIONS /cms/admin/users HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.cms.AdminController#getUsers(Integer, Integer, Integer)
+2021-04-14 14:13:05.692 [http-nio-5000-exec-2] "OPTIONS /cms/admin/users HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2021-04-14 14:13:05.697 [http-nio-5000-exec-1] "GET /cms/admin/users HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/cms/admin/users?count=10&page=0", parameters={masked}
+2021-04-14 14:13:05.698 [http-nio-5000-exec-1] "GET /cms/admin/users HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.cms.AdminController#getUsers(Integer, Integer, Integer)
+2021-04-14 14:13:05.737 [http-nio-5000-exec-1] "GET /cms/admin/users HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - ==>  Preparing: SELECT id,username,nickname,avatar,email,create_time,update_time,delete_time FROM lin_user WHERE id=? AND delete_time IS NULL
+2021-04-14 14:13:05.738 [http-nio-5000-exec-1] "GET /cms/admin/users HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - ==> Parameters: 1(Integer)
+2021-04-14 14:13:05.787 [http-nio-5000-exec-1] "GET /cms/admin/users HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - <==      Total: 1
+2021-04-14 14:13:05.791 [http-nio-5000-exec-1] "GET /cms/admin/users HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.GroupMapper.selectOne - ==>  Preparing: SELECT id,name,info,`level`,create_time,update_time,delete_time FROM lin_group WHERE delete_time IS NULL AND (`level` = ?)
+2021-04-14 14:13:05.792 [http-nio-5000-exec-1] "GET /cms/admin/users HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.GroupMapper.selectOne - ==> Parameters: 1(Integer)
+2021-04-14 14:13:05.832 [http-nio-5000-exec-1] "GET /cms/admin/users HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.GroupMapper.selectOne - <==      Total: 1
+2021-04-14 14:13:05.837 [http-nio-5000-exec-1] "GET /cms/admin/users HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserGroupMapper.selectOne - ==>  Preparing: SELECT id,user_id,group_id FROM lin_user_group WHERE (user_id = ? AND group_id = ?)
+2021-04-14 14:13:05.838 [http-nio-5000-exec-1] "GET /cms/admin/users HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserGroupMapper.selectOne - ==> Parameters: 1(Integer), 1(Integer)
+2021-04-14 14:13:05.877 [http-nio-5000-exec-1] "GET /cms/admin/users HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserGroupMapper.selectOne - <==      Total: 1
+2021-04-14 14:13:05.896 [http-nio-5000-exec-1] "GET /cms/admin/users HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.GroupMapper.selectOne - ==>  Preparing: SELECT id,name,info,`level`,create_time,update_time,delete_time FROM lin_group WHERE delete_time IS NULL AND (`level` = ?)
+2021-04-14 14:13:05.896 [http-nio-5000-exec-1] "GET /cms/admin/users HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.GroupMapper.selectOne - ==> Parameters: 1(Integer)
+2021-04-14 14:13:05.930 [http-nio-5000-exec-1] "GET /cms/admin/users HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.GroupMapper.selectOne - <==      Total: 1
+2021-04-14 14:13:05.939 [http-nio-5000-exec-1] "GET /cms/admin/users HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserGroupMapper.selectOne - ==>  Preparing: SELECT id,user_id,group_id FROM lin_user_group WHERE (group_id = ?)
+2021-04-14 14:13:05.939 [http-nio-5000-exec-1] "GET /cms/admin/users HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserGroupMapper.selectOne - ==> Parameters: 1(Integer)
+2021-04-14 14:13:05.980 [http-nio-5000-exec-1] "GET /cms/admin/users HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserGroupMapper.selectOne - <==      Total: 1
+2021-04-14 14:13:05.989 [http-nio-5000-exec-1] "GET /cms/admin/users HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectPage - ==>  Preparing: SELECT COUNT(1) FROM lin_user WHERE delete_time IS NULL AND (id <> ?)
+2021-04-14 14:13:05.990 [http-nio-5000-exec-1] "GET /cms/admin/users HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectPage - ==> Parameters: 1(Integer)
+2021-04-14 14:13:06.038 [http-nio-5000-exec-1] "GET /cms/admin/users HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectPage - ==>  Preparing: SELECT id,username,nickname,avatar,email,create_time,update_time,delete_time FROM lin_user WHERE delete_time IS NULL AND (id <> ?) LIMIT ?
+2021-04-14 14:13:06.038 [http-nio-5000-exec-1] "GET /cms/admin/users HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectPage - ==> Parameters: 1(Integer), 10(Long)
+2021-04-14 14:13:06.076 [http-nio-5000-exec-1] "GET /cms/admin/users HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectPage - <==      Total: 1
+2021-04-14 14:13:06.079 [http-nio-5000-exec-1] "GET /cms/admin/users HTTP/1.1" DEBUG i.g.t.l.mapper.GroupMapper.selectGroupsByUserId - ==>  Preparing: SELECT g.id, g.name, g.info,g.level, g.create_time,g.update_time,g.delete_time from lin_group AS g WHERE g.delete_time IS NULL AND g.id IN ( SELECT ug.group_id FROM lin_user AS u LEFT JOIN lin_user_group as ug ON ug.user_id = u.id WHERE u.id = ? AND u.delete_time IS NULL )
+2021-04-14 14:13:06.080 [http-nio-5000-exec-1] "GET /cms/admin/users HTTP/1.1" DEBUG i.g.t.l.mapper.GroupMapper.selectGroupsByUserId - ==> Parameters: 2(Integer)
+2021-04-14 14:13:06.122 [http-nio-5000-exec-1] "GET /cms/admin/users HTTP/1.1" DEBUG i.g.t.l.mapper.GroupMapper.selectGroupsByUserId - <==      Total: 1
+2021-04-14 14:13:06.175 [http-nio-5000-exec-1] "GET /cms/admin/users HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-04-14 14:13:06.175 [http-nio-5000-exec-1] "GET /cms/admin/users HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [PageResponseVO(total=1, items=[UserInfoVO(id=2, username=123, nickname=null, avatar=null, email=2446 (truncated)...]
+2021-04-14 14:13:06.181 [http-nio-5000-exec-1] "GET /cms/admin/users HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2021-04-14 14:13:06.208 [http-nio-5000-exec-3] "OPTIONS /cms/admin/group/all HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - OPTIONS "/cms/admin/group/all", parameters={}
+2021-04-14 14:13:06.209 [http-nio-5000-exec-3] "OPTIONS /cms/admin/group/all HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.cms.AdminController#getAllGroup()
+2021-04-14 14:13:06.210 [http-nio-5000-exec-3] "OPTIONS /cms/admin/group/all HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2021-04-14 14:13:06.214 [http-nio-5000-exec-5] "GET /cms/admin/group/all HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/cms/admin/group/all", parameters={}
+2021-04-14 14:13:06.215 [http-nio-5000-exec-5] "GET /cms/admin/group/all HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.cms.AdminController#getAllGroup()
+2021-04-14 14:13:06.216 [http-nio-5000-exec-5] "GET /cms/admin/group/all HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - ==>  Preparing: SELECT id,username,nickname,avatar,email,create_time,update_time,delete_time FROM lin_user WHERE id=? AND delete_time IS NULL
+2021-04-14 14:13:06.216 [http-nio-5000-exec-5] "GET /cms/admin/group/all HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - ==> Parameters: 1(Integer)
+2021-04-14 14:13:06.256 [http-nio-5000-exec-5] "GET /cms/admin/group/all HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - <==      Total: 1
+2021-04-14 14:13:06.257 [http-nio-5000-exec-5] "GET /cms/admin/group/all HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.GroupMapper.selectOne - ==>  Preparing: SELECT id,name,info,`level`,create_time,update_time,delete_time FROM lin_group WHERE delete_time IS NULL AND (`level` = ?)
+2021-04-14 14:13:06.258 [http-nio-5000-exec-5] "GET /cms/admin/group/all HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.GroupMapper.selectOne - ==> Parameters: 1(Integer)
+2021-04-14 14:13:06.298 [http-nio-5000-exec-5] "GET /cms/admin/group/all HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.GroupMapper.selectOne - <==      Total: 1
+2021-04-14 14:13:06.299 [http-nio-5000-exec-5] "GET /cms/admin/group/all HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserGroupMapper.selectOne - ==>  Preparing: SELECT id,user_id,group_id FROM lin_user_group WHERE (user_id = ? AND group_id = ?)
+2021-04-14 14:13:06.299 [http-nio-5000-exec-5] "GET /cms/admin/group/all HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserGroupMapper.selectOne - ==> Parameters: 1(Integer), 1(Integer)
+2021-04-14 14:13:06.340 [http-nio-5000-exec-5] "GET /cms/admin/group/all HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserGroupMapper.selectOne - <==      Total: 1
+2021-04-14 14:13:06.341 [http-nio-5000-exec-5] "GET /cms/admin/group/all HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.GroupMapper.selectOne - ==>  Preparing: SELECT id,name,info,`level`,create_time,update_time,delete_time FROM lin_group WHERE delete_time IS NULL AND (`level` = ?)
+2021-04-14 14:13:06.342 [http-nio-5000-exec-5] "GET /cms/admin/group/all HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.GroupMapper.selectOne - ==> Parameters: 1(Integer)
+2021-04-14 14:13:06.379 [http-nio-5000-exec-5] "GET /cms/admin/group/all HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.GroupMapper.selectOne - <==      Total: 1
+2021-04-14 14:13:06.383 [http-nio-5000-exec-5] "GET /cms/admin/group/all HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.GroupMapper.selectList - ==>  Preparing: SELECT id,name,info,`level`,create_time,update_time,delete_time FROM lin_group WHERE delete_time IS NULL AND (id <> ?)
+2021-04-14 14:13:06.383 [http-nio-5000-exec-5] "GET /cms/admin/group/all HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.GroupMapper.selectList - ==> Parameters: 1(Integer)
+2021-04-14 14:13:06.423 [http-nio-5000-exec-5] "GET /cms/admin/group/all HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.GroupMapper.selectList - <==      Total: 1
+2021-04-14 14:13:06.424 [http-nio-5000-exec-5] "GET /cms/admin/group/all HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-04-14 14:13:06.424 [http-nio-5000-exec-5] "GET /cms/admin/group/all HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[GroupDO(name=guest, info=游客组, level=GUEST)]]
+2021-04-14 14:13:06.425 [http-nio-5000-exec-5] "GET /cms/admin/group/all HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2021-04-14 14:13:08.966 [http-nio-5000-exec-4] "GET /v1/book HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/v1/book", parameters={}
+2021-04-14 14:13:08.967 [http-nio-5000-exec-4] "GET /v1/book HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.v1.BookController#getBooks()
+2021-04-14 14:13:09.007 [http-nio-5000-exec-4] "GET /v1/book HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.BookMapper.selectList - ==>  Preparing: SELECT id,title,author,summary,image,create_time,update_time,delete_time FROM book WHERE delete_time IS NULL
+2021-04-14 14:13:09.008 [http-nio-5000-exec-4] "GET /v1/book HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.BookMapper.selectList - ==> Parameters: 
+2021-04-14 14:13:09.046 [http-nio-5000-exec-4] "GET /v1/book HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.BookMapper.selectList - <==      Total: 3
+2021-04-14 14:13:09.052 [http-nio-5000-exec-4] "GET /v1/book HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-04-14 14:13:09.052 [http-nio-5000-exec-4] "GET /v1/book HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[BookDO(title=深入理解计算机系统, author=Randal E.Bryant, summary=从程序员的视角，看计算机系统！
+本书适用于那些想要写出更快、更可靠程序的程序员。通过掌 (truncated)...]
+2021-04-14 14:13:09.053 [http-nio-5000-exec-4] "GET /v1/book HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2021-04-14 14:13:17.261 [http-nio-5000-exec-6] "GET /cms/admin/group/all HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/cms/admin/group/all", parameters={}
+2021-04-14 14:13:17.262 [http-nio-5000-exec-6] "GET /cms/admin/group/all HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.cms.AdminController#getAllGroup()
+2021-04-14 14:13:17.301 [http-nio-5000-exec-6] "GET /cms/admin/group/all HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - ==>  Preparing: SELECT id,username,nickname,avatar,email,create_time,update_time,delete_time FROM lin_user WHERE id=? AND delete_time IS NULL
+2021-04-14 14:13:17.301 [http-nio-5000-exec-6] "GET /cms/admin/group/all HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - ==> Parameters: 1(Integer)
+2021-04-14 14:13:17.341 [http-nio-5000-exec-6] "GET /cms/admin/group/all HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - <==      Total: 1
+2021-04-14 14:13:17.343 [http-nio-5000-exec-6] "GET /cms/admin/group/all HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.GroupMapper.selectOne - ==>  Preparing: SELECT id,name,info,`level`,create_time,update_time,delete_time FROM lin_group WHERE delete_time IS NULL AND (`level` = ?)
+2021-04-14 14:13:17.343 [http-nio-5000-exec-6] "GET /cms/admin/group/all HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.GroupMapper.selectOne - ==> Parameters: 1(Integer)
+2021-04-14 14:13:17.377 [http-nio-5000-exec-6] "GET /cms/admin/group/all HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.GroupMapper.selectOne - <==      Total: 1
+2021-04-14 14:13:17.377 [http-nio-5000-exec-6] "GET /cms/admin/group/all HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserGroupMapper.selectOne - ==>  Preparing: SELECT id,user_id,group_id FROM lin_user_group WHERE (user_id = ? AND group_id = ?)
+2021-04-14 14:13:17.377 [http-nio-5000-exec-6] "GET /cms/admin/group/all HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserGroupMapper.selectOne - ==> Parameters: 1(Integer), 1(Integer)
+2021-04-14 14:13:17.425 [http-nio-5000-exec-6] "GET /cms/admin/group/all HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserGroupMapper.selectOne - <==      Total: 1
+2021-04-14 14:13:17.429 [http-nio-5000-exec-6] "GET /cms/admin/group/all HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.GroupMapper.selectOne - ==>  Preparing: SELECT id,name,info,`level`,create_time,update_time,delete_time FROM lin_group WHERE delete_time IS NULL AND (`level` = ?)
+2021-04-14 14:13:17.430 [http-nio-5000-exec-6] "GET /cms/admin/group/all HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.GroupMapper.selectOne - ==> Parameters: 1(Integer)
+2021-04-14 14:13:17.474 [http-nio-5000-exec-6] "GET /cms/admin/group/all HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.GroupMapper.selectOne - <==      Total: 1
+2021-04-14 14:13:17.479 [http-nio-5000-exec-6] "GET /cms/admin/group/all HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.GroupMapper.selectList - ==>  Preparing: SELECT id,name,info,`level`,create_time,update_time,delete_time FROM lin_group WHERE delete_time IS NULL AND (id <> ?)
+2021-04-14 14:13:17.479 [http-nio-5000-exec-6] "GET /cms/admin/group/all HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.GroupMapper.selectList - ==> Parameters: 1(Integer)
+2021-04-14 14:13:17.518 [http-nio-5000-exec-6] "GET /cms/admin/group/all HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.GroupMapper.selectList - <==      Total: 1
+2021-04-14 14:13:17.519 [http-nio-5000-exec-6] "GET /cms/admin/group/all HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-04-14 14:13:17.519 [http-nio-5000-exec-6] "GET /cms/admin/group/all HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[GroupDO(name=guest, info=游客组, level=GUEST)]]
+2021-04-14 14:13:17.521 [http-nio-5000-exec-6] "GET /cms/admin/group/all HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2021-04-14 14:13:41.462 [http-nio-5000-exec-7] "POST /cms/user/login HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/cms/user/login", parameters={}
+2021-04-14 14:13:41.463 [http-nio-5000-exec-7] "POST /cms/user/login HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.cms.UserController#login(LoginDTO)
+2021-04-14 14:13:41.464 [http-nio-5000-exec-7] "POST /cms/user/login HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [LoginDTO(username=root, password=123456)]
+2021-04-14 14:13:41.506 [http-nio-5000-exec-7] "POST /cms/user/login HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectOne - ==>  Preparing: SELECT id,username,nickname,avatar,email,create_time,update_time,delete_time FROM lin_user WHERE delete_time IS NULL AND (username = ?)
+2021-04-14 14:13:41.507 [http-nio-5000-exec-7] "POST /cms/user/login HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectOne - ==> Parameters: root(String)
+2021-04-14 14:13:41.549 [http-nio-5000-exec-7] "POST /cms/user/login HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectOne - <==      Total: 1
+2021-04-14 14:13:41.551 [http-nio-5000-exec-7] "POST /cms/user/login HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserIdentityMapper.selectOne - ==>  Preparing: SELECT id,user_id,identity_type,identifier,credential,create_time,update_time,delete_time FROM lin_user_identity WHERE delete_time IS NULL AND (user_id = ? AND identity_type = ? AND identifier = ?)
+2021-04-14 14:13:41.551 [http-nio-5000-exec-7] "POST /cms/user/login HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserIdentityMapper.selectOne - ==> Parameters: 1(Integer), USERNAME_PASSWORD(String), root(String)
+2021-04-14 14:13:41.589 [http-nio-5000-exec-7] "POST /cms/user/login HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserIdentityMapper.selectOne - <==      Total: 1
+2021-04-14 14:13:41.806 [http-nio-5000-exec-7] "POST /cms/user/login HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-04-14 14:13:41.806 [http-nio-5000-exec-7] "POST /cms/user/login HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Tokens{accessToken='eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6MSwic2NvcGUiOiJsaW4iLCJ0eXB (truncated)...]
+2021-04-14 14:13:41.807 [http-nio-5000-exec-7] "POST /cms/user/login HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2021-04-14 14:13:41.814 [http-nio-5000-exec-8] "GET /cms/user/permissions HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/cms/user/permissions", parameters={}
+2021-04-14 14:13:41.815 [http-nio-5000-exec-8] "GET /cms/user/permissions HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.cms.UserController#getPermissions()
+2021-04-14 14:13:41.816 [http-nio-5000-exec-8] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - ==>  Preparing: SELECT id,username,nickname,avatar,email,create_time,update_time,delete_time FROM lin_user WHERE id=? AND delete_time IS NULL
+2021-04-14 14:13:41.816 [http-nio-5000-exec-8] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - ==> Parameters: 1(Integer)
+2021-04-14 14:13:41.857 [http-nio-5000-exec-8] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - <==      Total: 1
+2021-04-14 14:13:41.859 [http-nio-5000-exec-8] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.GroupMapper.selectOne - ==>  Preparing: SELECT id,name,info,`level`,create_time,update_time,delete_time FROM lin_group WHERE delete_time IS NULL AND (`level` = ?)
+2021-04-14 14:13:41.859 [http-nio-5000-exec-8] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.GroupMapper.selectOne - ==> Parameters: 1(Integer)
+2021-04-14 14:13:41.899 [http-nio-5000-exec-8] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.GroupMapper.selectOne - <==      Total: 1
+2021-04-14 14:13:41.901 [http-nio-5000-exec-8] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserGroupMapper.selectOne - ==>  Preparing: SELECT id,user_id,group_id FROM lin_user_group WHERE (user_id = ? AND group_id = ?)
+2021-04-14 14:13:41.901 [http-nio-5000-exec-8] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserGroupMapper.selectOne - ==> Parameters: 1(Integer), 1(Integer)
+2021-04-14 14:13:41.940 [http-nio-5000-exec-8] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserGroupMapper.selectOne - <==      Total: 1
+2021-04-14 14:13:41.941 [http-nio-5000-exec-8] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.t.l.mapper.GroupMapper.selectUserGroupIds - ==>  Preparing: SELECT g.id from lin_group AS g WHERE g.delete_time IS NULL AND g.id IN ( SELECT ug.group_id FROM lin_user AS u LEFT JOIN lin_user_group as ug ON ug.user_id = u.id WHERE u.id = ? AND u.delete_time IS NULL )
+2021-04-14 14:13:41.941 [http-nio-5000-exec-8] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.t.l.mapper.GroupMapper.selectUserGroupIds - ==> Parameters: 1(Integer)
+2021-04-14 14:13:41.979 [http-nio-5000-exec-8] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.t.l.mapper.GroupMapper.selectUserGroupIds - <==      Total: 1
+2021-04-14 14:13:41.980 [http-nio-5000-exec-8] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.t.l.m.P.selectPermissionsByGroupIds - ==>  Preparing: SELECT p.id, p.name, p.module, p.mount, p.create_time, p.update_time, p.delete_time FROM lin_permission AS p WHERE p.delete_time IS NULL AND p.mount = true AND p.id IN ( SELECT gp.permission_id FROM lin_group_permission AS gp WHERE gp.group_id IN ( ? ) )
+2021-04-14 14:13:41.980 [http-nio-5000-exec-8] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.t.l.m.P.selectPermissionsByGroupIds - ==> Parameters: 1(Integer)
+2021-04-14 14:13:42.019 [http-nio-5000-exec-8] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.t.l.m.P.selectPermissionsByGroupIds - <==      Total: 0
+2021-04-14 14:13:42.020 [http-nio-5000-exec-8] "GET /cms/user/permissions HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-04-14 14:13:42.020 [http-nio-5000-exec-8] "GET /cms/user/permissions HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [UserPermissionVO(id=1, nickname=root, avatar=null, admin=true, email=null, permissions=[])]
+2021-04-14 14:13:42.021 [http-nio-5000-exec-8] "GET /cms/user/permissions HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2021-04-14 14:28:43.362 [http-nio-5000-exec-10] "GET /cms/admin/group/all HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/cms/admin/group/all", parameters={}
+2021-04-14 14:28:43.363 [http-nio-5000-exec-10] "GET /cms/admin/group/all HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.cms.AdminController#getAllGroup()
+2021-04-14 14:29:13.453 [http-nio-5000-exec-10] "GET /cms/admin/group/all HTTP/1.1" DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler io.github.talelin.latticy.common.exception.RestExceptionHandler#processException(Exception, HttpServletRequest, HttpServletResponse)
+2021-04-14 14:29:13.469 [http-nio-5000-exec-10] "GET /cms/admin/group/all HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-04-14 14:29:13.469 [http-nio-5000-exec-10] "GET /cms/admin/group/all HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [UnifyResponseVO(code=9999, message=服务器未知错误, request=GET /cms/admin/group/all)]
+2021-04-14 14:29:13.469 [http-nio-5000-exec-10] "GET /cms/admin/group/all HTTP/1.1" DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30079ms.
+### The error may exist in io/github/talelin/latticy/mapper/UserMapper.java (best guess)
+### The error may involve io.github.talelin.latticy.mapper.UserMapper.selectById
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30079ms.]
+2021-04-14 14:29:13.469 [http-nio-5000-exec-10] "GET /cms/admin/group/all HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 500 INTERNAL_SERVER_ERROR
+2021-04-14 14:42:21.042 [http-nio-5000-exec-2] "POST /cms/user/login HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/cms/user/login", parameters={}
+2021-04-14 14:42:21.043 [http-nio-5000-exec-2] "POST /cms/user/login HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.cms.UserController#login(LoginDTO)
+2021-04-14 14:42:21.043 [http-nio-5000-exec-2] "POST /cms/user/login HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [LoginDTO(username=root, password=123456)]
+2021-04-14 14:42:21.115 [http-nio-5000-exec-2] "POST /cms/user/login HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectOne - ==>  Preparing: SELECT id,username,nickname,avatar,email,create_time,update_time,delete_time FROM lin_user WHERE delete_time IS NULL AND (username = ?)
+2021-04-14 14:42:21.115 [http-nio-5000-exec-2] "POST /cms/user/login HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectOne - ==> Parameters: root(String)
+2021-04-14 14:42:21.156 [http-nio-5000-exec-2] "POST /cms/user/login HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectOne - <==      Total: 1
+2021-04-14 14:42:21.157 [http-nio-5000-exec-2] "POST /cms/user/login HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserIdentityMapper.selectOne - ==>  Preparing: SELECT id,user_id,identity_type,identifier,credential,create_time,update_time,delete_time FROM lin_user_identity WHERE delete_time IS NULL AND (user_id = ? AND identity_type = ? AND identifier = ?)
+2021-04-14 14:42:21.157 [http-nio-5000-exec-2] "POST /cms/user/login HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserIdentityMapper.selectOne - ==> Parameters: 1(Integer), USERNAME_PASSWORD(String), root(String)
+2021-04-14 14:42:21.479 [http-nio-5000-exec-2] "POST /cms/user/login HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserIdentityMapper.selectOne - <==      Total: 1
+2021-04-14 14:42:21.744 [http-nio-5000-exec-2] "POST /cms/user/login HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-04-14 14:42:21.745 [http-nio-5000-exec-2] "POST /cms/user/login HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Tokens{accessToken='eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6MSwic2NvcGUiOiJsaW4iLCJ0eXB (truncated)...]
+2021-04-14 14:42:21.747 [http-nio-5000-exec-2] "POST /cms/user/login HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2021-04-14 14:42:21.755 [http-nio-5000-exec-1] "GET /cms/user/permissions HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/cms/user/permissions", parameters={}
+2021-04-14 14:42:21.755 [http-nio-5000-exec-1] "GET /cms/user/permissions HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.cms.UserController#getPermissions()
+2021-04-14 14:42:21.756 [http-nio-5000-exec-1] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - ==>  Preparing: SELECT id,username,nickname,avatar,email,create_time,update_time,delete_time FROM lin_user WHERE id=? AND delete_time IS NULL
+2021-04-14 14:42:21.756 [http-nio-5000-exec-1] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - ==> Parameters: 1(Integer)
+2021-04-14 14:42:21.841 [http-nio-5000-exec-1] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - <==      Total: 1
+2021-04-14 14:42:21.846 [http-nio-5000-exec-1] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.GroupMapper.selectOne - ==>  Preparing: SELECT id,name,info,`level`,create_time,update_time,delete_time FROM lin_group WHERE delete_time IS NULL AND (`level` = ?)
+2021-04-14 14:42:21.847 [http-nio-5000-exec-1] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.GroupMapper.selectOne - ==> Parameters: 1(Integer)
+2021-04-14 14:42:21.888 [http-nio-5000-exec-1] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.GroupMapper.selectOne - <==      Total: 1
+2021-04-14 14:42:21.893 [http-nio-5000-exec-1] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserGroupMapper.selectOne - ==>  Preparing: SELECT id,user_id,group_id FROM lin_user_group WHERE (user_id = ? AND group_id = ?)
+2021-04-14 14:42:21.893 [http-nio-5000-exec-1] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserGroupMapper.selectOne - ==> Parameters: 1(Integer), 1(Integer)
+2021-04-14 14:42:21.937 [http-nio-5000-exec-1] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserGroupMapper.selectOne - <==      Total: 1
+2021-04-14 14:42:21.939 [http-nio-5000-exec-1] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.t.l.mapper.GroupMapper.selectUserGroupIds - ==>  Preparing: SELECT g.id from lin_group AS g WHERE g.delete_time IS NULL AND g.id IN ( SELECT ug.group_id FROM lin_user AS u LEFT JOIN lin_user_group as ug ON ug.user_id = u.id WHERE u.id = ? AND u.delete_time IS NULL )
+2021-04-14 14:42:21.939 [http-nio-5000-exec-1] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.t.l.mapper.GroupMapper.selectUserGroupIds - ==> Parameters: 1(Integer)
+2021-04-14 14:42:22.044 [http-nio-5000-exec-1] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.t.l.mapper.GroupMapper.selectUserGroupIds - <==      Total: 1
+2021-04-14 14:42:22.046 [http-nio-5000-exec-1] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.t.l.m.P.selectPermissionsByGroupIds - ==>  Preparing: SELECT p.id, p.name, p.module, p.mount, p.create_time, p.update_time, p.delete_time FROM lin_permission AS p WHERE p.delete_time IS NULL AND p.mount = true AND p.id IN ( SELECT gp.permission_id FROM lin_group_permission AS gp WHERE gp.group_id IN ( ? ) )
+2021-04-14 14:42:22.046 [http-nio-5000-exec-1] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.t.l.m.P.selectPermissionsByGroupIds - ==> Parameters: 1(Integer)
+2021-04-14 14:42:22.086 [http-nio-5000-exec-1] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.t.l.m.P.selectPermissionsByGroupIds - <==      Total: 0
+2021-04-14 14:42:22.086 [http-nio-5000-exec-1] "GET /cms/user/permissions HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-04-14 14:42:22.086 [http-nio-5000-exec-1] "GET /cms/user/permissions HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [UserPermissionVO(id=1, nickname=root, avatar=null, admin=true, email=null, permissions=[])]
+2021-04-14 14:42:22.088 [http-nio-5000-exec-1] "GET /cms/user/permissions HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2021-04-14 14:46:25.195 [http-nio-5000-exec-5] "GET /cms/log/users HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/cms/log/users?count=5&page=0", parameters={masked}
+2021-04-14 14:46:25.195 [http-nio-5000-exec-5] "GET /cms/log/users HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.cms.LogController#getUsers(Integer, Integer)
+2021-04-14 14:46:38.415 [http-nio-5000-exec-4] "GET /cms/log/users HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/cms/log/users?count=5&page=0", parameters={masked}
+2021-04-14 14:46:38.416 [http-nio-5000-exec-4] "GET /cms/log/users HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.cms.LogController#getUsers(Integer, Integer)
+2021-04-14 14:46:55.281 [http-nio-5000-exec-5] "GET /cms/log/users HTTP/1.1" DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler io.github.talelin.latticy.common.exception.RestExceptionHandler#processException(Exception, HttpServletRequest, HttpServletResponse)
+2021-04-14 14:46:55.288 [http-nio-5000-exec-5] "GET /cms/log/users HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-04-14 14:46:55.288 [http-nio-5000-exec-5] "GET /cms/log/users HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [UnifyResponseVO(code=9999, message=服务器未知错误, request=GET /cms/log/users)]
+2021-04-14 14:46:55.291 [http-nio-5000-exec-5] "GET /cms/log/users HTTP/1.1" DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30083ms.
+### The error may exist in io/github/talelin/latticy/mapper/UserMapper.java (best guess)
+### The error may involve io.github.talelin.latticy.mapper.UserMapper.selectById
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30083ms.]
+2021-04-14 14:46:55.291 [http-nio-5000-exec-5] "GET /cms/log/users HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 500 INTERNAL_SERVER_ERROR
+2021-04-14 14:46:58.514 [http-nio-5000-exec-4] "GET /cms/log/users HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - ==>  Preparing: SELECT id,username,nickname,avatar,email,create_time,update_time,delete_time FROM lin_user WHERE id=? AND delete_time IS NULL
+2021-04-14 14:46:58.516 [http-nio-5000-exec-4] "GET /cms/log/users HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - ==> Parameters: 1(Integer)
+2021-04-14 14:46:58.573 [http-nio-5000-exec-4] "GET /cms/log/users HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - <==      Total: 1
+2021-04-14 14:46:58.574 [http-nio-5000-exec-4] "GET /cms/log/users HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.GroupMapper.selectOne - ==>  Preparing: SELECT id,name,info,`level`,create_time,update_time,delete_time FROM lin_group WHERE delete_time IS NULL AND (`level` = ?)
+2021-04-14 14:46:58.574 [http-nio-5000-exec-4] "GET /cms/log/users HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.GroupMapper.selectOne - ==> Parameters: 1(Integer)
+2021-04-14 14:46:58.686 [http-nio-5000-exec-4] "GET /cms/log/users HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.GroupMapper.selectOne - <==      Total: 1
+2021-04-14 14:46:58.692 [http-nio-5000-exec-4] "GET /cms/log/users HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserGroupMapper.selectOne - ==>  Preparing: SELECT id,user_id,group_id FROM lin_user_group WHERE (user_id = ? AND group_id = ?)
+2021-04-14 14:46:58.693 [http-nio-5000-exec-4] "GET /cms/log/users HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserGroupMapper.selectOne - ==> Parameters: 1(Integer), 1(Integer)
+2021-04-14 14:46:58.775 [http-nio-5000-exec-4] "GET /cms/log/users HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserGroupMapper.selectOne - <==      Total: 1
+2021-04-14 14:46:58.784 [http-nio-5000-exec-4] "GET /cms/log/users HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.LogMapper.getUserNames - ==>  Preparing: SELECT COUNT(1) FROM (SELECT l.username FROM lin_log l WHERE l.delete_time IS NULL GROUP BY l.username HAVING COUNT(l.username) > 0) TOTAL
+2021-04-14 14:46:58.785 [http-nio-5000-exec-4] "GET /cms/log/users HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.LogMapper.getUserNames - ==> Parameters: 
+2021-04-14 14:46:58.855 [http-nio-5000-exec-4] "GET /cms/log/users HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-04-14 14:46:58.855 [http-nio-5000-exec-4] "GET /cms/log/users HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [PageResponseVO(total=0, items=[], page=0, count=5)]
+2021-04-14 14:46:58.858 [http-nio-5000-exec-4] "GET /cms/log/users HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2021-04-14 15:03:46.818 [http-nio-5000-exec-6] "OPTIONS /cms/user/change_password HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - OPTIONS "/cms/user/change_password", parameters={}
+2021-04-14 15:03:46.819 [http-nio-5000-exec-6] "OPTIONS /cms/user/change_password HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.cms.UserController#updatePassword(ChangePasswordDTO)
+2021-04-14 15:03:46.820 [http-nio-5000-exec-6] "OPTIONS /cms/user/change_password HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2021-04-14 15:03:46.828 [http-nio-5000-exec-7] "PUT /cms/user/change_password HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - PUT "/cms/user/change_password", parameters={}
+2021-04-14 15:03:46.828 [http-nio-5000-exec-7] "PUT /cms/user/change_password HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.cms.UserController#updatePassword(ChangePasswordDTO)
+2021-04-14 15:03:50.431 [http-nio-5000-exec-8] "PUT /cms/user/change_password HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - PUT "/cms/user/change_password", parameters={}
+2021-04-14 15:03:50.432 [http-nio-5000-exec-8] "PUT /cms/user/change_password HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.cms.UserController#updatePassword(ChangePasswordDTO)
+2021-04-14 15:03:51.425 [http-nio-5000-exec-9] "PUT /cms/user/change_password HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - PUT "/cms/user/change_password", parameters={}
+2021-04-14 15:03:51.425 [http-nio-5000-exec-9] "PUT /cms/user/change_password HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.cms.UserController#updatePassword(ChangePasswordDTO)
+2021-04-14 15:03:51.565 [http-nio-5000-exec-10] "PUT /cms/user/change_password HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - PUT "/cms/user/change_password", parameters={}
+2021-04-14 15:03:51.565 [http-nio-5000-exec-10] "PUT /cms/user/change_password HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.cms.UserController#updatePassword(ChangePasswordDTO)
+2021-04-14 15:04:00.495 [http-nio-5000-exec-2] "PUT /cms/user/change_password HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - PUT "/cms/user/change_password", parameters={}
+2021-04-14 15:04:00.496 [http-nio-5000-exec-2] "PUT /cms/user/change_password HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.cms.UserController#updatePassword(ChangePasswordDTO)
+2021-04-14 15:04:00.538 [http-nio-5000-exec-2] "PUT /cms/user/change_password HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - ==>  Preparing: SELECT id,username,nickname,avatar,email,create_time,update_time,delete_time FROM lin_user WHERE id=? AND delete_time IS NULL
+2021-04-14 15:04:00.538 [http-nio-5000-exec-2] "PUT /cms/user/change_password HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - ==> Parameters: 1(Integer)
+2021-04-14 15:04:00.597 [http-nio-5000-exec-2] "PUT /cms/user/change_password HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - <==      Total: 1
+2021-04-14 15:04:00.602 [http-nio-5000-exec-2] "PUT /cms/user/change_password HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [ChangePasswordDTO(newPassword=521314, confirmPassword=521314, oldPassword=123456)]
+2021-04-14 15:04:00.618 [http-nio-5000-exec-2] "PUT /cms/user/change_password HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserIdentityMapper.selectOne - ==>  Preparing: SELECT id,user_id,identity_type,identifier,credential,create_time,update_time,delete_time FROM lin_user_identity WHERE delete_time IS NULL AND (user_id = ? AND identity_type = ? AND identifier = ?)
+2021-04-14 15:04:00.618 [http-nio-5000-exec-2] "PUT /cms/user/change_password HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserIdentityMapper.selectOne - ==> Parameters: 1(Integer), USERNAME_PASSWORD(String), root(String)
+2021-04-14 15:04:00.693 [http-nio-5000-exec-2] "PUT /cms/user/change_password HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserIdentityMapper.selectOne - <==      Total: 1
+2021-04-14 15:04:01.167 [http-nio-5000-exec-2] "PUT /cms/user/change_password HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserIdentityMapper.update - ==>  Preparing: UPDATE lin_user_identity SET credential=? WHERE delete_time IS NULL AND (user_id = ?)
+2021-04-14 15:04:01.168 [http-nio-5000-exec-2] "PUT /cms/user/change_password HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserIdentityMapper.update - ==> Parameters: pbkdf2sha256:64000:18:24:n:OMIxZFcO6ER0uM2Jy5pLit4RLm0PZfnn:pLJwU3xHUFfVTwO6IY/+QfKS(String), 1(Integer)
+2021-04-14 15:04:01.324 [http-nio-5000-exec-2] "PUT /cms/user/change_password HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserIdentityMapper.update - <==    Updates: 1
+2021-04-14 15:04:01.333 [http-nio-5000-exec-2] "PUT /cms/user/change_password HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-04-14 15:04:01.334 [http-nio-5000-exec-2] "PUT /cms/user/change_password HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [UnifyResponseVO(code=4, message=密码修改成功, request=PUT /cms/user/change_password)]
+2021-04-14 15:04:01.336 [http-nio-5000-exec-2] "PUT /cms/user/change_password HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 201 CREATED
+2021-04-14 15:04:01.451 [http-nio-5000-exec-9] "PUT /cms/user/change_password HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - ==>  Preparing: SELECT id,username,nickname,avatar,email,create_time,update_time,delete_time FROM lin_user WHERE id=? AND delete_time IS NULL
+2021-04-14 15:04:01.451 [http-nio-5000-exec-9] "PUT /cms/user/change_password HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - ==> Parameters: 1(Integer)
+2021-04-14 15:04:01.493 [http-nio-5000-exec-9] "PUT /cms/user/change_password HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - <==      Total: 1
+2021-04-14 15:04:01.493 [http-nio-5000-exec-9] "PUT /cms/user/change_password HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [ChangePasswordDTO(newPassword=521314, confirmPassword=521314, oldPassword=123456)]
+2021-04-14 15:04:01.495 [http-nio-5000-exec-9] "PUT /cms/user/change_password HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserIdentityMapper.selectOne - ==>  Preparing: SELECT id,user_id,identity_type,identifier,credential,create_time,update_time,delete_time FROM lin_user_identity WHERE delete_time IS NULL AND (user_id = ? AND identity_type = ? AND identifier = ?)
+2021-04-14 15:04:01.496 [http-nio-5000-exec-9] "PUT /cms/user/change_password HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserIdentityMapper.selectOne - ==> Parameters: 1(Integer), USERNAME_PASSWORD(String), root(String)
+2021-04-14 15:04:01.655 [http-nio-5000-exec-9] "PUT /cms/user/change_password HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserIdentityMapper.selectOne - <==      Total: 1
+2021-04-14 15:04:01.682 [http-nio-5000-exec-10] "PUT /cms/user/change_password HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - ==>  Preparing: SELECT id,username,nickname,avatar,email,create_time,update_time,delete_time FROM lin_user WHERE id=? AND delete_time IS NULL
+2021-04-14 15:04:01.683 [http-nio-5000-exec-10] "PUT /cms/user/change_password HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - ==> Parameters: 1(Integer)
+2021-04-14 15:04:01.789 [http-nio-5000-exec-10] "PUT /cms/user/change_password HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - <==      Total: 1
+2021-04-14 15:04:01.789 [http-nio-5000-exec-10] "PUT /cms/user/change_password HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [ChangePasswordDTO(newPassword=521314, confirmPassword=521314, oldPassword=123456)]
+2021-04-14 15:04:01.791 [http-nio-5000-exec-10] "PUT /cms/user/change_password HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserIdentityMapper.selectOne - ==>  Preparing: SELECT id,user_id,identity_type,identifier,credential,create_time,update_time,delete_time FROM lin_user_identity WHERE delete_time IS NULL AND (user_id = ? AND identity_type = ? AND identifier = ?)
+2021-04-14 15:04:01.791 [http-nio-5000-exec-10] "PUT /cms/user/change_password HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserIdentityMapper.selectOne - ==> Parameters: 1(Integer), USERNAME_PASSWORD(String), root(String)
+2021-04-14 15:04:01.865 [http-nio-5000-exec-7] "PUT /cms/user/change_password HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - ==>  Preparing: SELECT id,username,nickname,avatar,email,create_time,update_time,delete_time FROM lin_user WHERE id=? AND delete_time IS NULL
+2021-04-14 15:04:01.865 [http-nio-5000-exec-7] "PUT /cms/user/change_password HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - ==> Parameters: 1(Integer)
+2021-04-14 15:04:01.908 [http-nio-5000-exec-9] "PUT /cms/user/change_password HTTP/1.1" DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler io.github.talelin.latticy.common.exception.RestExceptionHandler#processException(HttpException, HttpServletRequest, HttpServletResponse)
+2021-04-14 15:04:01.910 [http-nio-5000-exec-9] "PUT /cms/user/change_password HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-04-14 15:04:01.910 [http-nio-5000-exec-9] "PUT /cms/user/change_password HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [UnifyResponseVO(code=10032, message=请输入正确的密码, request=PUT /cms/user/change_password)]
+2021-04-14 15:04:01.910 [http-nio-5000-exec-9] "PUT /cms/user/change_password HTTP/1.1" DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [io.github.talelin.autoconfigure.exception.ParameterException: Parameters Error]
+2021-04-14 15:04:01.911 [http-nio-5000-exec-9] "PUT /cms/user/change_password HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 400 BAD_REQUEST
+2021-04-14 15:04:01.977 [http-nio-5000-exec-10] "PUT /cms/user/change_password HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserIdentityMapper.selectOne - <==      Total: 1
+2021-04-14 15:04:02.052 [http-nio-5000-exec-7] "PUT /cms/user/change_password HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - <==      Total: 1
+2021-04-14 15:04:02.052 [http-nio-5000-exec-7] "PUT /cms/user/change_password HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [ChangePasswordDTO(newPassword=521314, confirmPassword=521314, oldPassword=123456)]
+2021-04-14 15:04:02.054 [http-nio-5000-exec-7] "PUT /cms/user/change_password HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserIdentityMapper.selectOne - ==>  Preparing: SELECT id,user_id,identity_type,identifier,credential,create_time,update_time,delete_time FROM lin_user_identity WHERE delete_time IS NULL AND (user_id = ? AND identity_type = ? AND identifier = ?)
+2021-04-14 15:04:02.054 [http-nio-5000-exec-7] "PUT /cms/user/change_password HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserIdentityMapper.selectOne - ==> Parameters: 1(Integer), USERNAME_PASSWORD(String), root(String)
+2021-04-14 15:04:02.195 [http-nio-5000-exec-10] "PUT /cms/user/change_password HTTP/1.1" DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler io.github.talelin.latticy.common.exception.RestExceptionHandler#processException(HttpException, HttpServletRequest, HttpServletResponse)
+2021-04-14 15:04:02.197 [http-nio-5000-exec-10] "PUT /cms/user/change_password HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-04-14 15:04:02.197 [http-nio-5000-exec-10] "PUT /cms/user/change_password HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [UnifyResponseVO(code=10032, message=请输入正确的密码, request=PUT /cms/user/change_password)]
+2021-04-14 15:04:02.197 [http-nio-5000-exec-10] "PUT /cms/user/change_password HTTP/1.1" DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [io.github.talelin.autoconfigure.exception.ParameterException: Parameters Error]
+2021-04-14 15:04:02.198 [http-nio-5000-exec-10] "PUT /cms/user/change_password HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 400 BAD_REQUEST
+2021-04-14 15:04:02.308 [http-nio-5000-exec-7] "PUT /cms/user/change_password HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserIdentityMapper.selectOne - <==      Total: 1
+2021-04-14 15:04:02.548 [http-nio-5000-exec-7] "PUT /cms/user/change_password HTTP/1.1" DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler io.github.talelin.latticy.common.exception.RestExceptionHandler#processException(HttpException, HttpServletRequest, HttpServletResponse)
+2021-04-14 15:04:02.549 [http-nio-5000-exec-7] "PUT /cms/user/change_password HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-04-14 15:04:02.549 [http-nio-5000-exec-7] "PUT /cms/user/change_password HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [UnifyResponseVO(code=10032, message=请输入正确的密码, request=PUT /cms/user/change_password)]
+2021-04-14 15:04:02.550 [http-nio-5000-exec-7] "PUT /cms/user/change_password HTTP/1.1" DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [io.github.talelin.autoconfigure.exception.ParameterException: Parameters Error]
+2021-04-14 15:04:02.550 [http-nio-5000-exec-7] "PUT /cms/user/change_password HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 400 BAD_REQUEST
+2021-04-14 15:04:05.551 [http-nio-5000-exec-8] "PUT /cms/user/change_password HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - ==>  Preparing: SELECT id,username,nickname,avatar,email,create_time,update_time,delete_time FROM lin_user WHERE id=? AND delete_time IS NULL
+2021-04-14 15:04:05.551 [http-nio-5000-exec-8] "PUT /cms/user/change_password HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - ==> Parameters: 1(Integer)
+2021-04-14 15:04:05.623 [http-nio-5000-exec-8] "PUT /cms/user/change_password HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - <==      Total: 1
+2021-04-14 15:04:05.624 [http-nio-5000-exec-8] "PUT /cms/user/change_password HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [ChangePasswordDTO(newPassword=521314, confirmPassword=521314, oldPassword=123456)]
+2021-04-14 15:04:05.629 [http-nio-5000-exec-8] "PUT /cms/user/change_password HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserIdentityMapper.selectOne - ==>  Preparing: SELECT id,user_id,identity_type,identifier,credential,create_time,update_time,delete_time FROM lin_user_identity WHERE delete_time IS NULL AND (user_id = ? AND identity_type = ? AND identifier = ?)
+2021-04-14 15:04:05.630 [http-nio-5000-exec-8] "PUT /cms/user/change_password HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserIdentityMapper.selectOne - ==> Parameters: 1(Integer), USERNAME_PASSWORD(String), root(String)
+2021-04-14 15:04:05.673 [http-nio-5000-exec-8] "PUT /cms/user/change_password HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserIdentityMapper.selectOne - <==      Total: 1
+2021-04-14 15:04:05.912 [http-nio-5000-exec-8] "PUT /cms/user/change_password HTTP/1.1" DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler io.github.talelin.latticy.common.exception.RestExceptionHandler#processException(HttpException, HttpServletRequest, HttpServletResponse)
+2021-04-14 15:04:05.913 [http-nio-5000-exec-8] "PUT /cms/user/change_password HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-04-14 15:04:05.913 [http-nio-5000-exec-8] "PUT /cms/user/change_password HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [UnifyResponseVO(code=10032, message=请输入正确的密码, request=PUT /cms/user/change_password)]
+2021-04-14 15:04:05.914 [http-nio-5000-exec-8] "PUT /cms/user/change_password HTTP/1.1" DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [io.github.talelin.autoconfigure.exception.ParameterException: Parameters Error]
+2021-04-14 15:04:05.915 [http-nio-5000-exec-8] "PUT /cms/user/change_password HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 400 BAD_REQUEST
+2021-04-14 15:04:06.324 [http-nio-5000-exec-1] "POST /cms/user/login HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/cms/user/login", parameters={}
+2021-04-14 15:04:06.324 [http-nio-5000-exec-1] "POST /cms/user/login HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.cms.UserController#login(LoginDTO)
+2021-04-14 15:04:06.325 [http-nio-5000-exec-1] "POST /cms/user/login HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [LoginDTO(username=root, password=123456)]
+2021-04-14 15:04:06.394 [http-nio-5000-exec-1] "POST /cms/user/login HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectOne - ==>  Preparing: SELECT id,username,nickname,avatar,email,create_time,update_time,delete_time FROM lin_user WHERE delete_time IS NULL AND (username = ?)
+2021-04-14 15:04:06.394 [http-nio-5000-exec-1] "POST /cms/user/login HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectOne - ==> Parameters: root(String)
+2021-04-14 15:04:06.601 [http-nio-5000-exec-1] "POST /cms/user/login HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectOne - <==      Total: 1
+2021-04-14 15:04:06.603 [http-nio-5000-exec-1] "POST /cms/user/login HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserIdentityMapper.selectOne - ==>  Preparing: SELECT id,user_id,identity_type,identifier,credential,create_time,update_time,delete_time FROM lin_user_identity WHERE delete_time IS NULL AND (user_id = ? AND identity_type = ? AND identifier = ?)
+2021-04-14 15:04:06.603 [http-nio-5000-exec-1] "POST /cms/user/login HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserIdentityMapper.selectOne - ==> Parameters: 1(Integer), USERNAME_PASSWORD(String), root(String)
+2021-04-14 15:04:06.915 [http-nio-5000-exec-1] "POST /cms/user/login HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserIdentityMapper.selectOne - <==      Total: 1
+2021-04-14 15:04:07.154 [http-nio-5000-exec-1] "POST /cms/user/login HTTP/1.1" DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler io.github.talelin.latticy.common.exception.RestExceptionHandler#processException(HttpException, HttpServletRequest, HttpServletResponse)
+2021-04-14 15:04:07.155 [http-nio-5000-exec-1] "POST /cms/user/login HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-04-14 15:04:07.155 [http-nio-5000-exec-1] "POST /cms/user/login HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [UnifyResponseVO(code=10031, message=用户名或密码错误, request=POST /cms/user/login)]
+2021-04-14 15:04:07.156 [http-nio-5000-exec-1] "POST /cms/user/login HTTP/1.1" DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [io.github.talelin.autoconfigure.exception.ParameterException: Parameters Error]
+2021-04-14 15:04:07.157 [http-nio-5000-exec-1] "POST /cms/user/login HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 400 BAD_REQUEST
+2021-04-14 15:04:10.857 [http-nio-5000-exec-3] "POST /cms/user/login HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/cms/user/login", parameters={}
+2021-04-14 15:04:10.857 [http-nio-5000-exec-3] "POST /cms/user/login HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.cms.UserController#login(LoginDTO)
+2021-04-14 15:04:10.858 [http-nio-5000-exec-3] "POST /cms/user/login HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [LoginDTO(username=root, password=521314)]
+2021-04-14 15:04:10.950 [http-nio-5000-exec-3] "POST /cms/user/login HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectOne - ==>  Preparing: SELECT id,username,nickname,avatar,email,create_time,update_time,delete_time FROM lin_user WHERE delete_time IS NULL AND (username = ?)
+2021-04-14 15:04:10.950 [http-nio-5000-exec-3] "POST /cms/user/login HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectOne - ==> Parameters: root(String)
+2021-04-14 15:04:10.992 [http-nio-5000-exec-3] "POST /cms/user/login HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectOne - <==      Total: 1
+2021-04-14 15:04:10.995 [http-nio-5000-exec-3] "POST /cms/user/login HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserIdentityMapper.selectOne - ==>  Preparing: SELECT id,user_id,identity_type,identifier,credential,create_time,update_time,delete_time FROM lin_user_identity WHERE delete_time IS NULL AND (user_id = ? AND identity_type = ? AND identifier = ?)
+2021-04-14 15:04:10.996 [http-nio-5000-exec-3] "POST /cms/user/login HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserIdentityMapper.selectOne - ==> Parameters: 1(Integer), USERNAME_PASSWORD(String), root(String)
+2021-04-14 15:04:11.163 [http-nio-5000-exec-3] "POST /cms/user/login HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserIdentityMapper.selectOne - <==      Total: 1
+2021-04-14 15:04:11.410 [http-nio-5000-exec-3] "POST /cms/user/login HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-04-14 15:04:11.410 [http-nio-5000-exec-3] "POST /cms/user/login HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Tokens{accessToken='eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6MSwic2NvcGUiOiJsaW4iLCJ0eXB (truncated)...]
+2021-04-14 15:04:11.411 [http-nio-5000-exec-3] "POST /cms/user/login HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2021-04-14 15:04:11.418 [http-nio-5000-exec-5] "GET /cms/user/permissions HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/cms/user/permissions", parameters={}
+2021-04-14 15:04:11.418 [http-nio-5000-exec-5] "GET /cms/user/permissions HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.cms.UserController#getPermissions()
+2021-04-14 15:04:11.421 [http-nio-5000-exec-5] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - ==>  Preparing: SELECT id,username,nickname,avatar,email,create_time,update_time,delete_time FROM lin_user WHERE id=? AND delete_time IS NULL
+2021-04-14 15:04:11.421 [http-nio-5000-exec-5] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - ==> Parameters: 1(Integer)
+2021-04-14 15:04:11.491 [http-nio-5000-exec-5] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - <==      Total: 1
+2021-04-14 15:04:11.494 [http-nio-5000-exec-5] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.GroupMapper.selectOne - ==>  Preparing: SELECT id,name,info,`level`,create_time,update_time,delete_time FROM lin_group WHERE delete_time IS NULL AND (`level` = ?)
+2021-04-14 15:04:11.494 [http-nio-5000-exec-5] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.GroupMapper.selectOne - ==> Parameters: 1(Integer)
+2021-04-14 15:04:11.562 [http-nio-5000-exec-5] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.GroupMapper.selectOne - <==      Total: 1
+2021-04-14 15:04:11.564 [http-nio-5000-exec-5] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserGroupMapper.selectOne - ==>  Preparing: SELECT id,user_id,group_id FROM lin_user_group WHERE (user_id = ? AND group_id = ?)
+2021-04-14 15:04:11.565 [http-nio-5000-exec-5] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserGroupMapper.selectOne - ==> Parameters: 1(Integer), 1(Integer)
+2021-04-14 15:04:11.606 [http-nio-5000-exec-5] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserGroupMapper.selectOne - <==      Total: 1
+2021-04-14 15:04:11.606 [http-nio-5000-exec-5] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.t.l.mapper.GroupMapper.selectUserGroupIds - ==>  Preparing: SELECT g.id from lin_group AS g WHERE g.delete_time IS NULL AND g.id IN ( SELECT ug.group_id FROM lin_user AS u LEFT JOIN lin_user_group as ug ON ug.user_id = u.id WHERE u.id = ? AND u.delete_time IS NULL )
+2021-04-14 15:04:11.607 [http-nio-5000-exec-5] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.t.l.mapper.GroupMapper.selectUserGroupIds - ==> Parameters: 1(Integer)
+2021-04-14 15:04:11.698 [http-nio-5000-exec-5] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.t.l.mapper.GroupMapper.selectUserGroupIds - <==      Total: 1
+2021-04-14 15:04:11.699 [http-nio-5000-exec-5] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.t.l.m.P.selectPermissionsByGroupIds - ==>  Preparing: SELECT p.id, p.name, p.module, p.mount, p.create_time, p.update_time, p.delete_time FROM lin_permission AS p WHERE p.delete_time IS NULL AND p.mount = true AND p.id IN ( SELECT gp.permission_id FROM lin_group_permission AS gp WHERE gp.group_id IN ( ? ) )
+2021-04-14 15:04:11.699 [http-nio-5000-exec-5] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.t.l.m.P.selectPermissionsByGroupIds - ==> Parameters: 1(Integer)
+2021-04-14 15:04:11.794 [http-nio-5000-exec-5] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.t.l.m.P.selectPermissionsByGroupIds - <==      Total: 0
+2021-04-14 15:04:11.795 [http-nio-5000-exec-5] "GET /cms/user/permissions HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-04-14 15:04:11.795 [http-nio-5000-exec-5] "GET /cms/user/permissions HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [UserPermissionVO(id=1, nickname=root, avatar=null, admin=true, email=null, permissions=[])]
+2021-04-14 15:04:11.798 [http-nio-5000-exec-5] "GET /cms/user/permissions HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2021-04-14 15:04:53.230 [http-nio-5000-exec-4] "GET /cms/log/users HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/cms/log/users?count=5&page=0", parameters={masked}
+2021-04-14 15:04:53.230 [http-nio-5000-exec-4] "GET /cms/log/users HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.cms.LogController#getUsers(Integer, Integer)
+2021-04-14 15:04:53.282 [http-nio-5000-exec-4] "GET /cms/log/users HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - ==>  Preparing: SELECT id,username,nickname,avatar,email,create_time,update_time,delete_time FROM lin_user WHERE id=? AND delete_time IS NULL
+2021-04-14 15:04:53.283 [http-nio-5000-exec-4] "GET /cms/log/users HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - ==> Parameters: 1(Integer)
+2021-04-14 15:04:53.334 [http-nio-5000-exec-4] "GET /cms/log/users HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - <==      Total: 1
+2021-04-14 15:04:53.340 [http-nio-5000-exec-4] "GET /cms/log/users HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.GroupMapper.selectOne - ==>  Preparing: SELECT id,name,info,`level`,create_time,update_time,delete_time FROM lin_group WHERE delete_time IS NULL AND (`level` = ?)
+2021-04-14 15:04:53.341 [http-nio-5000-exec-4] "GET /cms/log/users HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.GroupMapper.selectOne - ==> Parameters: 1(Integer)
+2021-04-14 15:04:53.381 [http-nio-5000-exec-4] "GET /cms/log/users HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.GroupMapper.selectOne - <==      Total: 1
+2021-04-14 15:04:53.388 [http-nio-5000-exec-4] "GET /cms/log/users HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserGroupMapper.selectOne - ==>  Preparing: SELECT id,user_id,group_id FROM lin_user_group WHERE (user_id = ? AND group_id = ?)
+2021-04-14 15:04:53.388 [http-nio-5000-exec-4] "GET /cms/log/users HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserGroupMapper.selectOne - ==> Parameters: 1(Integer), 1(Integer)
+2021-04-14 15:04:53.538 [http-nio-5000-exec-4] "GET /cms/log/users HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserGroupMapper.selectOne - <==      Total: 1
+2021-04-14 15:04:53.542 [http-nio-5000-exec-4] "GET /cms/log/users HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.LogMapper.getUserNames - ==>  Preparing: SELECT COUNT(1) FROM (SELECT l.username FROM lin_log l WHERE l.delete_time IS NULL GROUP BY l.username HAVING COUNT(l.username) > 0) TOTAL
+2021-04-14 15:04:53.543 [http-nio-5000-exec-4] "GET /cms/log/users HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.LogMapper.getUserNames - ==> Parameters: 
+2021-04-14 15:04:53.586 [http-nio-5000-exec-4] "GET /cms/log/users HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-04-14 15:04:53.586 [http-nio-5000-exec-4] "GET /cms/log/users HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [PageResponseVO(total=0, items=[], page=0, count=5)]
+2021-04-14 15:04:53.587 [http-nio-5000-exec-4] "GET /cms/log/users HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2021-04-14 15:04:53.596 [http-nio-5000-exec-6] "GET /cms/log HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/cms/log?count=15&page=0", parameters={masked}
+2021-04-14 15:04:53.596 [http-nio-5000-exec-6] "GET /cms/log HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.cms.LogController#getLogs(Date, Date, String, Integer, Integer)
+2021-04-14 15:04:53.598 [http-nio-5000-exec-6] "GET /cms/log HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - ==>  Preparing: SELECT id,username,nickname,avatar,email,create_time,update_time,delete_time FROM lin_user WHERE id=? AND delete_time IS NULL
+2021-04-14 15:04:53.598 [http-nio-5000-exec-6] "GET /cms/log HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - ==> Parameters: 1(Integer)
+2021-04-14 15:04:53.688 [http-nio-5000-exec-6] "GET /cms/log HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - <==      Total: 1
+2021-04-14 15:04:53.690 [http-nio-5000-exec-6] "GET /cms/log HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.GroupMapper.selectOne - ==>  Preparing: SELECT id,name,info,`level`,create_time,update_time,delete_time FROM lin_group WHERE delete_time IS NULL AND (`level` = ?)
+2021-04-14 15:04:53.690 [http-nio-5000-exec-6] "GET /cms/log HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.GroupMapper.selectOne - ==> Parameters: 1(Integer)
+2021-04-14 15:04:53.756 [http-nio-5000-exec-6] "GET /cms/log HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.GroupMapper.selectOne - <==      Total: 1
+2021-04-14 15:04:53.759 [http-nio-5000-exec-6] "GET /cms/log HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserGroupMapper.selectOne - ==>  Preparing: SELECT id,user_id,group_id FROM lin_user_group WHERE (user_id = ? AND group_id = ?)
+2021-04-14 15:04:53.759 [http-nio-5000-exec-6] "GET /cms/log HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserGroupMapper.selectOne - ==> Parameters: 1(Integer), 1(Integer)
+2021-04-14 15:04:53.804 [http-nio-5000-exec-6] "GET /cms/log HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserGroupMapper.selectOne - <==      Total: 1
+2021-04-14 15:04:53.806 [http-nio-5000-exec-6] "GET /cms/log HTTP/1.1" DEBUG i.g.t.l.m.LogMapper.findLogsByUsernameAndRange - ==>  Preparing: SELECT COUNT(1) FROM lin_log l WHERE l.delete_time IS NULL
+2021-04-14 15:04:53.806 [http-nio-5000-exec-6] "GET /cms/log HTTP/1.1" DEBUG i.g.t.l.m.LogMapper.findLogsByUsernameAndRange - ==> Parameters: 
+2021-04-14 15:04:53.887 [http-nio-5000-exec-6] "GET /cms/log HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-04-14 15:04:53.887 [http-nio-5000-exec-6] "GET /cms/log HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [PageResponseVO(total=0, items=[], page=0, count=15)]
+2021-04-14 15:04:53.889 [http-nio-5000-exec-6] "GET /cms/log HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2021-04-14 15:06:05.706 [http-nio-5000-exec-9] "OPTIONS /cms/log/search HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - OPTIONS "/cms/log/search?count=15&page=0&keyword=j&name=", parameters={masked}
+2021-04-14 15:06:05.708 [http-nio-5000-exec-9] "OPTIONS /cms/log/search HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.cms.LogController#searchLogs(Date, Date, String, String, Integer, Integer)
+2021-04-14 15:06:05.711 [http-nio-5000-exec-9] "OPTIONS /cms/log/search HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2021-04-14 15:06:05.726 [http-nio-5000-exec-10] "GET /cms/log/search HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/cms/log/search?count=15&page=0&keyword=j&name=", parameters={masked}
+2021-04-14 15:06:05.728 [http-nio-5000-exec-10] "GET /cms/log/search HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.cms.LogController#searchLogs(Date, Date, String, String, Integer, Integer)
+2021-04-14 15:06:05.771 [http-nio-5000-exec-10] "GET /cms/log/search HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - ==>  Preparing: SELECT id,username,nickname,avatar,email,create_time,update_time,delete_time FROM lin_user WHERE id=? AND delete_time IS NULL
+2021-04-14 15:06:05.772 [http-nio-5000-exec-10] "GET /cms/log/search HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - ==> Parameters: 1(Integer)
+2021-04-14 15:06:05.831 [http-nio-5000-exec-10] "GET /cms/log/search HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - <==      Total: 1
+2021-04-14 15:06:05.833 [http-nio-5000-exec-10] "GET /cms/log/search HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.GroupMapper.selectOne - ==>  Preparing: SELECT id,name,info,`level`,create_time,update_time,delete_time FROM lin_group WHERE delete_time IS NULL AND (`level` = ?)
+2021-04-14 15:06:05.834 [http-nio-5000-exec-10] "GET /cms/log/search HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.GroupMapper.selectOne - ==> Parameters: 1(Integer)
+2021-04-14 15:06:05.877 [http-nio-5000-exec-10] "GET /cms/log/search HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.GroupMapper.selectOne - <==      Total: 1
+2021-04-14 15:06:05.879 [http-nio-5000-exec-10] "GET /cms/log/search HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserGroupMapper.selectOne - ==>  Preparing: SELECT id,user_id,group_id FROM lin_user_group WHERE (user_id = ? AND group_id = ?)
+2021-04-14 15:06:05.879 [http-nio-5000-exec-10] "GET /cms/log/search HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserGroupMapper.selectOne - ==> Parameters: 1(Integer), 1(Integer)
+2021-04-14 15:06:05.920 [http-nio-5000-exec-10] "GET /cms/log/search HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserGroupMapper.selectOne - <==      Total: 1
+2021-04-14 15:06:05.929 [http-nio-5000-exec-10] "GET /cms/log/search HTTP/1.1" DEBUG i.g.t.l.m.L.searchLogsByUsernameAndKeywordAndRange - ==>  Preparing: SELECT COUNT(1) FROM lin_log l WHERE l.delete_time IS NULL AND l.message LIKE ?
+2021-04-14 15:06:05.929 [http-nio-5000-exec-10] "GET /cms/log/search HTTP/1.1" DEBUG i.g.t.l.m.L.searchLogsByUsernameAndKeywordAndRange - ==> Parameters: %j%(String)
+2021-04-14 15:06:05.990 [http-nio-5000-exec-10] "GET /cms/log/search HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-04-14 15:06:05.990 [http-nio-5000-exec-10] "GET /cms/log/search HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [PageResponseVO(total=0, items=[], page=0, count=15)]
+2021-04-14 15:06:05.992 [http-nio-5000-exec-10] "GET /cms/log/search HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2021-04-14 15:06:18.100 [http-nio-5000-exec-7] "GET /cms/log/users HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/cms/log/users?count=5&page=0", parameters={masked}
+2021-04-14 15:06:18.100 [http-nio-5000-exec-7] "GET /cms/log/users HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.cms.LogController#getUsers(Integer, Integer)
+2021-04-14 15:06:18.252 [http-nio-5000-exec-7] "GET /cms/log/users HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - ==>  Preparing: SELECT id,username,nickname,avatar,email,create_time,update_time,delete_time FROM lin_user WHERE id=? AND delete_time IS NULL
+2021-04-14 15:06:18.252 [http-nio-5000-exec-7] "GET /cms/log/users HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - ==> Parameters: 1(Integer)
+2021-04-14 15:06:18.297 [http-nio-5000-exec-7] "GET /cms/log/users HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - <==      Total: 1
+2021-04-14 15:06:18.299 [http-nio-5000-exec-7] "GET /cms/log/users HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.GroupMapper.selectOne - ==>  Preparing: SELECT id,name,info,`level`,create_time,update_time,delete_time FROM lin_group WHERE delete_time IS NULL AND (`level` = ?)
+2021-04-14 15:06:18.299 [http-nio-5000-exec-7] "GET /cms/log/users HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.GroupMapper.selectOne - ==> Parameters: 1(Integer)
+2021-04-14 15:06:18.461 [http-nio-5000-exec-7] "GET /cms/log/users HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.GroupMapper.selectOne - <==      Total: 1
+2021-04-14 15:06:18.462 [http-nio-5000-exec-7] "GET /cms/log/users HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserGroupMapper.selectOne - ==>  Preparing: SELECT id,user_id,group_id FROM lin_user_group WHERE (user_id = ? AND group_id = ?)
+2021-04-14 15:06:18.462 [http-nio-5000-exec-7] "GET /cms/log/users HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserGroupMapper.selectOne - ==> Parameters: 1(Integer), 1(Integer)
+2021-04-14 15:06:18.535 [http-nio-5000-exec-7] "GET /cms/log/users HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserGroupMapper.selectOne - <==      Total: 1
+2021-04-14 15:06:18.543 [http-nio-5000-exec-7] "GET /cms/log/users HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.LogMapper.getUserNames - ==>  Preparing: SELECT COUNT(1) FROM (SELECT l.username FROM lin_log l WHERE l.delete_time IS NULL GROUP BY l.username HAVING COUNT(l.username) > 0) TOTAL
+2021-04-14 15:06:18.544 [http-nio-5000-exec-7] "GET /cms/log/users HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.LogMapper.getUserNames - ==> Parameters: 
+2021-04-14 15:06:18.583 [http-nio-5000-exec-7] "GET /cms/log/users HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-04-14 15:06:18.583 [http-nio-5000-exec-7] "GET /cms/log/users HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [PageResponseVO(total=0, items=[], page=0, count=5)]
+2021-04-14 15:06:18.584 [http-nio-5000-exec-7] "GET /cms/log/users HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2021-04-14 15:06:18.598 [http-nio-5000-exec-8] "GET /cms/log HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/cms/log?count=15&page=0", parameters={masked}
+2021-04-14 15:06:18.598 [http-nio-5000-exec-8] "GET /cms/log HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.cms.LogController#getLogs(Date, Date, String, Integer, Integer)
+2021-04-14 15:06:18.600 [http-nio-5000-exec-8] "GET /cms/log HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - ==>  Preparing: SELECT id,username,nickname,avatar,email,create_time,update_time,delete_time FROM lin_user WHERE id=? AND delete_time IS NULL
+2021-04-14 15:06:18.600 [http-nio-5000-exec-8] "GET /cms/log HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - ==> Parameters: 1(Integer)
+2021-04-14 15:06:18.745 [http-nio-5000-exec-8] "GET /cms/log HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - <==      Total: 1
+2021-04-14 15:06:18.747 [http-nio-5000-exec-8] "GET /cms/log HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.GroupMapper.selectOne - ==>  Preparing: SELECT id,name,info,`level`,create_time,update_time,delete_time FROM lin_group WHERE delete_time IS NULL AND (`level` = ?)
+2021-04-14 15:06:18.747 [http-nio-5000-exec-8] "GET /cms/log HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.GroupMapper.selectOne - ==> Parameters: 1(Integer)
+2021-04-14 15:06:18.788 [http-nio-5000-exec-8] "GET /cms/log HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.GroupMapper.selectOne - <==      Total: 1
+2021-04-14 15:06:18.790 [http-nio-5000-exec-8] "GET /cms/log HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserGroupMapper.selectOne - ==>  Preparing: SELECT id,user_id,group_id FROM lin_user_group WHERE (user_id = ? AND group_id = ?)
+2021-04-14 15:06:18.790 [http-nio-5000-exec-8] "GET /cms/log HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserGroupMapper.selectOne - ==> Parameters: 1(Integer), 1(Integer)
+2021-04-14 15:06:18.886 [http-nio-5000-exec-8] "GET /cms/log HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserGroupMapper.selectOne - <==      Total: 1
+2021-04-14 15:06:18.887 [http-nio-5000-exec-8] "GET /cms/log HTTP/1.1" DEBUG i.g.t.l.m.LogMapper.findLogsByUsernameAndRange - ==>  Preparing: SELECT COUNT(1) FROM lin_log l WHERE l.delete_time IS NULL
+2021-04-14 15:06:18.888 [http-nio-5000-exec-8] "GET /cms/log HTTP/1.1" DEBUG i.g.t.l.m.LogMapper.findLogsByUsernameAndRange - ==> Parameters: 
+2021-04-14 15:06:18.930 [http-nio-5000-exec-8] "GET /cms/log HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-04-14 15:06:18.930 [http-nio-5000-exec-8] "GET /cms/log HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [PageResponseVO(total=0, items=[], page=0, count=15)]
+2021-04-14 15:06:18.931 [http-nio-5000-exec-8] "GET /cms/log HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
