@@ -1,0 +1,227 @@
+2021-05-04 18:03:58.377 [main] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: mdc-access-servlet-filter urls=[/*] order=2147483647, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-05-04 18:03:58.378 [main] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2021-05-04 18:04:01.456 [main] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-05-04 18:04:01.546 [main] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 35 mappings in 'requestMappingHandlerMapping'
+2021-05-04 18:04:01.574 [main] "  " DEBUG o.s.web.servlet.config.annotation.WebMvcConfigurer - Default resource handling disabled
+2021-05-04 18:04:01.586 [main] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/assets/**] in 'resourceHandlerMapping'
+2021-05-04 18:04:01.599 [main] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-05-04 18:04:01.954 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-04 18:04:01.983 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鎼滅储鏃ュ織(String), 鏃ュ織(String)
+2021-05-04 18:04:02.039 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 0
+2021-05-04 18:04:02.045 [main] "  " DEBUG i.g.talelin.latticy.mapper.PermissionMapper.insert - ==>  Preparing: INSERT INTO lin_permission ( name, module ) VALUES ( ?, ? )
+2021-05-04 18:04:02.045 [main] "  " DEBUG i.g.talelin.latticy.mapper.PermissionMapper.insert - ==> Parameters: 鎼滅储鏃ュ織(String), 鏃ュ織(String)
+2021-05-04 18:04:02.120 [main] "  " DEBUG i.g.talelin.latticy.mapper.PermissionMapper.insert - <==    Updates: 1
+2021-05-04 18:04:02.125 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-04 18:04:02.125 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鏌ヨ鎵�鏈夋棩蹇�(String), 鏃ュ織(String)
+2021-05-04 18:04:02.164 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 0
+2021-05-04 18:04:02.166 [main] "  " DEBUG i.g.talelin.latticy.mapper.PermissionMapper.insert - ==>  Preparing: INSERT INTO lin_permission ( name, module ) VALUES ( ?, ? )
+2021-05-04 18:04:02.166 [main] "  " DEBUG i.g.talelin.latticy.mapper.PermissionMapper.insert - ==> Parameters: 鏌ヨ鎵�鏈夋棩蹇�(String), 鏃ュ織(String)
+2021-05-04 18:04:02.236 [main] "  " DEBUG i.g.talelin.latticy.mapper.PermissionMapper.insert - <==    Updates: 1
+2021-05-04 18:04:02.238 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-04 18:04:02.238 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鎼滅储鏃ュ織(String), 鏃ュ織(String)
+2021-05-04 18:04:02.276 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-04 18:04:02.277 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-04 18:04:02.278 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鏌ヨ鎵�鏈夋棩蹇�(String), 鏃ュ織(String)
+2021-05-04 18:04:02.312 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-04 18:04:02.314 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-04 18:04:02.314 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鏌ヨ鏃ュ織璁板綍鐨勭敤鎴�(String), 鏃ュ織(String)
+2021-05-04 18:04:02.349 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 0
+2021-05-04 18:04:02.350 [main] "  " DEBUG i.g.talelin.latticy.mapper.PermissionMapper.insert - ==>  Preparing: INSERT INTO lin_permission ( name, module ) VALUES ( ?, ? )
+2021-05-04 18:04:02.351 [main] "  " DEBUG i.g.talelin.latticy.mapper.PermissionMapper.insert - ==> Parameters: 鏌ヨ鏃ュ織璁板綍鐨勭敤鎴�(String), 鏃ュ織(String)
+2021-05-04 18:04:02.422 [main] "  " DEBUG i.g.talelin.latticy.mapper.PermissionMapper.insert - <==    Updates: 1
+2021-05-04 18:04:02.424 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-04 18:04:02.425 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鍒犻櫎鍥句功(String), 鍥句功(String)
+2021-05-04 18:04:02.459 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 0
+2021-05-04 18:04:02.460 [main] "  " DEBUG i.g.talelin.latticy.mapper.PermissionMapper.insert - ==>  Preparing: INSERT INTO lin_permission ( name, module ) VALUES ( ?, ? )
+2021-05-04 18:04:02.461 [main] "  " DEBUG i.g.talelin.latticy.mapper.PermissionMapper.insert - ==> Parameters: 鍒犻櫎鍥句功(String), 鍥句功(String)
+2021-05-04 18:04:02.531 [main] "  " DEBUG i.g.talelin.latticy.mapper.PermissionMapper.insert - <==    Updates: 1
+2021-05-04 18:04:02.534 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-04 18:04:02.535 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鏌ヨ鏃ュ織璁板綍鐨勭敤鎴�(String), 鏃ュ織(String)
+2021-05-04 18:04:02.569 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-04 18:04:02.571 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-04 18:04:02.571 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鍒犻櫎鍥句功(String), 鍥句功(String)
+2021-05-04 18:04:02.606 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-04 18:04:02.609 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectList - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL
+2021-05-04 18:04:02.609 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectList - ==> Parameters: 
+2021-05-04 18:04:02.646 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectList - <==      Total: 8
+2021-05-04 18:04:02.651 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE lin_permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2021-05-04 18:04:02.653 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==> Parameters: 查询所有日志(String), 日志(String), false(Boolean), 2021-04-03 15:26:57.576(Timestamp), 2021-04-03 15:26:57.576(Timestamp), 1(Integer)
+2021-05-04 18:04:02.722 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - <==    Updates: 1
+2021-05-04 18:04:02.724 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE lin_permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2021-05-04 18:04:02.725 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==> Parameters: 删除图书(String), 图书(String), false(Boolean), 2021-04-03 15:26:57.594(Timestamp), 2021-04-03 15:26:57.594(Timestamp), 2(Integer)
+2021-05-04 18:04:02.806 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - <==    Updates: 1
+2021-05-04 18:04:02.809 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE lin_permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2021-05-04 18:04:02.810 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==> Parameters: 搜索日志(String), 日志(String), false(Boolean), 2021-04-03 15:26:57.625(Timestamp), 2021-04-03 15:26:57.625(Timestamp), 3(Integer)
+2021-05-04 18:04:02.884 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - <==    Updates: 1
+2021-05-04 18:04:02.885 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE lin_permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2021-05-04 18:04:02.886 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==> Parameters: 查询日志记录的用户(String), 日志(String), false(Boolean), 2021-04-03 15:26:57.637(Timestamp), 2021-04-03 15:26:57.637(Timestamp), 4(Integer)
+2021-05-04 18:04:02.966 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - <==    Updates: 1
+2021-05-04 19:59:48.515 [http-nio-5000-exec-1] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2021-05-04 19:59:48.533 [http-nio-5000-exec-1] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-05-04 19:59:48.552 [http-nio-5000-exec-1] "OPTIONS /v1/book HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - OPTIONS "/v1/book", parameters={}
+2021-05-04 19:59:48.557 [http-nio-5000-exec-1] "OPTIONS /v1/book HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.v1.BookController#getBooks()
+2021-05-04 19:59:48.585 [http-nio-5000-exec-1] "OPTIONS /v1/book HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2021-05-04 19:59:48.602 [http-nio-5000-exec-2] "GET /v1/book HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/v1/book", parameters={}
+2021-05-04 19:59:48.602 [http-nio-5000-exec-2] "GET /v1/book HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.v1.BookController#getBooks()
+2021-05-04 20:00:04.024 [http-nio-5000-exec-3] "OPTIONS /cms/admin/users HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - OPTIONS "/cms/admin/users?count=10&page=0", parameters={masked}
+2021-05-04 20:00:04.025 [http-nio-5000-exec-3] "OPTIONS /cms/admin/users HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.cms.AdminController#getUsers(Integer, Integer, Integer)
+2021-05-04 20:00:04.026 [http-nio-5000-exec-3] "OPTIONS /cms/admin/users HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2021-05-04 20:00:04.034 [http-nio-5000-exec-4] "GET /cms/admin/users HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/cms/admin/users?count=10&page=0", parameters={masked}
+2021-05-04 20:00:04.035 [http-nio-5000-exec-4] "GET /cms/admin/users HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.cms.AdminController#getUsers(Integer, Integer, Integer)
+2021-05-04 20:00:04.648 [http-nio-5000-exec-4] "GET /cms/admin/users HTTP/1.1" DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler io.github.talelin.latticy.common.exception.RestExceptionHandler#processException(HttpException, HttpServletRequest, HttpServletResponse)
+2021-05-04 20:00:04.696 [http-nio-5000-exec-4] "GET /cms/admin/users HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-05-04 20:00:04.697 [http-nio-5000-exec-4] "GET /cms/admin/users HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [UnifyResponseVO(code=10051, message=access token 过期, request=GET /cms/admin/users)]
+2021-05-04 20:00:04.709 [http-nio-5000-exec-4] "GET /cms/admin/users HTTP/1.1" DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [io.github.talelin.autoconfigure.exception.TokenExpiredException: Token Expired]
+2021-05-04 20:00:04.710 [http-nio-5000-exec-4] "GET /cms/admin/users HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 401 UNAUTHORIZED
+2021-05-04 20:00:04.718 [http-nio-5000-exec-5] "OPTIONS /cms/user/refresh HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - OPTIONS "/cms/user/refresh", parameters={}
+2021-05-04 20:00:04.718 [http-nio-5000-exec-5] "OPTIONS /cms/user/refresh HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.cms.UserController#getRefreshToken()
+2021-05-04 20:00:04.719 [http-nio-5000-exec-5] "OPTIONS /cms/user/refresh HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2021-05-04 20:00:04.723 [http-nio-5000-exec-6] "GET /cms/user/refresh HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/cms/user/refresh", parameters={}
+2021-05-04 20:00:04.723 [http-nio-5000-exec-6] "GET /cms/user/refresh HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.cms.UserController#getRefreshToken()
+2021-05-04 20:00:18.802 [http-nio-5000-exec-2] "GET /v1/book HTTP/1.1" DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler io.github.talelin.latticy.common.exception.RestExceptionHandler#processException(Exception, HttpServletRequest, HttpServletResponse)
+2021-05-04 20:00:18.812 [http-nio-5000-exec-2] "GET /v1/book HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-05-04 20:00:18.813 [http-nio-5000-exec-2] "GET /v1/book HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [UnifyResponseVO(code=9999, message=服务器未知错误, request=GET /v1/book)]
+2021-05-04 20:00:18.815 [http-nio-5000-exec-2] "GET /v1/book HTTP/1.1" DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30079ms.
+### The error may exist in io/github/talelin/latticy/mapper/BookMapper.java (best guess)
+### The error may involve io.github.talelin.latticy.mapper.BookMapper.selectList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30079ms.]
+2021-05-04 20:00:18.816 [http-nio-5000-exec-2] "GET /v1/book HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 500 INTERNAL_SERVER_ERROR
+2021-05-04 20:00:19.947 [http-nio-5000-exec-7] "GET /v1/book HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/v1/book", parameters={}
+2021-05-04 20:00:19.948 [http-nio-5000-exec-7] "GET /v1/book HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.v1.BookController#getBooks()
+2021-05-04 20:00:19.987 [http-nio-5000-exec-7] "GET /v1/book HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.BookMapper.selectList - ==>  Preparing: SELECT id,title,author,summary,image,create_time,update_time,delete_time FROM book WHERE delete_time IS NULL
+2021-05-04 20:00:19.988 [http-nio-5000-exec-7] "GET /v1/book HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.BookMapper.selectList - ==> Parameters: 
+2021-05-04 20:00:20.022 [http-nio-5000-exec-7] "GET /v1/book HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.BookMapper.selectList - <==      Total: 3
+2021-05-04 20:00:20.033 [http-nio-5000-exec-7] "GET /v1/book HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-05-04 20:00:20.033 [http-nio-5000-exec-7] "GET /v1/book HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[BookDO(title=深入理解计算机系统, author=Randal E.Bryant, summary=从程序员的视角，看计算机系统！
+本书适用于那些想要写出更快、更可靠程序的程序员。通过掌 (truncated)...]
+2021-05-04 20:00:20.042 [http-nio-5000-exec-7] "GET /v1/book HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2021-05-04 20:00:24.848 [http-nio-5000-exec-6] "GET /cms/user/refresh HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - ==>  Preparing: SELECT id,username,nickname,avatar,email,create_time,update_time,delete_time FROM lin_user WHERE id=? AND delete_time IS NULL
+2021-05-04 20:00:24.848 [http-nio-5000-exec-6] "GET /cms/user/refresh HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - ==> Parameters: 1(Integer)
+2021-05-04 20:00:24.884 [http-nio-5000-exec-6] "GET /cms/user/refresh HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - <==      Total: 1
+2021-05-04 20:00:24.912 [http-nio-5000-exec-6] "GET /cms/user/refresh HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-05-04 20:00:24.913 [http-nio-5000-exec-6] "GET /cms/user/refresh HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Tokens{accessToken='eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6MSwic2NvcGUiOiJsaW4iLCJ0eXB (truncated)...]
+2021-05-04 20:00:24.914 [http-nio-5000-exec-6] "GET /cms/user/refresh HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2021-05-04 20:00:26.001 [http-nio-5000-exec-8] "OPTIONS /v1/book/1 HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - OPTIONS "/v1/book/1", parameters={}
+2021-05-04 20:00:26.002 [http-nio-5000-exec-8] "OPTIONS /v1/book/1 HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.v1.BookController#getBook(Integer)
+2021-05-04 20:00:26.003 [http-nio-5000-exec-8] "OPTIONS /v1/book/1 HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2021-05-04 20:00:26.009 [http-nio-5000-exec-9] "GET /v1/book/1 HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/v1/book/1", parameters={}
+2021-05-04 20:00:26.010 [http-nio-5000-exec-9] "GET /v1/book/1 HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.v1.BookController#getBook(Integer)
+2021-05-04 20:00:26.079 [http-nio-5000-exec-9] "GET /v1/book/1 HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.BookMapper.selectById - ==>  Preparing: SELECT id,title,author,summary,image,create_time,update_time,delete_time FROM book WHERE id=? AND delete_time IS NULL
+2021-05-04 20:00:26.081 [http-nio-5000-exec-9] "GET /v1/book/1 HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.BookMapper.selectById - ==> Parameters: 1(Integer)
+2021-05-04 20:00:26.116 [http-nio-5000-exec-9] "GET /v1/book/1 HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.BookMapper.selectById - <==      Total: 1
+2021-05-04 20:00:26.121 [http-nio-5000-exec-9] "GET /v1/book/1 HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-05-04 20:00:26.121 [http-nio-5000-exec-9] "GET /v1/book/1 HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [BookDO(title=深入理解计算机系统, author=Randal E.Bryant, summary=从程序员的视角，看计算机系统！
+本书适用于那些想要写出更快、更可靠程序的程序员。通过掌握 (truncated)...]
+2021-05-04 20:00:26.126 [http-nio-5000-exec-9] "GET /v1/book/1 HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2021-05-04 20:00:32.213 [http-nio-5000-exec-10] "GET /v1/book HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/v1/book", parameters={}
+2021-05-04 20:00:32.214 [http-nio-5000-exec-10] "GET /v1/book HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.v1.BookController#getBooks()
+2021-05-04 20:00:32.248 [http-nio-5000-exec-10] "GET /v1/book HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.BookMapper.selectList - ==>  Preparing: SELECT id,title,author,summary,image,create_time,update_time,delete_time FROM book WHERE delete_time IS NULL
+2021-05-04 20:00:32.248 [http-nio-5000-exec-10] "GET /v1/book HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.BookMapper.selectList - ==> Parameters: 
+2021-05-04 20:00:32.289 [http-nio-5000-exec-10] "GET /v1/book HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.BookMapper.selectList - <==      Total: 3
+2021-05-04 20:00:32.291 [http-nio-5000-exec-10] "GET /v1/book HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-05-04 20:00:32.292 [http-nio-5000-exec-10] "GET /v1/book HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[BookDO(title=深入理解计算机系统, author=Randal E.Bryant, summary=从程序员的视角，看计算机系统！
+本书适用于那些想要写出更快、更可靠程序的程序员。通过掌 (truncated)...]
+2021-05-04 20:00:32.296 [http-nio-5000-exec-10] "GET /v1/book HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2021-05-04 20:00:41.226 [http-nio-5000-exec-1] "OPTIONS /v1/book/3 HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - OPTIONS "/v1/book/3", parameters={}
+2021-05-04 20:00:41.227 [http-nio-5000-exec-1] "OPTIONS /v1/book/3 HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.v1.BookController#deleteBook(Integer)
+2021-05-04 20:00:41.228 [http-nio-5000-exec-1] "OPTIONS /v1/book/3 HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2021-05-04 20:00:41.233 [http-nio-5000-exec-3] "DELETE /v1/book/3 HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - DELETE "/v1/book/3", parameters={}
+2021-05-04 20:00:41.234 [http-nio-5000-exec-3] "DELETE /v1/book/3 HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.v1.BookController#deleteBook(Integer)
+2021-05-04 20:00:41.235 [http-nio-5000-exec-3] "DELETE /v1/book/3 HTTP/1.1" DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler io.github.talelin.latticy.common.exception.RestExceptionHandler#processException(HttpException, HttpServletRequest, HttpServletResponse)
+2021-05-04 20:00:41.236 [http-nio-5000-exec-3] "DELETE /v1/book/3 HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-05-04 20:00:41.237 [http-nio-5000-exec-3] "DELETE /v1/book/3 HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [UnifyResponseVO(code=10051, message=access token 过期, request=DELETE /v1/book/3)]
+2021-05-04 20:00:41.237 [http-nio-5000-exec-3] "DELETE /v1/book/3 HTTP/1.1" DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [io.github.talelin.autoconfigure.exception.TokenExpiredException: Token Expired]
+2021-05-04 20:00:41.238 [http-nio-5000-exec-3] "DELETE /v1/book/3 HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 401 UNAUTHORIZED
+2021-05-04 20:00:41.243 [http-nio-5000-exec-4] "GET /cms/user/refresh HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/cms/user/refresh", parameters={}
+2021-05-04 20:00:41.244 [http-nio-5000-exec-4] "GET /cms/user/refresh HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.cms.UserController#getRefreshToken()
+2021-05-04 20:00:41.279 [http-nio-5000-exec-4] "GET /cms/user/refresh HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - ==>  Preparing: SELECT id,username,nickname,avatar,email,create_time,update_time,delete_time FROM lin_user WHERE id=? AND delete_time IS NULL
+2021-05-04 20:00:41.280 [http-nio-5000-exec-4] "GET /cms/user/refresh HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - ==> Parameters: 1(Integer)
+2021-05-04 20:00:41.315 [http-nio-5000-exec-4] "GET /cms/user/refresh HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - <==      Total: 1
+2021-05-04 20:00:41.319 [http-nio-5000-exec-4] "GET /cms/user/refresh HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-05-04 20:00:41.319 [http-nio-5000-exec-4] "GET /cms/user/refresh HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Tokens{accessToken='eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6MSwic2NvcGUiOiJsaW4iLCJ0eXB (truncated)...]
+2021-05-04 20:00:41.320 [http-nio-5000-exec-4] "GET /cms/user/refresh HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2021-05-04 20:00:41.327 [http-nio-5000-exec-5] "DELETE /v1/book/3 HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - DELETE "/v1/book/3", parameters={}
+2021-05-04 20:00:41.329 [http-nio-5000-exec-5] "DELETE /v1/book/3 HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.v1.BookController#deleteBook(Integer)
+2021-05-04 20:00:41.331 [http-nio-5000-exec-5] "DELETE /v1/book/3 HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - ==>  Preparing: SELECT id,username,nickname,avatar,email,create_time,update_time,delete_time FROM lin_user WHERE id=? AND delete_time IS NULL
+2021-05-04 20:00:41.331 [http-nio-5000-exec-5] "DELETE /v1/book/3 HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - ==> Parameters: 1(Integer)
+2021-05-04 20:00:41.364 [http-nio-5000-exec-5] "DELETE /v1/book/3 HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - <==      Total: 1
+2021-05-04 20:00:41.374 [http-nio-5000-exec-5] "DELETE /v1/book/3 HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.GroupMapper.selectOne - ==>  Preparing: SELECT id,name,info,`level`,create_time,update_time,delete_time FROM lin_group WHERE delete_time IS NULL AND (`level` = ?)
+2021-05-04 20:00:41.375 [http-nio-5000-exec-5] "DELETE /v1/book/3 HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.GroupMapper.selectOne - ==> Parameters: 1(Integer)
+2021-05-04 20:00:41.413 [http-nio-5000-exec-5] "DELETE /v1/book/3 HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.GroupMapper.selectOne - <==      Total: 1
+2021-05-04 20:00:41.422 [http-nio-5000-exec-5] "DELETE /v1/book/3 HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserGroupMapper.selectOne - ==>  Preparing: SELECT id,user_id,group_id FROM lin_user_group WHERE (user_id = ? AND group_id = ?)
+2021-05-04 20:00:41.423 [http-nio-5000-exec-5] "DELETE /v1/book/3 HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserGroupMapper.selectOne - ==> Parameters: 1(Integer), 1(Integer)
+2021-05-04 20:00:41.456 [http-nio-5000-exec-5] "DELETE /v1/book/3 HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserGroupMapper.selectOne - <==      Total: 1
+2021-05-04 20:00:41.460 [http-nio-5000-exec-5] "DELETE /v1/book/3 HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.BookMapper.selectById - ==>  Preparing: SELECT id,title,author,summary,image,create_time,update_time,delete_time FROM book WHERE id=? AND delete_time IS NULL
+2021-05-04 20:00:41.460 [http-nio-5000-exec-5] "DELETE /v1/book/3 HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.BookMapper.selectById - ==> Parameters: 3(Integer)
+2021-05-04 20:00:41.504 [http-nio-5000-exec-5] "DELETE /v1/book/3 HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.BookMapper.selectById - <==      Total: 1
+2021-05-04 20:00:41.505 [http-nio-5000-exec-5] "DELETE /v1/book/3 HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.BookMapper.deleteById - ==>  Preparing: UPDATE book SET delete_time=NOW() WHERE id=? AND delete_time IS NULL
+2021-05-04 20:00:41.505 [http-nio-5000-exec-5] "DELETE /v1/book/3 HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.BookMapper.deleteById - ==> Parameters: 3(Integer)
+2021-05-04 20:00:41.577 [http-nio-5000-exec-5] "DELETE /v1/book/3 HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.BookMapper.deleteById - <==    Updates: 1
+2021-05-04 20:00:41.585 [http-nio-5000-exec-5] "DELETE /v1/book/3 HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-05-04 20:00:41.585 [http-nio-5000-exec-5] "DELETE /v1/book/3 HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [UnifyResponseVO(code=14, message=删除图书成功, request=DELETE /v1/book/3)]
+2021-05-04 20:00:41.586 [http-nio-5000-exec-5] "DELETE /v1/book/3 HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 201 CREATED
+2021-05-04 20:00:41.593 [http-nio-5000-exec-2] "GET /v1/book HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/v1/book", parameters={}
+2021-05-04 20:00:41.593 [http-nio-5000-exec-2] "GET /v1/book HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.v1.BookController#getBooks()
+2021-05-04 20:00:41.595 [http-nio-5000-exec-2] "GET /v1/book HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.BookMapper.selectList - ==>  Preparing: SELECT id,title,author,summary,image,create_time,update_time,delete_time FROM book WHERE delete_time IS NULL
+2021-05-04 20:00:41.595 [http-nio-5000-exec-2] "GET /v1/book HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.BookMapper.selectList - ==> Parameters: 
+2021-05-04 20:00:41.631 [http-nio-5000-exec-2] "GET /v1/book HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.BookMapper.selectList - <==      Total: 2
+2021-05-04 20:00:41.632 [http-nio-5000-exec-2] "GET /v1/book HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-05-04 20:00:41.632 [http-nio-5000-exec-2] "GET /v1/book HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[BookDO(title=深入理解计算机系统, author=Randal E.Bryant, summary=从程序员的视角，看计算机系统！
+本书适用于那些想要写出更快、更可靠程序的程序员。通过掌 (truncated)...]
+2021-05-04 20:00:41.633 [http-nio-5000-exec-2] "GET /v1/book HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2021-05-04 20:42:31.014 [http-nio-5000-exec-6] "GET /v1/book HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/v1/book", parameters={}
+2021-05-04 20:42:31.016 [http-nio-5000-exec-6] "GET /v1/book HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.v1.BookController#getBooks()
+2021-05-04 20:42:36.048 [http-nio-5000-exec-8] "GET /v1/book HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/v1/book", parameters={}
+2021-05-04 20:42:36.051 [http-nio-5000-exec-8] "GET /v1/book HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.v1.BookController#getBooks()
+2021-05-04 20:42:41.669 [http-nio-5000-exec-9] "GET /v1/book HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/v1/book", parameters={}
+2021-05-04 20:42:41.670 [http-nio-5000-exec-9] "GET /v1/book HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.v1.BookController#getBooks()
+2021-05-04 20:42:47.492 [http-nio-5000-exec-10] "GET /v1/book HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/v1/book", parameters={}
+2021-05-04 20:42:47.493 [http-nio-5000-exec-10] "GET /v1/book HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.v1.BookController#getBooks()
+2021-05-04 20:42:51.094 [http-nio-5000-exec-6] "GET /v1/book HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.BookMapper.selectList - ==>  Preparing: SELECT id,title,author,summary,image,create_time,update_time,delete_time FROM book WHERE delete_time IS NULL
+2021-05-04 20:42:51.094 [http-nio-5000-exec-6] "GET /v1/book HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.BookMapper.selectList - ==> Parameters: 
+2021-05-04 20:42:51.107 [http-nio-5000-exec-8] "GET /v1/book HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.BookMapper.selectList - ==>  Preparing: SELECT id,title,author,summary,image,create_time,update_time,delete_time FROM book WHERE delete_time IS NULL
+2021-05-04 20:42:51.107 [http-nio-5000-exec-8] "GET /v1/book HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.BookMapper.selectList - ==> Parameters: 
+2021-05-04 20:42:51.135 [http-nio-5000-exec-6] "GET /v1/book HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.BookMapper.selectList - <==      Total: 2
+2021-05-04 20:42:51.136 [http-nio-5000-exec-6] "GET /v1/book HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-05-04 20:42:51.136 [http-nio-5000-exec-6] "GET /v1/book HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[BookDO(title=深入理解计算机系统, author=Randal E.Bryant, summary=从程序员的视角，看计算机系统！
+本书适用于那些想要写出更快、更可靠程序的程序员。通过掌 (truncated)...]
+2021-05-04 20:42:51.138 [http-nio-5000-exec-6] "GET /v1/book HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2021-05-04 20:42:51.140 [http-nio-5000-exec-8] "GET /v1/book HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.BookMapper.selectList - <==      Total: 2
+2021-05-04 20:42:51.141 [http-nio-5000-exec-8] "GET /v1/book HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-05-04 20:42:51.141 [http-nio-5000-exec-8] "GET /v1/book HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[BookDO(title=深入理解计算机系统, author=Randal E.Bryant, summary=从程序员的视角，看计算机系统！
+本书适用于那些想要写出更快、更可靠程序的程序员。通过掌 (truncated)...]
+2021-05-04 20:42:51.143 [http-nio-5000-exec-8] "GET /v1/book HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2021-05-04 20:42:51.736 [http-nio-5000-exec-9] "GET /v1/book HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.BookMapper.selectList - ==>  Preparing: SELECT id,title,author,summary,image,create_time,update_time,delete_time FROM book WHERE delete_time IS NULL
+2021-05-04 20:42:51.737 [http-nio-5000-exec-9] "GET /v1/book HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.BookMapper.selectList - ==> Parameters: 
+2021-05-04 20:42:51.774 [http-nio-5000-exec-9] "GET /v1/book HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.BookMapper.selectList - <==      Total: 2
+2021-05-04 20:42:51.775 [http-nio-5000-exec-9] "GET /v1/book HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-05-04 20:42:51.775 [http-nio-5000-exec-9] "GET /v1/book HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[BookDO(title=深入理解计算机系统, author=Randal E.Bryant, summary=从程序员的视角，看计算机系统！
+本书适用于那些想要写出更快、更可靠程序的程序员。通过掌 (truncated)...]
+2021-05-04 20:42:51.776 [http-nio-5000-exec-9] "GET /v1/book HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2021-05-04 20:42:52.542 [http-nio-5000-exec-10] "GET /v1/book HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.BookMapper.selectList - ==>  Preparing: SELECT id,title,author,summary,image,create_time,update_time,delete_time FROM book WHERE delete_time IS NULL
+2021-05-04 20:42:52.542 [http-nio-5000-exec-10] "GET /v1/book HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.BookMapper.selectList - ==> Parameters: 
+2021-05-04 20:42:52.580 [http-nio-5000-exec-10] "GET /v1/book HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.BookMapper.selectList - <==      Total: 2
+2021-05-04 20:42:52.580 [http-nio-5000-exec-10] "GET /v1/book HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-05-04 20:42:52.581 [http-nio-5000-exec-10] "GET /v1/book HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[BookDO(title=深入理解计算机系统, author=Randal E.Bryant, summary=从程序员的视角，看计算机系统！
+本书适用于那些想要写出更快、更可靠程序的程序员。通过掌 (truncated)...]
+2021-05-04 20:42:52.582 [http-nio-5000-exec-10] "GET /v1/book HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2021-05-04 20:43:06.882 [http-nio-5000-exec-1] "GET /v1/book HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/v1/book", parameters={}
+2021-05-04 20:43:06.882 [http-nio-5000-exec-1] "GET /v1/book HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.v1.BookController#getBooks()
+2021-05-04 20:43:06.944 [http-nio-5000-exec-1] "GET /v1/book HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.BookMapper.selectList - ==>  Preparing: SELECT id,title,author,summary,image,create_time,update_time,delete_time FROM book WHERE delete_time IS NULL
+2021-05-04 20:43:06.945 [http-nio-5000-exec-1] "GET /v1/book HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.BookMapper.selectList - ==> Parameters: 
+2021-05-04 20:43:06.981 [http-nio-5000-exec-1] "GET /v1/book HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.BookMapper.selectList - <==      Total: 2
+2021-05-04 20:43:06.982 [http-nio-5000-exec-1] "GET /v1/book HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-05-04 20:43:06.982 [http-nio-5000-exec-1] "GET /v1/book HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[BookDO(title=深入理解计算机系统, author=Randal E.Bryant, summary=从程序员的视角，看计算机系统！
+本书适用于那些想要写出更快、更可靠程序的程序员。通过掌 (truncated)...]
+2021-05-04 20:43:06.983 [http-nio-5000-exec-1] "GET /v1/book HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2021-05-04 20:43:11.937 [http-nio-5000-exec-3] "GET /v1/book HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/v1/book", parameters={}
+2021-05-04 20:43:11.938 [http-nio-5000-exec-3] "GET /v1/book HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.v1.BookController#getBooks()
+2021-05-04 20:43:11.977 [http-nio-5000-exec-3] "GET /v1/book HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.BookMapper.selectList - ==>  Preparing: SELECT id,title,author,summary,image,create_time,update_time,delete_time FROM book WHERE delete_time IS NULL
+2021-05-04 20:43:11.977 [http-nio-5000-exec-3] "GET /v1/book HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.BookMapper.selectList - ==> Parameters: 
+2021-05-04 20:43:12.018 [http-nio-5000-exec-3] "GET /v1/book HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.BookMapper.selectList - <==      Total: 2
+2021-05-04 20:43:12.019 [http-nio-5000-exec-3] "GET /v1/book HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-05-04 20:43:12.019 [http-nio-5000-exec-3] "GET /v1/book HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[BookDO(title=深入理解计算机系统, author=Randal E.Bryant, summary=从程序员的视角，看计算机系统！
+本书适用于那些想要写出更快、更可靠程序的程序员。通过掌 (truncated)...]
+2021-05-04 20:43:12.021 [http-nio-5000-exec-3] "GET /v1/book HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK

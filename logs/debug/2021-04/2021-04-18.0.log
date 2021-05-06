@@ -1,0 +1,140 @@
+2021-04-18 09:37:29.971 [main] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: mdc-access-servlet-filter urls=[/*] order=2147483647, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-04-18 09:37:30.989 [main] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2021-04-18 09:37:34.687 [main] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-04-18 09:37:34.754 [main] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 34 mappings in 'requestMappingHandlerMapping'
+2021-04-18 09:37:34.781 [main] "  " DEBUG o.s.web.servlet.config.annotation.WebMvcConfigurer - Default resource handling disabled
+2021-04-18 09:37:34.804 [main] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/assets/**] in 'resourceHandlerMapping'
+2021-04-18 09:37:34.815 [main] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-04-18 09:37:35.165 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-04-18 09:37:35.189 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 查询所有日志(String), 日志(String)
+2021-04-18 09:37:35.279 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-04-18 09:37:35.281 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-04-18 09:37:35.281 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 查询日志记录的用户(String), 日志(String)
+2021-04-18 09:37:35.357 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-04-18 09:37:35.359 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-04-18 09:37:35.360 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 搜索日志(String), 日志(String)
+2021-04-18 09:37:35.418 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-04-18 09:37:35.421 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-04-18 09:37:35.421 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 搜索日志(String), 日志(String)
+2021-04-18 09:37:35.487 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-04-18 09:37:35.489 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-04-18 09:37:35.490 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 查询所有日志(String), 日志(String)
+2021-04-18 09:37:35.586 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-04-18 09:37:35.588 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-04-18 09:37:35.588 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 查询日志记录的用户(String), 日志(String)
+2021-04-18 09:37:35.650 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-04-18 09:37:35.652 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-04-18 09:37:35.653 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 删除图书(String), 图书(String)
+2021-04-18 09:37:35.761 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-04-18 09:37:35.763 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-04-18 09:37:35.763 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 删除图书(String), 图书(String)
+2021-04-18 09:37:35.803 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-04-18 09:37:35.806 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectList - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL
+2021-04-18 09:37:35.806 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectList - ==> Parameters: 
+2021-04-18 09:37:35.906 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectList - <==      Total: 4
+2021-04-18 10:43:27.622 [http-nio-5000-exec-1] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2021-04-18 10:43:27.640 [http-nio-5000-exec-1] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-04-18 10:43:27.654 [http-nio-5000-exec-1] "OPTIONS /cms/log/users HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - OPTIONS "/cms/log/users?count=5&page=0", parameters={masked}
+2021-04-18 10:43:27.659 [http-nio-5000-exec-1] "OPTIONS /cms/log/users HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.cms.LogController#getUsers(Integer, Integer)
+2021-04-18 10:43:27.684 [http-nio-5000-exec-1] "OPTIONS /cms/log/users HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2021-04-18 10:43:27.699 [http-nio-5000-exec-2] "GET /cms/log/users HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/cms/log/users?count=5&page=0", parameters={masked}
+2021-04-18 10:43:27.700 [http-nio-5000-exec-2] "GET /cms/log/users HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.cms.LogController#getUsers(Integer, Integer)
+2021-04-18 10:43:28.517 [http-nio-5000-exec-2] "GET /cms/log/users HTTP/1.1" DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler io.github.talelin.latticy.common.exception.RestExceptionHandler#processException(HttpException, HttpServletRequest, HttpServletResponse)
+2021-04-18 10:43:28.559 [http-nio-5000-exec-2] "GET /cms/log/users HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-04-18 10:43:28.559 [http-nio-5000-exec-2] "GET /cms/log/users HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [UnifyResponseVO(code=10051, message=access token 过期, request=GET /cms/log/users)]
+2021-04-18 10:43:28.570 [http-nio-5000-exec-2] "GET /cms/log/users HTTP/1.1" DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [io.github.talelin.autoconfigure.exception.TokenExpiredException: Token Expired]
+2021-04-18 10:43:28.571 [http-nio-5000-exec-2] "GET /cms/log/users HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 401 UNAUTHORIZED
+2021-04-18 10:43:28.577 [http-nio-5000-exec-3] "OPTIONS /cms/user/refresh HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - OPTIONS "/cms/user/refresh", parameters={}
+2021-04-18 10:43:28.578 [http-nio-5000-exec-3] "OPTIONS /cms/user/refresh HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.cms.UserController#getRefreshToken()
+2021-04-18 10:43:28.579 [http-nio-5000-exec-3] "OPTIONS /cms/user/refresh HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2021-04-18 10:43:28.583 [http-nio-5000-exec-4] "GET /cms/user/refresh HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/cms/user/refresh", parameters={}
+2021-04-18 10:43:28.583 [http-nio-5000-exec-4] "GET /cms/user/refresh HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.cms.UserController#getRefreshToken()
+2021-04-18 10:43:58.685 [http-nio-5000-exec-4] "GET /cms/user/refresh HTTP/1.1" DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler io.github.talelin.latticy.common.exception.RestExceptionHandler#processException(Exception, HttpServletRequest, HttpServletResponse)
+2021-04-18 10:43:58.690 [http-nio-5000-exec-4] "GET /cms/user/refresh HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-04-18 10:43:58.690 [http-nio-5000-exec-4] "GET /cms/user/refresh HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [UnifyResponseVO(code=9999, message=服务器未知错误, request=GET /cms/user/refresh)]
+2021-04-18 10:43:58.691 [http-nio-5000-exec-4] "GET /cms/user/refresh HTTP/1.1" DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30082ms.
+### The error may exist in io/github/talelin/latticy/mapper/UserMapper.java (best guess)
+### The error may involve io.github.talelin.latticy.mapper.UserMapper.selectById
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30082ms.]
+2021-04-18 10:43:58.691 [http-nio-5000-exec-4] "GET /cms/user/refresh HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 500 INTERNAL_SERVER_ERROR
+2021-04-18 14:24:22.747 [main] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: mdc-access-servlet-filter urls=[/*] order=2147483647, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-04-18 14:24:22.750 [main] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2021-04-18 14:24:26.349 [main] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-04-18 14:24:26.417 [main] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 34 mappings in 'requestMappingHandlerMapping'
+2021-04-18 14:24:26.441 [main] "  " DEBUG o.s.web.servlet.config.annotation.WebMvcConfigurer - Default resource handling disabled
+2021-04-18 14:24:26.453 [main] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/assets/**] in 'resourceHandlerMapping'
+2021-04-18 14:24:26.463 [main] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-04-18 14:24:26.850 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-04-18 14:24:26.872 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 查询所有日志(String), 日志(String)
+2021-04-18 14:24:26.960 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-04-18 14:24:26.962 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-04-18 14:24:26.963 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 查询所有日志(String), 日志(String)
+2021-04-18 14:24:27.065 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-04-18 14:24:27.067 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-04-18 14:24:27.067 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 搜索日志(String), 日志(String)
+2021-04-18 14:24:27.193 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-04-18 14:24:27.195 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-04-18 14:24:27.195 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 删除图书(String), 图书(String)
+2021-04-18 14:24:27.292 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-04-18 14:24:27.294 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-04-18 14:24:27.294 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 搜索日志(String), 日志(String)
+2021-04-18 14:24:27.337 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-04-18 14:24:27.337 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-04-18 14:24:27.337 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 查询日志记录的用户(String), 日志(String)
+2021-04-18 14:24:27.432 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-04-18 14:24:27.434 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-04-18 14:24:27.434 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 查询日志记录的用户(String), 日志(String)
+2021-04-18 14:24:27.619 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-04-18 14:24:27.620 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-04-18 14:24:27.621 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 删除图书(String), 图书(String)
+2021-04-18 14:24:27.667 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-04-18 14:24:27.670 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectList - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL
+2021-04-18 14:24:27.671 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectList - ==> Parameters: 
+2021-04-18 14:24:27.791 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectList - <==      Total: 4
+2021-04-18 15:36:30.843 [http-nio-5000-exec-1] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2021-04-18 15:36:30.858 [http-nio-5000-exec-1] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-04-18 15:36:30.868 [http-nio-5000-exec-1] "OPTIONS /cms/log/users HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - OPTIONS "/cms/log/users?count=5&page=0", parameters={masked}
+2021-04-18 15:36:30.872 [http-nio-5000-exec-1] "OPTIONS /cms/log/users HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.cms.LogController#getUsers(Integer, Integer)
+2021-04-18 15:36:30.889 [http-nio-5000-exec-1] "OPTIONS /cms/log/users HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2021-04-18 15:36:30.903 [http-nio-5000-exec-6] "GET /cms/log/users HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/cms/log/users?count=5&page=0", parameters={masked}
+2021-04-18 15:36:30.904 [http-nio-5000-exec-6] "GET /cms/log/users HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.cms.LogController#getUsers(Integer, Integer)
+2021-04-18 15:36:31.665 [http-nio-5000-exec-6] "GET /cms/log/users HTTP/1.1" DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler io.github.talelin.latticy.common.exception.RestExceptionHandler#processException(HttpException, HttpServletRequest, HttpServletResponse)
+2021-04-18 15:36:31.709 [http-nio-5000-exec-6] "GET /cms/log/users HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-04-18 15:36:31.710 [http-nio-5000-exec-6] "GET /cms/log/users HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [UnifyResponseVO(code=10051, message=access token 过期, request=GET /cms/log/users)]
+2021-04-18 15:36:31.719 [http-nio-5000-exec-6] "GET /cms/log/users HTTP/1.1" DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [io.github.talelin.autoconfigure.exception.TokenExpiredException: Token Expired]
+2021-04-18 15:36:31.719 [http-nio-5000-exec-6] "GET /cms/log/users HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 401 UNAUTHORIZED
+2021-04-18 15:36:31.725 [http-nio-5000-exec-7] "OPTIONS /cms/user/refresh HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - OPTIONS "/cms/user/refresh", parameters={}
+2021-04-18 15:36:31.726 [http-nio-5000-exec-7] "OPTIONS /cms/user/refresh HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.cms.UserController#getRefreshToken()
+2021-04-18 15:36:31.726 [http-nio-5000-exec-7] "OPTIONS /cms/user/refresh HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2021-04-18 15:36:31.731 [http-nio-5000-exec-5] "GET /cms/user/refresh HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/cms/user/refresh", parameters={}
+2021-04-18 15:36:31.731 [http-nio-5000-exec-5] "GET /cms/user/refresh HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.cms.UserController#getRefreshToken()
+2021-04-18 15:36:38.614 [http-nio-5000-exec-4] "OPTIONS /cms/admin/group/all HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - OPTIONS "/cms/admin/group/all", parameters={}
+2021-04-18 15:36:38.614 [http-nio-5000-exec-4] "OPTIONS /cms/admin/group/all HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.cms.AdminController#getAllGroup()
+2021-04-18 15:36:38.615 [http-nio-5000-exec-4] "OPTIONS /cms/admin/group/all HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2021-04-18 15:36:38.622 [http-nio-5000-exec-3] "GET /cms/admin/group/all HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/cms/admin/group/all", parameters={}
+2021-04-18 15:36:38.622 [http-nio-5000-exec-3] "GET /cms/admin/group/all HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.cms.AdminController#getAllGroup()
+2021-04-18 15:36:38.624 [http-nio-5000-exec-3] "GET /cms/admin/group/all HTTP/1.1" DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler io.github.talelin.latticy.common.exception.RestExceptionHandler#processException(HttpException, HttpServletRequest, HttpServletResponse)
+2021-04-18 15:36:38.626 [http-nio-5000-exec-3] "GET /cms/admin/group/all HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-04-18 15:36:38.626 [http-nio-5000-exec-3] "GET /cms/admin/group/all HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [UnifyResponseVO(code=10051, message=access token 过期, request=GET /cms/admin/group/all)]
+2021-04-18 15:36:38.628 [http-nio-5000-exec-3] "GET /cms/admin/group/all HTTP/1.1" DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [io.github.talelin.autoconfigure.exception.TokenExpiredException: Token Expired]
+2021-04-18 15:36:38.628 [http-nio-5000-exec-3] "GET /cms/admin/group/all HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 401 UNAUTHORIZED
+2021-04-18 15:36:38.634 [http-nio-5000-exec-2] "GET /cms/user/refresh HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/cms/user/refresh", parameters={}
+2021-04-18 15:36:38.634 [http-nio-5000-exec-2] "GET /cms/user/refresh HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.cms.UserController#getRefreshToken()
+2021-04-18 15:36:58.728 [http-nio-5000-exec-2] "GET /cms/user/refresh HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - ==>  Preparing: SELECT id,username,nickname,avatar,email,create_time,update_time,delete_time FROM lin_user WHERE id=? AND delete_time IS NULL
+2021-04-18 15:36:58.729 [http-nio-5000-exec-2] "GET /cms/user/refresh HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - ==> Parameters: 1(Integer)
+2021-04-18 15:36:58.807 [http-nio-5000-exec-2] "GET /cms/user/refresh HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - <==      Total: 1
+2021-04-18 15:36:58.874 [http-nio-5000-exec-2] "GET /cms/user/refresh HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-04-18 15:36:58.874 [http-nio-5000-exec-2] "GET /cms/user/refresh HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Tokens{accessToken='eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6MSwic2NvcGUiOiJsaW4iLCJ0eXB (truncated)...]
+2021-04-18 15:36:58.877 [http-nio-5000-exec-2] "GET /cms/user/refresh HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2021-04-18 15:37:01.817 [http-nio-5000-exec-5] "GET /cms/user/refresh HTTP/1.1" DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler io.github.talelin.latticy.common.exception.RestExceptionHandler#processException(Exception, HttpServletRequest, HttpServletResponse)
+2021-04-18 15:37:01.821 [http-nio-5000-exec-5] "GET /cms/user/refresh HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-04-18 15:37:01.822 [http-nio-5000-exec-5] "GET /cms/user/refresh HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [UnifyResponseVO(code=9999, message=服务器未知错误, request=GET /cms/user/refresh)]
+2021-04-18 15:37:01.823 [http-nio-5000-exec-5] "GET /cms/user/refresh HTTP/1.1" DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30070ms.
+### The error may exist in io/github/talelin/latticy/mapper/UserMapper.java (best guess)
+### The error may involve io.github.talelin.latticy.mapper.UserMapper.selectById
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30070ms.]
+2021-04-18 15:37:01.823 [http-nio-5000-exec-5] "GET /cms/user/refresh HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 500 INTERNAL_SERVER_ERROR

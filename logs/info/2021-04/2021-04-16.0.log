@@ -1,0 +1,21 @@
+2021-04-16 13:23:13.925 [background-preinit] "  " INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
+2021-04-16 13:23:13.956 [main] "  " INFO  io.github.talelin.latticy.LatticyApplication - Starting LatticyApplication on LAPTOP-GHF38DLF with PID 10964 (E:\hfuuCode\MedicineRec\target\classes started by 梦有心相伴 in E:\hfuuCode\MedicineRec)
+2021-04-16 13:23:13.957 [main] "  " INFO  io.github.talelin.latticy.LatticyApplication - The following profiles are active: dev
+2021-04-16 13:23:15.260 [main] "  " INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'commonConfiguration' of type [io.github.talelin.latticy.common.configuration.CommonConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-16 13:23:15.738 [main] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 5000 (http)
+2021-04-16 13:23:15.748 [main] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5000"]
+2021-04-16 13:23:15.749 [main] "  " INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-16 13:23:15.749 [main] "  " INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-04-16 13:23:15.751 [main] "  " INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.21] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2021-04-16 13:23:15.751 [main] "  " INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2021-04-16 13:23:15.752 [main] "  " INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-04-16 13:23:15.752 [main] "  " INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-04-16 13:23:15.801 [main] "  " INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2021-04-16 13:23:15.933 [main] "  " INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-16 13:23:15.933 [main] "  " INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1852 ms
+2021-04-16 13:23:16.342 [main] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-04-16 13:23:17.258 [main] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-04-16 13:23:19.370 [main] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-16 13:23:19.658 [main] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5000"]
+2021-04-16 13:23:19.680 [main] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 5000 (http) with context path ''
+2021-04-16 13:23:20.480 [main] "  " INFO  io.github.talelin.latticy.LatticyApplication - Started LatticyApplication in 7.242 seconds (JVM running for 9.181)

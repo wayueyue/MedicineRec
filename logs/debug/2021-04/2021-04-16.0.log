@@ -1,0 +1,34 @@
+2021-04-16 13:23:15.970 [main] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: mdc-access-servlet-filter urls=[/*] order=2147483647, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-04-16 13:23:15.973 [main] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2021-04-16 13:23:19.391 [main] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-04-16 13:23:19.465 [main] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 34 mappings in 'requestMappingHandlerMapping'
+2021-04-16 13:23:19.499 [main] "  " DEBUG o.s.web.servlet.config.annotation.WebMvcConfigurer - Default resource handling disabled
+2021-04-16 13:23:19.511 [main] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/assets/**] in 'resourceHandlerMapping'
+2021-04-16 13:23:19.523 [main] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-04-16 13:23:19.837 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-04-16 13:23:19.864 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 查询日志记录的用户(String), 日志(String)
+2021-04-16 13:23:19.981 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-04-16 13:23:19.984 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-04-16 13:23:19.984 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 查询所有日志(String), 日志(String)
+2021-04-16 13:23:20.021 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-04-16 13:23:20.022 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-04-16 13:23:20.023 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 搜索日志(String), 日志(String)
+2021-04-16 13:23:20.076 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-04-16 13:23:20.082 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-04-16 13:23:20.085 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 查询所有日志(String), 日志(String)
+2021-04-16 13:23:20.121 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-04-16 13:23:20.124 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-04-16 13:23:20.125 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 搜索日志(String), 日志(String)
+2021-04-16 13:23:20.241 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-04-16 13:23:20.242 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-04-16 13:23:20.243 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 删除图书(String), 图书(String)
+2021-04-16 13:23:20.275 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-04-16 13:23:20.276 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-04-16 13:23:20.277 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 查询日志记录的用户(String), 日志(String)
+2021-04-16 13:23:20.311 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-04-16 13:23:20.313 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-04-16 13:23:20.313 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 删除图书(String), 图书(String)
+2021-04-16 13:23:20.407 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-04-16 13:23:20.410 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectList - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL
+2021-04-16 13:23:20.410 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectList - ==> Parameters: 
+2021-04-16 13:23:20.473 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectList - <==      Total: 4
