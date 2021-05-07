@@ -29,7 +29,7 @@ public class CommendController {
 
 
     @PostMapping("/{symptom}")
-    public String commend(@RequestParam String symptom) {
+    public String commend(@PathVariable String symptom) {
         return commendService.commendPython(symptom);
     }
 

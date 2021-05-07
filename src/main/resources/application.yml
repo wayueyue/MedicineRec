@@ -12,6 +12,8 @@ spring:
   resources:
     # 关闭静态资源的映射
     add-mappings: false
+  main:
+    allow-bean-definition-overriding: true #当遇到同样名字的时候，是否允许覆盖注册
 
 
 mybatis-plus:
