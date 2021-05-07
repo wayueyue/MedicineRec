@@ -1,7 +1,5 @@
 package io.github.talelin.latticy.service.impl;
 
-import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
-import io.github.talelin.latticy.common.LocalUser;
 import io.github.talelin.latticy.dto.patient.CreateOrUpdatePatientDTO;
 import io.github.talelin.latticy.mapper.PatientMapper;
 import io.github.talelin.latticy.model.PatientDO;
@@ -14,8 +12,6 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.util.Arrays;
-import java.util.List;
 
 @Service
 public class CommendServiceImpl implements CommendService {
@@ -24,29 +20,11 @@ public class CommendServiceImpl implements CommendService {
 
     private final String DELIMITER = ",";
 
-    @Override
-    public int createPatient(CreateOrUpdatePatientDTO patient) {
-        PatientDO patientSelect = getPatientDO();
-        PatientDO patientDO;
-        if (patientSelect == null) {
-            patientDO = PatientDO.builder().name(patient.getName())
-                    .age(patient.getAge())
-                    .sex(patient.getSex())
-                    .symptom(patient.getSymptom()).build();
-            return patientMapper.insert(patientDO);
-        } else {
-            patientSelect.setName(patient.getName());
-            patientSelect.setAge(patient.getAge());
-            patientSelect.setSex(patient.getSex());
-            setSymptom(patient, patientSelect);
-            return patientMapper.updateById(patientSelect);
-        }
-
-    }
 
     /**
      * Set Symptom
-     * @param patient patient
+     * TODO zhangxilong 对于症状,的处理 待定 2021.0508 [2021.0515]
+     * @param patient       patient
      * @param patientSelect 已存在的patient
      */
     private void setSymptom(CreateOrUpdatePatientDTO patient, PatientDO patientSelect) {
@@ -57,31 +35,26 @@ public class CommendServiceImpl implements CommendService {
         }
     }
 
+
+    @Override
+    public PatientDO getPrescription(PatientDO patientDTO) {
+        //1.此处已经为,分隔的症状列表 前端处理
+        String symptom = patientDTO.getSymptom();
+        //2.调用Python获取处方 Python是否可以正常调用未知
+        String prescription= getPrescriptionByPython(symptom);
+        patientDTO.setPrescription(prescription);
+        //3.存储
+        patientMapper.insert(patientDTO);
+        return patientDTO;
+    }
+
+
     /**
-     * 获得PatientDo
-     * @return PatientDo
+     * 通过Python获得处方
+     * @param symptom 症状信息
+     * @return 处方prescription
      */
-    private PatientDO getPatientDO() {
-        Integer userId = LocalUser.getLocalUser().getId();
-        LambdaQueryWrapper<PatientDO> queryWrapper = new LambdaQueryWrapper<>();
-        queryWrapper.eq(PatientDO::getUserId, userId);
-        return patientMapper.selectOne(queryWrapper);
-    }
-
-    @Override
-    public List<String> listPatientSymptom() {
-        PatientDO patientSelect = getPatientDO();
-        String symptom = patientSelect.getSymptom();
-        return Arrays.asList(symptom.split(DELIMITER));
-    }
-
-    @Override
-    public String listPatientSymptom(Integer id) {
-        return null;
-    }
-
-    @Override
-    public String commendPython(String symptom) {
+    private String getPrescriptionByPython(String symptom) {
         try {
             String[] args = new String[]{"python", "E:\\Destop\\medicine\\he_20210425(3).py", symptom};
             Process proc = Runtime.getRuntime().exec(args);

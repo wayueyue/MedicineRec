@@ -1,0 +1,164 @@
+2021-05-07 23:06:47.724 [background-preinit] "  " INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
+2021-05-07 23:06:47.772 [main] "  " INFO  io.github.talelin.latticy.LatticyApplication - Starting LatticyApplication on alita with PID 112560 (E:\360MoveData\Users\16508\Desktop\hfuu毕业\code\MedicineRec\target\classes started by 16508 in E:\360MoveData\Users\16508\Desktop\hfuu毕业\code\MedicineRec)
+2021-05-07 23:06:47.772 [main] "  " INFO  io.github.talelin.latticy.LatticyApplication - The following profiles are active: dev
+2021-05-07 23:06:48.586 [main] "  " INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-05-07 23:08:08.310 [background-preinit] "  " INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
+2021-05-07 23:08:08.348 [main] "  " INFO  io.github.talelin.latticy.LatticyApplication - Starting LatticyApplication on alita with PID 112020 (E:\360MoveData\Users\16508\Desktop\hfuu毕业\code\MedicineRec\target\classes started by 16508 in E:\360MoveData\Users\16508\Desktop\hfuu毕业\code\MedicineRec)
+2021-05-07 23:08:08.349 [main] "  " INFO  io.github.talelin.latticy.LatticyApplication - The following profiles are active: dev
+2021-05-07 23:08:09.072 [main] "  " INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-05-07 23:09:17.097 [background-preinit] "  " INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
+2021-05-07 23:09:17.125 [main] "  " INFO  io.github.talelin.latticy.LatticyApplication - Starting LatticyApplication on alita with PID 111784 (E:\360MoveData\Users\16508\Desktop\hfuu毕业\code\MedicineRec\target\classes started by 16508 in E:\360MoveData\Users\16508\Desktop\hfuu毕业\code\MedicineRec)
+2021-05-07 23:09:17.126 [main] "  " INFO  io.github.talelin.latticy.LatticyApplication - The following profiles are active: dev
+2021-05-07 23:09:17.740 [main] "  " INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-05-07 23:11:13.893 [background-preinit] "  " INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
+2021-05-07 23:11:13.933 [main] "  " INFO  io.github.talelin.latticy.LatticyApplication - Starting LatticyApplication on alita with PID 112600 (E:\360MoveData\Users\16508\Desktop\hfuu毕业\code\MedicineRec\target\classes started by 16508 in E:\360MoveData\Users\16508\Desktop\hfuu毕业\code\MedicineRec)
+2021-05-07 23:11:13.934 [main] "  " INFO  io.github.talelin.latticy.LatticyApplication - The following profiles are active: dev
+2021-05-07 23:11:15.105 [main] "  " INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'commonConfiguration' of type [io.github.talelin.latticy.common.configuration.CommonConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-07 23:11:15.671 [main] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 5000 (http)
+2021-05-07 23:11:15.682 [main] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5000"]
+2021-05-07 23:11:15.683 [main] "  " INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-05-07 23:11:15.683 [main] "  " INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-05-07 23:11:15.685 [main] "  " INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-05-07 23:11:15.685 [main] "  " INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-07 23:11:15.685 [main] "  " INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-07 23:11:15.689 [main] "  " INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-05-07 23:11:15.851 [main] "  " INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-05-07 23:11:15.851 [main] "  " INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1861 ms
+2021-05-07 23:11:16.246 [main] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-05-07 23:11:16.443 [main] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-05-07 23:11:18.477 [main] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-07 23:11:19.052 [main] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5000"]
+2021-05-07 23:11:19.126 [main] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 5000 (http) with context path ''
+2021-05-07 23:11:19.613 [main] "  " INFO  io.github.talelin.latticy.LatticyApplication - Started LatticyApplication in 6.361 seconds (JVM running for 7.615)
+2021-05-07 23:27:08.391 [http-nio-5000-exec-2] "  " INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-07 23:27:08.391 [http-nio-5000-exec-2] "  " INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-05-07 23:27:08.421 [http-nio-5000-exec-2] "  " INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 30 ms
+2021-05-07 23:27:08.721 [http-nio-5000-exec-2] "OPTIONS /cms/user/login HTTP/1.1" INFO  i.g.t.l.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/cms/user/login] from: 127.0.0.1 costs: 190ms
+2021-05-07 23:27:29.983 [background-preinit] "  " INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
+2021-05-07 23:27:30.033 [main] "  " INFO  io.github.talelin.latticy.LatticyApplication - Starting LatticyApplication on alita with PID 112932 (E:\360MoveData\Users\16508\Desktop\hfuu毕业\code\MedicineRec\target\classes started by 16508 in E:\360MoveData\Users\16508\Desktop\hfuu毕业\code\MedicineRec)
+2021-05-07 23:27:30.035 [main] "  " INFO  io.github.talelin.latticy.LatticyApplication - The following profiles are active: dev
+2021-05-07 23:27:31.749 [main] "  " INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'commonConfiguration' of type [io.github.talelin.latticy.common.configuration.CommonConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-07 23:27:32.110 [main] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 5000 (http)
+2021-05-07 23:27:32.122 [main] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5000"]
+2021-05-07 23:27:32.123 [main] "  " INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-05-07 23:27:32.123 [main] "  " INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-05-07 23:27:32.126 [main] "  " INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-05-07 23:27:32.126 [main] "  " INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-07 23:27:32.127 [main] "  " INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-07 23:27:32.131 [main] "  " INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-05-07 23:27:32.270 [main] "  " INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-05-07 23:27:32.270 [main] "  " INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2168 ms
+2021-05-07 23:27:32.677 [main] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-05-07 23:27:32.932 [main] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-05-07 23:27:35.420 [main] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-07 23:27:35.982 [main] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5000"]
+2021-05-07 23:27:36.041 [main] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 5000 (http) with context path ''
+2021-05-07 23:27:36.613 [main] "  " INFO  io.github.talelin.latticy.LatticyApplication - Started LatticyApplication in 7.623 seconds (JVM running for 9.643)
+2021-05-07 23:27:41.602 [http-nio-5000-exec-1] "  " INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-07 23:27:41.602 [http-nio-5000-exec-1] "  " INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-05-07 23:27:41.622 [http-nio-5000-exec-1] "  " INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 20 ms
+2021-05-07 23:27:42.542 [http-nio-5000-exec-1] "POST /cms/user/login HTTP/1.1" INFO  i.g.t.l.common.interceptor.RequestLogInterceptor - [POST] -> [/cms/user/login] from: 127.0.0.1 costs: 834ms
+2021-05-07 23:27:42.557 [http-nio-5000-exec-3] "OPTIONS /cms/user/permissions HTTP/1.1" INFO  i.g.t.l.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/cms/user/permissions] from: 127.0.0.1 costs: 0ms
+2021-05-07 23:27:42.757 [http-nio-5000-exec-2] "GET /cms/user/permissions HTTP/1.1" INFO  i.g.t.l.common.interceptor.RequestLogInterceptor - [GET] -> [/cms/user/permissions] from: 127.0.0.1 costs: 122ms
+2021-05-07 23:27:58.234 [http-nio-5000-exec-4] "OPTIONS /cms/log/users HTTP/1.1" INFO  i.g.t.l.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/cms/log/users] from: 127.0.0.1 costs: 3ms
+2021-05-07 23:27:59.160 [http-nio-5000-exec-5] "GET /cms/log/users HTTP/1.1" INFO  i.g.t.l.common.interceptor.RequestLogInterceptor - [GET] -> [/cms/log/users] from: 127.0.0.1 costs: 855ms
+2021-05-07 23:27:59.180 [http-nio-5000-exec-6] "OPTIONS /cms/log HTTP/1.1" INFO  i.g.t.l.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/cms/log] from: 127.0.0.1 costs: 0ms
+2021-05-07 23:27:59.262 [http-nio-5000-exec-7] "GET /cms/log HTTP/1.1" INFO  i.g.t.l.common.interceptor.RequestLogInterceptor - [GET] -> [/cms/log] from: 127.0.0.1 costs: 24ms
+2021-05-07 23:28:06.333 [http-nio-5000-exec-10] "OPTIONS /v1/book HTTP/1.1" INFO  i.g.t.l.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/v1/book] from: 127.0.0.1 costs: 0ms
+2021-05-07 23:28:06.407 [http-nio-5000-exec-9] "GET /v1/book HTTP/1.1" INFO  i.g.t.l.common.interceptor.RequestLogInterceptor - [GET] -> [/v1/book] from: 127.0.0.1 costs: 62ms
+2021-05-07 23:28:43.222 [http-nio-5000-exec-1] "POST /v1/commend/ HTTP/1.1" INFO  i.g.t.l.common.interceptor.RequestLogInterceptor - [POST] -> [/v1/commend/] from: 0:0:0:0:0:0:0:1 costs: 122ms
+2021-05-07 23:32:14.516 [background-preinit] "  " INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
+2021-05-07 23:32:14.540 [main] "  " INFO  io.github.talelin.latticy.LatticyApplication - Starting LatticyApplication on alita with PID 105976 (E:\360MoveData\Users\16508\Desktop\hfuu毕业\code\MedicineRec\target\classes started by 16508 in E:\360MoveData\Users\16508\Desktop\hfuu毕业\code\MedicineRec)
+2021-05-07 23:32:14.541 [main] "  " INFO  io.github.talelin.latticy.LatticyApplication - The following profiles are active: dev
+2021-05-07 23:32:15.782 [main] "  " INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'commonConfiguration' of type [io.github.talelin.latticy.common.configuration.CommonConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-07 23:32:16.061 [main] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 5000 (http)
+2021-05-07 23:32:16.073 [main] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5000"]
+2021-05-07 23:32:16.073 [main] "  " INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-05-07 23:32:16.074 [main] "  " INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-05-07 23:32:16.076 [main] "  " INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-05-07 23:32:16.076 [main] "  " INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-07 23:32:16.076 [main] "  " INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-07 23:32:16.080 [main] "  " INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-05-07 23:32:16.202 [main] "  " INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-05-07 23:32:16.202 [main] "  " INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1598 ms
+2021-05-07 23:32:16.591 [main] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-05-07 23:32:16.782 [main] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-05-07 23:32:18.923 [main] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-07 23:32:19.464 [main] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5000"]
+2021-05-07 23:32:19.518 [main] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 5000 (http) with context path ''
+2021-05-07 23:32:19.994 [main] "  " INFO  io.github.talelin.latticy.LatticyApplication - Started LatticyApplication in 6.117 seconds (JVM running for 7.46)
+2021-05-07 23:34:43.659 [http-nio-5000-exec-2] "  " INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-07 23:34:43.659 [http-nio-5000-exec-2] "  " INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-05-07 23:34:43.681 [http-nio-5000-exec-2] "  " INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 21 ms
+2021-05-07 23:34:44.083 [http-nio-5000-exec-2] "GET /v1/book HTTP/1.1" INFO  i.g.t.l.common.interceptor.RequestLogInterceptor - [GET] -> [/v1/book] from: 127.0.0.1 costs: 311ms
+2021-05-07 23:35:02.038 [http-nio-5000-exec-4] "POST /v1/commend/list HTTP/1.1" INFO  i.g.t.l.common.interceptor.RequestLogInterceptor - [POST] -> [/v1/commend/list] from: 0:0:0:0:0:0:0:1 costs: 26ms
+2021-05-07 23:35:34.205 [background-preinit] "  " INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
+2021-05-07 23:35:34.224 [main] "  " INFO  io.github.talelin.latticy.LatticyApplication - Starting LatticyApplication on alita with PID 40020 (E:\360MoveData\Users\16508\Desktop\hfuu毕业\code\MedicineRec\target\classes started by 16508 in E:\360MoveData\Users\16508\Desktop\hfuu毕业\code\MedicineRec)
+2021-05-07 23:35:34.224 [main] "  " INFO  io.github.talelin.latticy.LatticyApplication - The following profiles are active: dev
+2021-05-07 23:35:35.359 [main] "  " INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'commonConfiguration' of type [io.github.talelin.latticy.common.configuration.CommonConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-07 23:35:35.640 [main] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 5000 (http)
+2021-05-07 23:35:35.651 [main] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5000"]
+2021-05-07 23:35:35.652 [main] "  " INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-05-07 23:35:35.652 [main] "  " INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-05-07 23:35:35.654 [main] "  " INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-05-07 23:35:35.654 [main] "  " INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-07 23:35:35.655 [main] "  " INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-07 23:35:35.658 [main] "  " INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-05-07 23:35:35.773 [main] "  " INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-05-07 23:35:35.773 [main] "  " INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1496 ms
+2021-05-07 23:35:36.159 [main] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-05-07 23:35:36.358 [main] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-05-07 23:35:38.333 [main] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-07 23:35:38.803 [main] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5000"]
+2021-05-07 23:35:38.857 [main] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 5000 (http) with context path ''
+2021-05-07 23:35:39.304 [main] "  " INFO  io.github.talelin.latticy.LatticyApplication - Started LatticyApplication in 5.822 seconds (JVM running for 7.905)
+2021-05-07 23:35:42.658 [http-nio-5000-exec-1] "  " INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-07 23:35:42.659 [http-nio-5000-exec-1] "  " INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-05-07 23:35:42.674 [http-nio-5000-exec-1] "  " INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 15 ms
+2021-05-07 23:35:42.942 [http-nio-5000-exec-1] "POST /v1/commend HTTP/1.1" INFO  i.g.t.l.common.interceptor.RequestLogInterceptor - [POST] -> [/v1/commend] from: 0:0:0:0:0:0:0:1 costs: 239ms
+2021-05-07 23:36:24.595 [http-nio-5000-exec-3] "POST /v1/commend HTTP/1.1" INFO  i.g.t.l.common.interceptor.RequestLogInterceptor - [POST] -> [/v1/commend] from: 0:0:0:0:0:0:0:1 costs: 13111ms
+2021-05-07 23:36:54.037 [background-preinit] "  " INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
+2021-05-07 23:36:54.068 [main] "  " INFO  io.github.talelin.latticy.LatticyApplication - Starting LatticyApplication on alita with PID 109236 (E:\360MoveData\Users\16508\Desktop\hfuu毕业\code\MedicineRec\target\classes started by 16508 in E:\360MoveData\Users\16508\Desktop\hfuu毕业\code\MedicineRec)
+2021-05-07 23:36:54.069 [main] "  " INFO  io.github.talelin.latticy.LatticyApplication - The following profiles are active: dev
+2021-05-07 23:36:55.354 [main] "  " INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'commonConfiguration' of type [io.github.talelin.latticy.common.configuration.CommonConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-07 23:36:55.739 [main] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 5000 (http)
+2021-05-07 23:36:55.750 [main] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5000"]
+2021-05-07 23:36:55.751 [main] "  " INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-05-07 23:36:55.751 [main] "  " INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-05-07 23:36:55.753 [main] "  " INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-05-07 23:36:55.754 [main] "  " INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-07 23:36:55.754 [main] "  " INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-07 23:36:55.757 [main] "  " INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-05-07 23:36:55.873 [main] "  " INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-05-07 23:36:55.873 [main] "  " INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1734 ms
+2021-05-07 23:36:56.319 [main] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-05-07 23:36:56.558 [main] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-05-07 23:36:59.126 [main] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-07 23:36:59.591 [main] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5000"]
+2021-05-07 23:36:59.647 [main] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 5000 (http) with context path ''
+2021-05-07 23:37:00.106 [main] "  " INFO  io.github.talelin.latticy.LatticyApplication - Started LatticyApplication in 6.754 seconds (JVM running for 8.536)
+2021-05-07 23:37:06.349 [http-nio-5000-exec-1] "  " INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-07 23:37:06.349 [http-nio-5000-exec-1] "  " INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-05-07 23:37:06.363 [http-nio-5000-exec-1] "  " INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 14 ms
+2021-05-07 23:37:12.579 [http-nio-5000-exec-1] "POST /v1/commend HTTP/1.1" INFO  i.g.t.l.common.interceptor.RequestLogInterceptor - [POST] -> [/v1/commend] from: 0:0:0:0:0:0:0:1 costs: 6187ms
+2021-05-07 23:37:39.819 [http-nio-5000-exec-4] "OPTIONS /cms/admin/users HTTP/1.1" INFO  i.g.t.l.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/cms/admin/users] from: 127.0.0.1 costs: 35ms
+2021-05-07 23:37:40.449 [http-nio-5000-exec-3] "GET /cms/admin/users HTTP/1.1" INFO  i.g.t.l.common.interceptor.RequestLogInterceptor - [GET] -> [/cms/admin/users] from: 127.0.0.1 costs: 382ms
+2021-05-07 23:37:40.498 [http-nio-5000-exec-5] "OPTIONS /cms/admin/group/all HTTP/1.1" INFO  i.g.t.l.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/cms/admin/group/all] from: 127.0.0.1 costs: 0ms
+2021-05-07 23:37:40.596 [http-nio-5000-exec-6] "GET /cms/admin/group/all HTTP/1.1" INFO  i.g.t.l.common.interceptor.RequestLogInterceptor - [GET] -> [/cms/admin/group/all] from: 127.0.0.1 costs: 32ms
+2021-05-07 23:37:41.964 [http-nio-5000-exec-7] "GET /cms/admin/group/all HTTP/1.1" INFO  i.g.t.l.common.interceptor.RequestLogInterceptor - [GET] -> [/cms/admin/group/all] from: 127.0.0.1 costs: 37ms
+2021-05-07 23:37:53.432 [http-nio-5000-exec-8] "OPTIONS /cms/user/register HTTP/1.1" INFO  i.g.t.l.common.interceptor.RequestLogInterceptor - [OPTIONS] -> [/cms/user/register] from: 127.0.0.1 costs: 0ms
+2021-05-07 23:37:54.037 [http-nio-5000-exec-9] "POST /cms/user/register HTTP/1.1" INFO  i.g.t.l.common.interceptor.RequestLogInterceptor - [POST] -> [/cms/user/register] from: 127.0.0.1 costs: 527ms
+2021-05-07 23:38:08.112 [http-nio-5000-exec-10] "POST /cms/user/login HTTP/1.1" INFO  i.g.t.l.common.interceptor.RequestLogInterceptor - [POST] -> [/cms/user/login] from: 127.0.0.1 costs: 334ms
+2021-05-07 23:38:08.212 [http-nio-5000-exec-2] "GET /cms/user/permissions HTTP/1.1" INFO  i.g.t.l.common.interceptor.RequestLogInterceptor - [GET] -> [/cms/user/permissions] from: 127.0.0.1 costs: 76ms
+2021-05-07 23:38:15.968 [http-nio-5000-exec-1] "GET /v1/book HTTP/1.1" INFO  i.g.t.l.common.interceptor.RequestLogInterceptor - [GET] -> [/v1/book] from: 127.0.0.1 costs: 35ms
+2021-05-07 23:38:48.055 [http-nio-5000-exec-4] "POST /v1/commend HTTP/1.1" INFO  i.g.t.l.common.interceptor.RequestLogInterceptor - [POST] -> [/v1/commend] from: 0:0:0:0:0:0:0:1 costs: 19739ms
+2021-05-07 23:40:33.324 [http-nio-5000-exec-6] "GET /v1/book HTTP/1.1" INFO  i.g.t.l.common.interceptor.RequestLogInterceptor - [GET] -> [/v1/book] from: 127.0.0.1 costs: 22ms
+2021-05-07 23:42:13.527 [http-nio-5000-exec-9] "POST /v1/commend HTTP/1.1" INFO  i.g.t.l.common.interceptor.RequestLogInterceptor - [POST] -> [/v1/commend] from: 0:0:0:0:0:0:0:1 costs: 37555ms
+2021-05-07 23:45:49.494 [http-nio-5000-exec-10] "POST /v1/commend HTTP/1.1" INFO  i.g.t.l.common.interceptor.RequestLogInterceptor - [POST] -> [/v1/commend] from: 0:0:0:0:0:0:0:1 costs: 213770ms
+2021-05-07 23:54:42.557 [http-nio-5000-exec-3] "POST /v1/commend HTTP/1.1" INFO  i.g.t.l.common.interceptor.RequestLogInterceptor - [POST] -> [/v1/commend] from: 0:0:0:0:0:0:0:1 costs: 109668ms

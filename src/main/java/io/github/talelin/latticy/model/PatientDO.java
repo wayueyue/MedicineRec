@@ -32,6 +32,7 @@ public class PatientDO extends BaseModel implements Serializable {
 
     private String symptom;
 
-    private Integer userId;
+
+    private String prescription;
 
 }

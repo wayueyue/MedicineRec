@@ -1,0 +1,853 @@
+2021-05-08 00:01:05.342 [main] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: mdc-access-servlet-filter urls=[/*] order=2147483647, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-05-08 00:01:05.343 [main] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2021-05-08 00:01:08.192 [main] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-05-08 00:01:08.308 [main] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 37 mappings in 'requestMappingHandlerMapping'
+2021-05-08 00:01:08.341 [main] "  " DEBUG o.s.web.servlet.config.annotation.WebMvcConfigurer - Default resource handling disabled
+2021-05-08 00:01:08.359 [main] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/assets/**] in 'resourceHandlerMapping'
+2021-05-08 00:01:08.377 [main] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-05-08 00:01:08.859 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:01:08.895 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鏌ヨ鏃ュ織璁板綍鐨勭敤鎴�(String), 鏃ュ織(String)
+2021-05-08 00:01:08.937 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:01:08.940 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:01:08.941 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鏌ヨ鎵�鏈夋棩蹇�(String), 鏃ュ織(String)
+2021-05-08 00:01:08.948 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:01:08.949 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:01:08.950 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鎼滅储鏃ュ織(String), 鏃ュ織(String)
+2021-05-08 00:01:08.956 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:01:08.959 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:01:08.960 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鍒犻櫎鍥句功(String), 鍥句功(String)
+2021-05-08 00:01:08.967 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:01:08.969 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:01:08.969 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鏌ヨ鎵�鏈夋棩蹇�(String), 鏃ュ織(String)
+2021-05-08 00:01:08.975 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:01:08.977 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:01:08.977 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鏌ヨ鏃ュ織璁板綍鐨勭敤鎴�(String), 鏃ュ織(String)
+2021-05-08 00:01:08.985 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:01:08.987 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:01:08.987 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鎼滅储鏃ュ織(String), 鏃ュ織(String)
+2021-05-08 00:01:08.993 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:01:08.995 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:01:08.996 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鍒犻櫎鍥句功(String), 鍥句功(String)
+2021-05-08 00:01:09.006 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:01:09.010 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectList - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL
+2021-05-08 00:01:09.011 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectList - ==> Parameters: 
+2021-05-08 00:01:09.025 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectList - <==      Total: 8
+2021-05-08 00:01:09.030 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE lin_permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2021-05-08 00:01:09.033 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==> Parameters: 查询所有日志(String), 日志(String), false(Boolean), 2021-04-03 15:26:57.576(Timestamp), 2021-04-03 15:26:57.576(Timestamp), 1(Integer)
+2021-05-08 00:01:09.044 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - <==    Updates: 1
+2021-05-08 00:01:09.046 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE lin_permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2021-05-08 00:01:09.046 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==> Parameters: 删除图书(String), 图书(String), false(Boolean), 2021-04-03 15:26:57.594(Timestamp), 2021-04-03 15:26:57.594(Timestamp), 2(Integer)
+2021-05-08 00:01:09.058 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - <==    Updates: 1
+2021-05-08 00:01:09.059 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE lin_permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2021-05-08 00:01:09.060 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==> Parameters: 搜索日志(String), 日志(String), false(Boolean), 2021-04-03 15:26:57.625(Timestamp), 2021-04-03 15:26:57.625(Timestamp), 3(Integer)
+2021-05-08 00:01:09.072 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - <==    Updates: 1
+2021-05-08 00:01:09.074 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE lin_permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2021-05-08 00:01:09.074 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==> Parameters: 查询日志记录的用户(String), 日志(String), false(Boolean), 2021-04-03 15:26:57.637(Timestamp), 2021-04-03 15:26:57.637(Timestamp), 4(Integer)
+2021-05-08 00:01:09.087 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - <==    Updates: 1
+2021-05-08 00:01:15.498 [http-nio-5000-exec-2] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2021-05-08 00:01:15.513 [http-nio-5000-exec-2] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-05-08 00:01:15.534 [http-nio-5000-exec-2] "POST /v1/commend HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/v1/commend", parameters={}
+2021-05-08 00:01:15.538 [http-nio-5000-exec-2] "POST /v1/commend HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.v1.CommendController#createPatient(CreateOrUpdatePatientDTO)
+2021-05-08 00:01:15.665 [http-nio-5000-exec-2] "POST /v1/commend HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [CreateOrUpdatePatientDTO(name=zxl, age=11, sex=man, symptom=发热)]
+2021-05-08 00:03:30.283 [http-nio-5000-exec-2] "POST /v1/commend HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.PatientMapper.selectOne - ==>  Preparing: SELECT id,name,age,sex,symptom,user_id,create_time,update_time,delete_time FROM t_patient WHERE delete_time IS NULL
+2021-05-08 00:03:30.284 [http-nio-5000-exec-2] "POST /v1/commend HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.PatientMapper.selectOne - ==> Parameters: 
+2021-05-08 00:03:30.383 [http-nio-5000-exec-2] "POST /v1/commend HTTP/1.1" DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler io.github.talelin.latticy.common.exception.RestExceptionHandler#processException(Exception, HttpServletRequest, HttpServletResponse)
+2021-05-08 00:03:30.424 [http-nio-5000-exec-2] "POST /v1/commend HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-05-08 00:03:30.426 [http-nio-5000-exec-2] "POST /v1/commend HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [UnifyResponseVO(code=9999, message=服务器未知错误, request=POST /v1/commend)]
+2021-05-08 00:03:30.460 [http-nio-5000-exec-2] "POST /v1/commend HTTP/1.1" DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'user_id' in 'field list'
+### The error may exist in io/github/talelin/latticy/mapper/PatientMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT  id,name,age,sex,symptom,user_id,create_time,update_time,delete_time  FROM t_patient   WHERE  delete_time IS NULL
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'user_id' in 'field list'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'user_id' in 'field list']
+2021-05-08 00:03:30.466 [http-nio-5000-exec-2] "POST /v1/commend HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 500 INTERNAL_SERVER_ERROR
+2021-05-08 00:05:19.159 [main] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: springSecurityFilterChain urls=[/*] order=-100, mdc-access-servlet-filter urls=[/*] order=2147483647, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-05-08 00:05:19.160 [main] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2021-05-08 00:05:21.724 [main] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-05-08 00:05:21.838 [main] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 37 mappings in 'requestMappingHandlerMapping'
+2021-05-08 00:05:21.871 [main] "  " DEBUG o.s.web.servlet.config.annotation.WebMvcConfigurer - Default resource handling disabled
+2021-05-08 00:05:21.891 [main] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/assets/**] in 'resourceHandlerMapping'
+2021-05-08 00:05:21.909 [main] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-05-08 00:05:22.729 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:05:22.770 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鏌ヨ鏃ュ織璁板綍鐨勭敤鎴�(String), 鏃ュ織(String)
+2021-05-08 00:05:22.818 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:05:22.821 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:05:22.821 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鏌ヨ鎵�鏈夋棩蹇�(String), 鏃ュ織(String)
+2021-05-08 00:05:22.831 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:05:22.833 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:05:22.833 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鎼滅储鏃ュ織(String), 鏃ュ織(String)
+2021-05-08 00:05:22.844 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:05:22.846 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:05:22.848 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鏌ヨ鎵�鏈夋棩蹇�(String), 鏃ュ織(String)
+2021-05-08 00:05:22.857 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:05:22.859 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:05:22.859 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鍒犻櫎鍥句功(String), 鍥句功(String)
+2021-05-08 00:05:22.868 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:05:22.870 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:05:22.870 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鎼滅储鏃ュ織(String), 鏃ュ織(String)
+2021-05-08 00:05:22.882 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:05:22.884 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:05:22.884 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鏌ヨ鏃ュ織璁板綍鐨勭敤鎴�(String), 鏃ュ織(String)
+2021-05-08 00:05:22.894 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:05:22.896 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:05:22.898 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鍒犻櫎鍥句功(String), 鍥句功(String)
+2021-05-08 00:05:22.911 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:05:22.915 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectList - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL
+2021-05-08 00:05:22.915 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectList - ==> Parameters: 
+2021-05-08 00:05:22.932 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectList - <==      Total: 8
+2021-05-08 00:05:22.938 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE lin_permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2021-05-08 00:05:22.941 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==> Parameters: 查询所有日志(String), 日志(String), false(Boolean), 2021-04-03 15:26:57.576(Timestamp), 2021-04-03 15:26:57.576(Timestamp), 1(Integer)
+2021-05-08 00:05:22.959 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - <==    Updates: 1
+2021-05-08 00:05:22.960 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE lin_permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2021-05-08 00:05:22.960 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==> Parameters: 删除图书(String), 图书(String), false(Boolean), 2021-04-03 15:26:57.594(Timestamp), 2021-04-03 15:26:57.594(Timestamp), 2(Integer)
+2021-05-08 00:05:22.978 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - <==    Updates: 1
+2021-05-08 00:05:22.979 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE lin_permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2021-05-08 00:05:22.980 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==> Parameters: 搜索日志(String), 日志(String), false(Boolean), 2021-04-03 15:26:57.625(Timestamp), 2021-04-03 15:26:57.625(Timestamp), 3(Integer)
+2021-05-08 00:05:22.999 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - <==    Updates: 1
+2021-05-08 00:05:23.000 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE lin_permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2021-05-08 00:05:23.001 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==> Parameters: 查询日志记录的用户(String), 日志(String), false(Boolean), 2021-04-03 15:26:57.637(Timestamp), 2021-04-03 15:26:57.637(Timestamp), 4(Integer)
+2021-05-08 00:05:23.017 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - <==    Updates: 1
+2021-05-08 00:05:27.407 [http-nio-5000-exec-1] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2021-05-08 00:05:27.422 [http-nio-5000-exec-1] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-05-08 00:06:28.875 [main] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: springSecurityFilterChain urls=[/*] order=-100, mdc-access-servlet-filter urls=[/*] order=2147483647, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-05-08 00:06:28.876 [main] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2021-05-08 00:06:31.641 [main] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-05-08 00:06:31.770 [main] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 37 mappings in 'requestMappingHandlerMapping'
+2021-05-08 00:06:31.800 [main] "  " DEBUG o.s.web.servlet.config.annotation.WebMvcConfigurer - Default resource handling disabled
+2021-05-08 00:06:31.817 [main] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/assets/**] in 'resourceHandlerMapping'
+2021-05-08 00:06:31.834 [main] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-05-08 00:06:32.634 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:06:32.664 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鏌ヨ鏃ュ織璁板綍鐨勭敤鎴�(String), 鏃ュ織(String)
+2021-05-08 00:06:32.705 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:06:32.709 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:06:32.710 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鏌ヨ鎵�鏈夋棩蹇�(String), 鏃ュ織(String)
+2021-05-08 00:06:32.717 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:06:32.720 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:06:32.720 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鎼滅储鏃ュ織(String), 鏃ュ織(String)
+2021-05-08 00:06:32.727 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:06:32.730 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:06:32.731 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鏌ヨ鎵�鏈夋棩蹇�(String), 鏃ュ織(String)
+2021-05-08 00:06:32.739 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:06:32.740 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:06:32.741 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鎼滅储鏃ュ織(String), 鏃ュ織(String)
+2021-05-08 00:06:32.748 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:06:32.750 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:06:32.750 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鏌ヨ鏃ュ織璁板綍鐨勭敤鎴�(String), 鏃ュ織(String)
+2021-05-08 00:06:32.759 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:06:32.761 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:06:32.761 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鍒犻櫎鍥句功(String), 鍥句功(String)
+2021-05-08 00:06:32.769 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:06:32.770 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:06:32.771 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鍒犻櫎鍥句功(String), 鍥句功(String)
+2021-05-08 00:06:32.780 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:06:32.785 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectList - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL
+2021-05-08 00:06:32.785 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectList - ==> Parameters: 
+2021-05-08 00:06:32.800 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectList - <==      Total: 8
+2021-05-08 00:06:32.806 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE lin_permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2021-05-08 00:06:32.809 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==> Parameters: 查询所有日志(String), 日志(String), false(Boolean), 2021-04-03 15:26:57.576(Timestamp), 2021-04-03 15:26:57.576(Timestamp), 1(Integer)
+2021-05-08 00:06:32.822 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - <==    Updates: 1
+2021-05-08 00:06:32.824 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE lin_permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2021-05-08 00:06:32.824 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==> Parameters: 删除图书(String), 图书(String), false(Boolean), 2021-04-03 15:26:57.594(Timestamp), 2021-04-03 15:26:57.594(Timestamp), 2(Integer)
+2021-05-08 00:06:32.838 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - <==    Updates: 1
+2021-05-08 00:06:32.839 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE lin_permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2021-05-08 00:06:32.840 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==> Parameters: 搜索日志(String), 日志(String), false(Boolean), 2021-04-03 15:26:57.625(Timestamp), 2021-04-03 15:26:57.625(Timestamp), 3(Integer)
+2021-05-08 00:06:32.854 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - <==    Updates: 1
+2021-05-08 00:06:32.856 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE lin_permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2021-05-08 00:06:32.856 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==> Parameters: 查询日志记录的用户(String), 日志(String), false(Boolean), 2021-04-03 15:26:57.637(Timestamp), 2021-04-03 15:26:57.637(Timestamp), 4(Integer)
+2021-05-08 00:06:32.870 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - <==    Updates: 1
+2021-05-08 00:06:47.029 [http-nio-5000-exec-1] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2021-05-08 00:06:47.041 [http-nio-5000-exec-1] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-05-08 00:08:05.054 [main] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: springSecurityFilterChain urls=[/*] order=-100, mdc-access-servlet-filter urls=[/*] order=2147483647, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-05-08 00:08:05.055 [main] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2021-05-08 00:08:25.316 [main] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-05-08 00:08:25.381 [main] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 37 mappings in 'requestMappingHandlerMapping'
+2021-05-08 00:08:25.406 [main] "  " DEBUG o.s.web.servlet.config.annotation.WebMvcConfigurer - Default resource handling disabled
+2021-05-08 00:08:25.417 [main] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/assets/**] in 'resourceHandlerMapping'
+2021-05-08 00:08:25.428 [main] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-05-08 00:08:26.001 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:08:26.025 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鏌ヨ鎵�鏈夋棩蹇�(String), 鏃ュ織(String)
+2021-05-08 00:08:26.061 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:08:26.063 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:08:26.064 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鎼滅储鏃ュ織(String), 鏃ュ織(String)
+2021-05-08 00:08:26.074 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:08:26.076 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:08:26.077 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鍒犻櫎鍥句功(String), 鍥句功(String)
+2021-05-08 00:08:26.087 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:08:26.089 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:08:26.090 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鏌ヨ鎵�鏈夋棩蹇�(String), 鏃ュ織(String)
+2021-05-08 00:08:26.100 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:08:26.102 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:08:26.102 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鏌ヨ鏃ュ織璁板綍鐨勭敤鎴�(String), 鏃ュ織(String)
+2021-05-08 00:08:26.112 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:08:26.114 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:08:26.114 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鏌ヨ鏃ュ織璁板綍鐨勭敤鎴�(String), 鏃ュ織(String)
+2021-05-08 00:08:26.124 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:08:26.125 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:08:26.126 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鎼滅储鏃ュ織(String), 鏃ュ織(String)
+2021-05-08 00:08:26.140 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:08:26.142 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:08:26.143 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鍒犻櫎鍥句功(String), 鍥句功(String)
+2021-05-08 00:08:26.153 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:08:26.157 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectList - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL
+2021-05-08 00:08:26.157 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectList - ==> Parameters: 
+2021-05-08 00:08:26.172 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectList - <==      Total: 8
+2021-05-08 00:08:26.176 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE lin_permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2021-05-08 00:08:26.178 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==> Parameters: 查询所有日志(String), 日志(String), false(Boolean), 2021-04-03 15:26:57.576(Timestamp), 2021-04-03 15:26:57.576(Timestamp), 1(Integer)
+2021-05-08 00:08:26.208 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - <==    Updates: 1
+2021-05-08 00:08:26.209 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE lin_permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2021-05-08 00:08:26.210 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==> Parameters: 删除图书(String), 图书(String), false(Boolean), 2021-04-03 15:26:57.594(Timestamp), 2021-04-03 15:26:57.594(Timestamp), 2(Integer)
+2021-05-08 00:08:26.234 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - <==    Updates: 1
+2021-05-08 00:08:26.235 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE lin_permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2021-05-08 00:08:26.236 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==> Parameters: 搜索日志(String), 日志(String), false(Boolean), 2021-04-03 15:26:57.625(Timestamp), 2021-04-03 15:26:57.625(Timestamp), 3(Integer)
+2021-05-08 00:08:26.262 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - <==    Updates: 1
+2021-05-08 00:08:26.263 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE lin_permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2021-05-08 00:08:26.263 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==> Parameters: 查询日志记录的用户(String), 日志(String), false(Boolean), 2021-04-03 15:26:57.637(Timestamp), 2021-04-03 15:26:57.637(Timestamp), 4(Integer)
+2021-05-08 00:08:26.285 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - <==    Updates: 1
+2021-05-08 00:08:41.069 [http-nio-5000-exec-1] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2021-05-08 00:08:41.087 [http-nio-5000-exec-1] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-05-08 00:09:35.989 [main] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: springSecurityFilterChain urls=[/*] order=-100, mdc-access-servlet-filter urls=[/*] order=2147483647, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-05-08 00:09:35.990 [main] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2021-05-08 00:09:50.744 [main] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-05-08 00:09:50.811 [main] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 37 mappings in 'requestMappingHandlerMapping'
+2021-05-08 00:09:50.836 [main] "  " DEBUG o.s.web.servlet.config.annotation.WebMvcConfigurer - Default resource handling disabled
+2021-05-08 00:09:50.848 [main] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/assets/**] in 'resourceHandlerMapping'
+2021-05-08 00:09:50.859 [main] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-05-08 00:09:51.347 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:09:51.371 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鏌ヨ鎵�鏈夋棩蹇�(String), 鏃ュ織(String)
+2021-05-08 00:09:51.400 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:09:51.403 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:09:51.403 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鎼滅储鏃ュ織(String), 鏃ュ織(String)
+2021-05-08 00:09:51.416 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:09:51.418 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:09:51.419 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鍒犻櫎鍥句功(String), 鍥句功(String)
+2021-05-08 00:09:51.429 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:09:51.431 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:09:51.432 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鎼滅储鏃ュ織(String), 鏃ュ織(String)
+2021-05-08 00:09:51.443 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:09:51.444 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:09:51.444 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鏌ヨ鏃ュ織璁板綍鐨勭敤鎴�(String), 鏃ュ織(String)
+2021-05-08 00:09:51.455 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:09:51.456 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:09:51.457 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鏌ヨ鏃ュ織璁板綍鐨勭敤鎴�(String), 鏃ュ織(String)
+2021-05-08 00:09:51.468 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:09:51.470 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:09:51.471 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鏌ヨ鎵�鏈夋棩蹇�(String), 鏃ュ織(String)
+2021-05-08 00:09:51.481 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:09:51.483 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:09:51.484 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鍒犻櫎鍥句功(String), 鍥句功(String)
+2021-05-08 00:09:51.495 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:09:51.500 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectList - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL
+2021-05-08 00:09:51.500 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectList - ==> Parameters: 
+2021-05-08 00:09:51.513 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectList - <==      Total: 8
+2021-05-08 00:09:51.519 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE lin_permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2021-05-08 00:09:51.522 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==> Parameters: 查询所有日志(String), 日志(String), false(Boolean), 2021-04-03 15:26:57.576(Timestamp), 2021-04-03 15:26:57.576(Timestamp), 1(Integer)
+2021-05-08 00:09:51.541 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - <==    Updates: 1
+2021-05-08 00:09:51.542 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE lin_permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2021-05-08 00:09:51.542 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==> Parameters: 删除图书(String), 图书(String), false(Boolean), 2021-04-03 15:26:57.594(Timestamp), 2021-04-03 15:26:57.594(Timestamp), 2(Integer)
+2021-05-08 00:09:51.561 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - <==    Updates: 1
+2021-05-08 00:09:51.563 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE lin_permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2021-05-08 00:09:51.566 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==> Parameters: 搜索日志(String), 日志(String), false(Boolean), 2021-04-03 15:26:57.625(Timestamp), 2021-04-03 15:26:57.625(Timestamp), 3(Integer)
+2021-05-08 00:09:51.584 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - <==    Updates: 1
+2021-05-08 00:09:51.585 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE lin_permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2021-05-08 00:09:51.586 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==> Parameters: 查询日志记录的用户(String), 日志(String), false(Boolean), 2021-04-03 15:26:57.637(Timestamp), 2021-04-03 15:26:57.637(Timestamp), 4(Integer)
+2021-05-08 00:09:51.604 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - <==    Updates: 1
+2021-05-08 00:10:00.478 [http-nio-5000-exec-3] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2021-05-08 00:10:00.487 [http-nio-5000-exec-3] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-05-08 00:10:54.118 [main] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: springSecurityFilterChain urls=[/*] order=-100, mdc-access-servlet-filter urls=[/*] order=2147483647, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-05-08 00:10:54.119 [main] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2021-05-08 00:10:56.379 [main] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-05-08 00:10:56.499 [main] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 37 mappings in 'requestMappingHandlerMapping'
+2021-05-08 00:10:56.530 [main] "  " DEBUG o.s.web.servlet.config.annotation.WebMvcConfigurer - Default resource handling disabled
+2021-05-08 00:10:56.544 [main] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/assets/**] in 'resourceHandlerMapping'
+2021-05-08 00:10:56.558 [main] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-05-08 00:10:57.187 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:10:57.208 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鏌ヨ鎵�鏈夋棩蹇�(String), 鏃ュ織(String)
+2021-05-08 00:10:57.235 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:10:57.237 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:10:57.238 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鎼滅储鏃ュ織(String), 鏃ュ織(String)
+2021-05-08 00:10:57.244 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:10:57.246 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:10:57.246 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鏌ヨ鏃ュ織璁板綍鐨勭敤鎴�(String), 鏃ュ織(String)
+2021-05-08 00:10:57.255 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:10:57.257 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:10:57.258 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鏌ヨ鏃ュ織璁板綍鐨勭敤鎴�(String), 鏃ュ織(String)
+2021-05-08 00:10:57.265 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:10:57.266 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:10:57.267 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鍒犻櫎鍥句功(String), 鍥句功(String)
+2021-05-08 00:10:57.273 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:10:57.275 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:10:57.275 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鏌ヨ鎵�鏈夋棩蹇�(String), 鏃ュ織(String)
+2021-05-08 00:10:57.283 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:10:57.285 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:10:57.286 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鎼滅储鏃ュ織(String), 鏃ュ織(String)
+2021-05-08 00:10:57.295 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:10:57.296 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:10:57.297 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鍒犻櫎鍥句功(String), 鍥句功(String)
+2021-05-08 00:10:57.306 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:10:57.310 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectList - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL
+2021-05-08 00:10:57.310 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectList - ==> Parameters: 
+2021-05-08 00:10:57.322 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectList - <==      Total: 8
+2021-05-08 00:10:57.331 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE lin_permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2021-05-08 00:10:57.334 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==> Parameters: 查询所有日志(String), 日志(String), false(Boolean), 2021-04-03 15:26:57.576(Timestamp), 2021-04-03 15:26:57.576(Timestamp), 1(Integer)
+2021-05-08 00:10:57.352 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - <==    Updates: 1
+2021-05-08 00:10:57.354 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE lin_permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2021-05-08 00:10:57.354 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==> Parameters: 删除图书(String), 图书(String), false(Boolean), 2021-04-03 15:26:57.594(Timestamp), 2021-04-03 15:26:57.594(Timestamp), 2(Integer)
+2021-05-08 00:10:57.367 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - <==    Updates: 1
+2021-05-08 00:10:57.368 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE lin_permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2021-05-08 00:10:57.369 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==> Parameters: 搜索日志(String), 日志(String), false(Boolean), 2021-04-03 15:26:57.625(Timestamp), 2021-04-03 15:26:57.625(Timestamp), 3(Integer)
+2021-05-08 00:10:57.387 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - <==    Updates: 1
+2021-05-08 00:10:57.389 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE lin_permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2021-05-08 00:10:57.389 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==> Parameters: 查询日志记录的用户(String), 日志(String), false(Boolean), 2021-04-03 15:26:57.637(Timestamp), 2021-04-03 15:26:57.637(Timestamp), 4(Integer)
+2021-05-08 00:10:57.403 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - <==    Updates: 1
+2021-05-08 00:11:03.180 [http-nio-5000-exec-1] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2021-05-08 00:11:03.188 [http-nio-5000-exec-1] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-05-08 00:12:34.993 [main] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: springSecurityFilterChain urls=[/*] order=-100, mdc-access-servlet-filter urls=[/*] order=2147483647, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-05-08 00:12:34.994 [main] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2021-05-08 00:12:37.183 [main] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-05-08 00:12:37.246 [main] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 37 mappings in 'requestMappingHandlerMapping'
+2021-05-08 00:12:37.268 [main] "  " DEBUG o.s.web.servlet.config.annotation.WebMvcConfigurer - Default resource handling disabled
+2021-05-08 00:12:37.280 [main] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/assets/**] in 'resourceHandlerMapping'
+2021-05-08 00:12:37.292 [main] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-05-08 00:12:37.830 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:12:37.853 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鎼滅储鏃ュ織(String), 鏃ュ織(String)
+2021-05-08 00:12:37.882 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:12:37.884 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:12:37.884 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鏌ヨ鏃ュ織璁板綍鐨勭敤鎴�(String), 鏃ュ織(String)
+2021-05-08 00:12:37.895 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:12:37.896 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:12:37.897 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鏌ヨ鎵�鏈夋棩蹇�(String), 鏃ュ織(String)
+2021-05-08 00:12:37.907 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:12:37.909 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:12:37.910 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鎼滅储鏃ュ織(String), 鏃ュ織(String)
+2021-05-08 00:12:37.918 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:12:37.920 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:12:37.920 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鏌ヨ鎵�鏈夋棩蹇�(String), 鏃ュ織(String)
+2021-05-08 00:12:37.929 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:12:37.930 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:12:37.931 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鍒犻櫎鍥句功(String), 鍥句功(String)
+2021-05-08 00:12:37.941 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:12:37.942 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:12:37.942 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鏌ヨ鏃ュ織璁板綍鐨勭敤鎴�(String), 鏃ュ織(String)
+2021-05-08 00:12:37.951 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:12:37.953 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:12:37.953 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鍒犻櫎鍥句功(String), 鍥句功(String)
+2021-05-08 00:12:37.962 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:12:37.965 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectList - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL
+2021-05-08 00:12:37.966 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectList - ==> Parameters: 
+2021-05-08 00:12:37.977 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectList - <==      Total: 8
+2021-05-08 00:12:37.981 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE lin_permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2021-05-08 00:12:37.983 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==> Parameters: 查询所有日志(String), 日志(String), false(Boolean), 2021-04-03 15:26:57.576(Timestamp), 2021-04-03 15:26:57.576(Timestamp), 1(Integer)
+2021-05-08 00:12:38.008 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - <==    Updates: 1
+2021-05-08 00:12:38.009 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE lin_permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2021-05-08 00:12:38.010 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==> Parameters: 删除图书(String), 图书(String), false(Boolean), 2021-04-03 15:26:57.594(Timestamp), 2021-04-03 15:26:57.594(Timestamp), 2(Integer)
+2021-05-08 00:12:38.025 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - <==    Updates: 1
+2021-05-08 00:12:38.026 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE lin_permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2021-05-08 00:12:38.027 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==> Parameters: 搜索日志(String), 日志(String), false(Boolean), 2021-04-03 15:26:57.625(Timestamp), 2021-04-03 15:26:57.625(Timestamp), 3(Integer)
+2021-05-08 00:12:38.043 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - <==    Updates: 1
+2021-05-08 00:12:38.044 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE lin_permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2021-05-08 00:12:38.045 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==> Parameters: 查询日志记录的用户(String), 日志(String), false(Boolean), 2021-04-03 15:26:57.637(Timestamp), 2021-04-03 15:26:57.637(Timestamp), 4(Integer)
+2021-05-08 00:12:38.066 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - <==    Updates: 1
+2021-05-08 00:13:01.483 [http-nio-5000-exec-1] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2021-05-08 00:13:01.491 [http-nio-5000-exec-1] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-05-08 00:23:54.254 [main] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: springSecurityFilterChain urls=[/*] order=-100, mdc-access-servlet-filter urls=[/*] order=2147483647, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-05-08 00:23:54.255 [main] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2021-05-08 00:23:56.680 [main] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-05-08 00:23:56.750 [main] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 37 mappings in 'requestMappingHandlerMapping'
+2021-05-08 00:23:56.771 [main] "  " DEBUG o.s.web.servlet.config.annotation.WebMvcConfigurer - Default resource handling disabled
+2021-05-08 00:23:56.784 [main] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/assets/**] in 'resourceHandlerMapping'
+2021-05-08 00:23:56.795 [main] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-05-08 00:23:57.087 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:23:57.109 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鏌ヨ鎵�鏈夋棩蹇�(String), 鏃ュ織(String)
+2021-05-08 00:23:57.140 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:23:57.142 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:23:57.142 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鎼滅储鏃ュ織(String), 鏃ュ織(String)
+2021-05-08 00:23:57.152 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:23:57.154 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:23:57.154 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鎼滅储鏃ュ織(String), 鏃ュ織(String)
+2021-05-08 00:23:57.164 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:23:57.167 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:23:57.167 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鍒犻櫎鍥句功(String), 鍥句功(String)
+2021-05-08 00:23:57.180 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:23:57.184 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:23:57.184 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鏌ヨ鏃ュ織璁板綍鐨勭敤鎴�(String), 鏃ュ織(String)
+2021-05-08 00:23:57.195 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:23:57.197 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:23:57.198 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鏌ヨ鏃ュ織璁板綍鐨勭敤鎴�(String), 鏃ュ織(String)
+2021-05-08 00:23:57.216 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:23:57.218 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:23:57.218 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鏌ヨ鎵�鏈夋棩蹇�(String), 鏃ュ織(String)
+2021-05-08 00:23:57.228 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:23:57.229 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:23:57.230 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鍒犻櫎鍥句功(String), 鍥句功(String)
+2021-05-08 00:23:57.244 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:23:57.247 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectList - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL
+2021-05-08 00:23:57.248 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectList - ==> Parameters: 
+2021-05-08 00:23:57.261 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectList - <==      Total: 8
+2021-05-08 00:23:57.266 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE lin_permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2021-05-08 00:23:57.268 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==> Parameters: 查询所有日志(String), 日志(String), false(Boolean), 2021-04-03 15:26:57.576(Timestamp), 2021-04-03 15:26:57.576(Timestamp), 1(Integer)
+2021-05-08 00:23:57.288 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - <==    Updates: 1
+2021-05-08 00:23:57.289 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE lin_permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2021-05-08 00:23:57.290 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==> Parameters: 删除图书(String), 图书(String), false(Boolean), 2021-04-03 15:26:57.594(Timestamp), 2021-04-03 15:26:57.594(Timestamp), 2(Integer)
+2021-05-08 00:23:57.311 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - <==    Updates: 1
+2021-05-08 00:23:57.312 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE lin_permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2021-05-08 00:23:57.313 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==> Parameters: 搜索日志(String), 日志(String), false(Boolean), 2021-04-03 15:26:57.625(Timestamp), 2021-04-03 15:26:57.625(Timestamp), 3(Integer)
+2021-05-08 00:23:57.334 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - <==    Updates: 1
+2021-05-08 00:23:57.335 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE lin_permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2021-05-08 00:23:57.335 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==> Parameters: 查询日志记录的用户(String), 日志(String), false(Boolean), 2021-04-03 15:26:57.637(Timestamp), 2021-04-03 15:26:57.637(Timestamp), 4(Integer)
+2021-05-08 00:23:57.352 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - <==    Updates: 1
+2021-05-08 00:24:04.027 [http-nio-5000-exec-3] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2021-05-08 00:24:04.034 [http-nio-5000-exec-3] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-05-08 00:24:04.073 [http-nio-5000-exec-3] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - "ERROR" dispatch for POST "/error", parameters={}
+2021-05-08 00:24:04.080 [http-nio-5000-exec-3] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2021-05-08 00:24:04.114 [http-nio-5000-exec-3] "  " DEBUG o.s.w.s.m.m.annotation.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-05-08 00:24:04.114 [http-nio-5000-exec-3] "  " DEBUG o.s.w.s.m.m.annotation.HttpEntityMethodProcessor - Writing [{timestamp=Sat May 08 00:24:04 CST 2021, status=403, error=Forbidden, message=, path=/v1/commend}]
+2021-05-08 00:24:04.161 [http-nio-5000-exec-3] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 403
+2021-05-08 00:24:18.745 [http-nio-5000-exec-2] "GET /v1/book HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/v1/book", parameters={}
+2021-05-08 00:24:18.745 [http-nio-5000-exec-2] "GET /v1/book HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.v1.BookController#getBooks()
+2021-05-08 00:24:18.844 [http-nio-5000-exec-2] "GET /v1/book HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.BookMapper.selectList - ==>  Preparing: SELECT id,title,author,summary,image,create_time,update_time,delete_time FROM book WHERE delete_time IS NULL
+2021-05-08 00:24:18.844 [http-nio-5000-exec-2] "GET /v1/book HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.BookMapper.selectList - ==> Parameters: 
+2021-05-08 00:24:18.861 [http-nio-5000-exec-2] "GET /v1/book HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.BookMapper.selectList - <==      Total: 2
+2021-05-08 00:24:18.869 [http-nio-5000-exec-2] "GET /v1/book HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-05-08 00:24:18.870 [http-nio-5000-exec-2] "GET /v1/book HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[BookDO(title=深入理解计算机系统, author=Randal E.Bryant, summary=从程序员的视角，看计算机系统！
+本书适用于那些想要写出更快、更可靠程序的程序员。通过掌 (truncated)...]
+2021-05-08 00:24:18.893 [http-nio-5000-exec-2] "GET /v1/book HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2021-05-08 00:24:26.312 [http-nio-5000-exec-4] "GET /v1/book HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/v1/book", parameters={}
+2021-05-08 00:24:26.313 [http-nio-5000-exec-4] "GET /v1/book HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.v1.BookController#getBooks()
+2021-05-08 00:24:26.325 [http-nio-5000-exec-4] "GET /v1/book HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.BookMapper.selectList - ==>  Preparing: SELECT id,title,author,summary,image,create_time,update_time,delete_time FROM book WHERE delete_time IS NULL
+2021-05-08 00:24:26.326 [http-nio-5000-exec-4] "GET /v1/book HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.BookMapper.selectList - ==> Parameters: 
+2021-05-08 00:24:26.336 [http-nio-5000-exec-4] "GET /v1/book HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.BookMapper.selectList - <==      Total: 2
+2021-05-08 00:24:26.337 [http-nio-5000-exec-4] "GET /v1/book HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-05-08 00:24:26.337 [http-nio-5000-exec-4] "GET /v1/book HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[BookDO(title=深入理解计算机系统, author=Randal E.Bryant, summary=从程序员的视角，看计算机系统！
+本书适用于那些想要写出更快、更可靠程序的程序员。通过掌 (truncated)...]
+2021-05-08 00:24:26.338 [http-nio-5000-exec-4] "GET /v1/book HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2021-05-08 00:24:47.431 [http-nio-5000-exec-5] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - "ERROR" dispatch for POST "/error", parameters={}
+2021-05-08 00:24:47.431 [http-nio-5000-exec-5] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2021-05-08 00:24:47.432 [http-nio-5000-exec-5] "  " DEBUG o.s.w.s.m.m.annotation.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-05-08 00:24:47.432 [http-nio-5000-exec-5] "  " DEBUG o.s.w.s.m.m.annotation.HttpEntityMethodProcessor - Writing [{timestamp=Sat May 08 00:24:47 CST 2021, status=403, error=Forbidden, message=, path=/v1/commend}]
+2021-05-08 00:24:47.438 [http-nio-5000-exec-5] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 403
+2021-05-08 00:25:01.557 [http-nio-5000-exec-6] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - "ERROR" dispatch for POST "/error", parameters={}
+2021-05-08 00:25:01.558 [http-nio-5000-exec-6] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2021-05-08 00:25:01.558 [http-nio-5000-exec-6] "  " DEBUG o.s.w.s.m.m.annotation.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-05-08 00:25:01.559 [http-nio-5000-exec-6] "  " DEBUG o.s.w.s.m.m.annotation.HttpEntityMethodProcessor - Writing [{timestamp=Sat May 08 00:25:01 CST 2021, status=403, error=Forbidden, message=, path=/v1/commend}]
+2021-05-08 00:25:01.561 [http-nio-5000-exec-6] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 403
+2021-05-08 00:27:02.406 [http-nio-5000-exec-9] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - "ERROR" dispatch for POST "/error", parameters={}
+2021-05-08 00:27:02.406 [http-nio-5000-exec-9] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2021-05-08 00:27:02.407 [http-nio-5000-exec-9] "  " DEBUG o.s.w.s.m.m.annotation.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-05-08 00:27:02.407 [http-nio-5000-exec-9] "  " DEBUG o.s.w.s.m.m.annotation.HttpEntityMethodProcessor - Writing [{timestamp=Sat May 08 00:27:02 CST 2021, status=403, error=Forbidden, message=, path=/v1/commend}]
+2021-05-08 00:27:02.408 [http-nio-5000-exec-9] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 403
+2021-05-08 00:27:03.442 [http-nio-5000-exec-1] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - "ERROR" dispatch for POST "/error", parameters={}
+2021-05-08 00:27:03.443 [http-nio-5000-exec-1] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2021-05-08 00:27:03.444 [http-nio-5000-exec-1] "  " DEBUG o.s.w.s.m.m.annotation.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-05-08 00:27:03.444 [http-nio-5000-exec-1] "  " DEBUG o.s.w.s.m.m.annotation.HttpEntityMethodProcessor - Writing [{timestamp=Sat May 08 00:27:03 CST 2021, status=403, error=Forbidden, message=, path=/v1/commend}]
+2021-05-08 00:27:03.445 [http-nio-5000-exec-1] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 403
+2021-05-08 00:27:11.741 [http-nio-5000-exec-3] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - "ERROR" dispatch for POST "/error", parameters={}
+2021-05-08 00:27:11.741 [http-nio-5000-exec-3] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2021-05-08 00:27:11.741 [http-nio-5000-exec-3] "  " DEBUG o.s.w.s.m.m.annotation.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-05-08 00:27:11.742 [http-nio-5000-exec-3] "  " DEBUG o.s.w.s.m.m.annotation.HttpEntityMethodProcessor - Writing [{timestamp=Sat May 08 00:27:11 CST 2021, status=403, error=Forbidden, message=, path=/v1/commend}]
+2021-05-08 00:27:11.744 [http-nio-5000-exec-3] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 403
+2021-05-08 00:28:18.644 [main] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: springSecurityFilterChain urls=[/*] order=-100, mdc-access-servlet-filter urls=[/*] order=2147483647, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-05-08 00:28:18.645 [main] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2021-05-08 00:28:20.926 [main] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 37 mappings in 'requestMappingHandlerMapping'
+2021-05-08 00:28:21.022 [main] "  " DEBUG o.s.web.servlet.config.annotation.WebMvcConfigurer - Default resource handling disabled
+2021-05-08 00:28:21.036 [main] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/assets/**] in 'resourceHandlerMapping'
+2021-05-08 00:28:21.109 [main] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-05-08 00:28:21.145 [main] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-05-08 00:28:21.457 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:28:21.478 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鏌ヨ鎵�鏈夋棩蹇�(String), 鏃ュ織(String)
+2021-05-08 00:28:21.507 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:28:21.509 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:28:21.509 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鎼滅储鏃ュ織(String), 鏃ュ織(String)
+2021-05-08 00:28:21.517 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:28:21.519 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:28:21.519 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鎼滅储鏃ュ織(String), 鏃ュ織(String)
+2021-05-08 00:28:21.527 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:28:21.528 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:28:21.529 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鍒犻櫎鍥句功(String), 鍥句功(String)
+2021-05-08 00:28:21.539 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:28:21.542 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:28:21.543 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鏌ヨ鏃ュ織璁板綍鐨勭敤鎴�(String), 鏃ュ織(String)
+2021-05-08 00:28:21.553 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:28:21.555 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:28:21.555 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鏌ヨ鏃ュ織璁板綍鐨勭敤鎴�(String), 鏃ュ織(String)
+2021-05-08 00:28:21.572 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:28:21.576 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:28:21.577 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鍒犻櫎鍥句功(String), 鍥句功(String)
+2021-05-08 00:28:21.585 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:28:21.586 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:28:21.587 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鏌ヨ鎵�鏈夋棩蹇�(String), 鏃ュ織(String)
+2021-05-08 00:28:21.596 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:28:21.602 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectList - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL
+2021-05-08 00:28:21.602 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectList - ==> Parameters: 
+2021-05-08 00:28:21.616 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectList - <==      Total: 8
+2021-05-08 00:28:21.623 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE lin_permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2021-05-08 00:28:21.626 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==> Parameters: 查询所有日志(String), 日志(String), false(Boolean), 2021-04-03 15:26:57.576(Timestamp), 2021-04-03 15:26:57.576(Timestamp), 1(Integer)
+2021-05-08 00:28:21.639 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - <==    Updates: 1
+2021-05-08 00:28:21.641 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE lin_permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2021-05-08 00:28:21.641 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==> Parameters: 删除图书(String), 图书(String), false(Boolean), 2021-04-03 15:26:57.594(Timestamp), 2021-04-03 15:26:57.594(Timestamp), 2(Integer)
+2021-05-08 00:28:21.653 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - <==    Updates: 1
+2021-05-08 00:28:21.654 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE lin_permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2021-05-08 00:28:21.655 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==> Parameters: 搜索日志(String), 日志(String), false(Boolean), 2021-04-03 15:26:57.625(Timestamp), 2021-04-03 15:26:57.625(Timestamp), 3(Integer)
+2021-05-08 00:28:21.675 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - <==    Updates: 1
+2021-05-08 00:28:21.676 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE lin_permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2021-05-08 00:28:21.677 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==> Parameters: 查询日志记录的用户(String), 日志(String), false(Boolean), 2021-04-03 15:26:57.637(Timestamp), 2021-04-03 15:26:57.637(Timestamp), 4(Integer)
+2021-05-08 00:28:21.695 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - <==    Updates: 1
+2021-05-08 00:28:38.365 [http-nio-5000-exec-2] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2021-05-08 00:28:38.375 [http-nio-5000-exec-2] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-05-08 00:28:38.398 [http-nio-5000-exec-2] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.v1.CommendController#createPatient(CreateOrUpdatePatientDTO)
+2021-05-08 00:28:38.411 [http-nio-5000-exec-2] "POST /v1/commend HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/v1/commend", parameters={}
+2021-05-08 00:28:38.412 [http-nio-5000-exec-2] "POST /v1/commend HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.v1.CommendController#createPatient(CreateOrUpdatePatientDTO)
+2021-05-08 00:28:38.494 [http-nio-5000-exec-2] "POST /v1/commend HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [CreateOrUpdatePatientDTO(name=zxl, age=11, sex=man, symptom=发热)]
+2021-05-08 00:31:16.207 [http-nio-5000-exec-2] "POST /v1/commend HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.PatientMapper.selectOne - ==>  Preparing: SELECT id,name,age,sex,symptom,user_id,create_time,update_time,delete_time FROM t_patient WHERE delete_time IS NULL
+2021-05-08 00:31:16.208 [http-nio-5000-exec-2] "POST /v1/commend HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.PatientMapper.selectOne - ==> Parameters: 
+2021-05-08 00:31:16.276 [http-nio-5000-exec-2] "POST /v1/commend HTTP/1.1" DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler io.github.talelin.latticy.common.exception.RestExceptionHandler#processException(Exception, HttpServletRequest, HttpServletResponse)
+2021-05-08 00:31:16.306 [http-nio-5000-exec-2] "POST /v1/commend HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-05-08 00:31:16.307 [http-nio-5000-exec-2] "POST /v1/commend HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [UnifyResponseVO(code=9999, message=服务器未知错误, request=POST /v1/commend)]
+2021-05-08 00:31:16.326 [http-nio-5000-exec-2] "POST /v1/commend HTTP/1.1" DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'user_id' in 'field list'
+### The error may exist in io/github/talelin/latticy/mapper/PatientMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT  id,name,age,sex,symptom,user_id,create_time,update_time,delete_time  FROM t_patient   WHERE  delete_time IS NULL
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'user_id' in 'field list'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'user_id' in 'field list']
+2021-05-08 00:31:16.329 [http-nio-5000-exec-2] "POST /v1/commend HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 500 INTERNAL_SERVER_ERROR
+2021-05-08 00:33:08.714 [main] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: springSecurityFilterChain urls=[/*] order=-100, mdc-access-servlet-filter urls=[/*] order=2147483647, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-05-08 00:33:08.715 [main] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2021-05-08 00:33:11.091 [main] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 37 mappings in 'requestMappingHandlerMapping'
+2021-05-08 00:33:11.192 [main] "  " DEBUG o.s.web.servlet.config.annotation.WebMvcConfigurer - Default resource handling disabled
+2021-05-08 00:33:11.206 [main] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/assets/**] in 'resourceHandlerMapping'
+2021-05-08 00:33:11.299 [main] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-05-08 00:33:11.330 [main] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-05-08 00:33:11.673 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:33:11.696 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鍒犻櫎鍥句功(String), 鍥句功(String)
+2021-05-08 00:33:11.729 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:33:11.731 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:33:11.731 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鏌ヨ鎵�鏈夋棩蹇�(String), 鏃ュ織(String)
+2021-05-08 00:33:11.742 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:33:11.743 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:33:11.744 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鎼滅储鏃ュ織(String), 鏃ュ織(String)
+2021-05-08 00:33:11.754 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:33:11.756 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:33:11.757 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鎼滅储鏃ュ織(String), 鏃ュ織(String)
+2021-05-08 00:33:11.772 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:33:11.775 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:33:11.775 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鏌ヨ鏃ュ織璁板綍鐨勭敤鎴�(String), 鏃ュ織(String)
+2021-05-08 00:33:11.787 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:33:11.793 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:33:11.794 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鏌ヨ鎵�鏈夋棩蹇�(String), 鏃ュ織(String)
+2021-05-08 00:33:11.805 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:33:11.808 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:33:11.809 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鏌ヨ鏃ュ織璁板綍鐨勭敤鎴�(String), 鏃ュ織(String)
+2021-05-08 00:33:11.818 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:33:11.820 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:33:11.821 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鍒犻櫎鍥句功(String), 鍥句功(String)
+2021-05-08 00:33:11.831 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:33:11.834 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectList - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL
+2021-05-08 00:33:11.835 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectList - ==> Parameters: 
+2021-05-08 00:33:11.851 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectList - <==      Total: 8
+2021-05-08 00:33:11.863 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE lin_permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2021-05-08 00:33:11.864 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==> Parameters: 查询所有日志(String), 日志(String), false(Boolean), 2021-04-03 15:26:57.576(Timestamp), 2021-04-03 15:26:57.576(Timestamp), 1(Integer)
+2021-05-08 00:33:11.882 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - <==    Updates: 1
+2021-05-08 00:33:11.884 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE lin_permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2021-05-08 00:33:11.885 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==> Parameters: 删除图书(String), 图书(String), false(Boolean), 2021-04-03 15:26:57.594(Timestamp), 2021-04-03 15:26:57.594(Timestamp), 2(Integer)
+2021-05-08 00:33:11.902 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - <==    Updates: 1
+2021-05-08 00:33:11.904 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE lin_permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2021-05-08 00:33:11.907 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==> Parameters: 搜索日志(String), 日志(String), false(Boolean), 2021-04-03 15:26:57.625(Timestamp), 2021-04-03 15:26:57.625(Timestamp), 3(Integer)
+2021-05-08 00:33:11.924 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - <==    Updates: 1
+2021-05-08 00:33:11.926 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE lin_permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2021-05-08 00:33:11.927 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==> Parameters: 查询日志记录的用户(String), 日志(String), false(Boolean), 2021-04-03 15:26:57.637(Timestamp), 2021-04-03 15:26:57.637(Timestamp), 4(Integer)
+2021-05-08 00:33:11.951 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - <==    Updates: 1
+2021-05-08 00:33:35.827 [http-nio-5000-exec-1] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2021-05-08 00:33:35.844 [http-nio-5000-exec-1] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-05-08 00:33:35.871 [http-nio-5000-exec-1] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.v1.CommendController#createPatient(CreateOrUpdatePatientDTO)
+2021-05-08 00:33:35.885 [http-nio-5000-exec-1] "POST /v1/commend HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/v1/commend", parameters={}
+2021-05-08 00:33:35.886 [http-nio-5000-exec-1] "POST /v1/commend HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.v1.CommendController#createPatient(CreateOrUpdatePatientDTO)
+2021-05-08 00:33:35.959 [http-nio-5000-exec-1] "POST /v1/commend HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [CreateOrUpdatePatientDTO(name=zxl, age=11, sex=man, symptom=发热)]
+2021-05-08 00:33:49.061 [http-nio-5000-exec-1] "POST /v1/commend HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.PatientMapper.selectOne - ==>  Preparing: SELECT id,name,age,sex,symptom,user_id,create_time,update_time,delete_time FROM t_patient WHERE delete_time IS NULL
+2021-05-08 00:33:49.061 [http-nio-5000-exec-1] "POST /v1/commend HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.PatientMapper.selectOne - ==> Parameters: 
+2021-05-08 00:33:49.135 [http-nio-5000-exec-1] "POST /v1/commend HTTP/1.1" DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler io.github.talelin.latticy.common.exception.RestExceptionHandler#processException(Exception, HttpServletRequest, HttpServletResponse)
+2021-05-08 00:33:49.163 [http-nio-5000-exec-1] "POST /v1/commend HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-05-08 00:33:49.164 [http-nio-5000-exec-1] "POST /v1/commend HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [UnifyResponseVO(code=9999, message=服务器未知错误, request=POST /v1/commend)]
+2021-05-08 00:33:49.178 [http-nio-5000-exec-1] "POST /v1/commend HTTP/1.1" DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'user_id' in 'field list'
+### The error may exist in io/github/talelin/latticy/mapper/PatientMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT  id,name,age,sex,symptom,user_id,create_time,update_time,delete_time  FROM t_patient   WHERE  delete_time IS NULL
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'user_id' in 'field list'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'user_id' in 'field list']
+2021-05-08 00:33:49.180 [http-nio-5000-exec-1] "POST /v1/commend HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 500 INTERNAL_SERVER_ERROR
+2021-05-08 00:38:12.589 [main] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: springSecurityFilterChain urls=[/*] order=-100, mdc-access-servlet-filter urls=[/*] order=2147483647, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-05-08 00:38:12.589 [main] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2021-05-08 00:38:15.938 [main] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 37 mappings in 'requestMappingHandlerMapping'
+2021-05-08 00:38:16.034 [main] "  " DEBUG o.s.web.servlet.config.annotation.WebMvcConfigurer - Default resource handling disabled
+2021-05-08 00:38:16.047 [main] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/assets/**] in 'resourceHandlerMapping'
+2021-05-08 00:38:16.122 [main] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-05-08 00:38:16.163 [main] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-05-08 00:38:16.502 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:38:16.524 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鏌ヨ鎵�鏈夋棩蹇�(String), 鏃ュ織(String)
+2021-05-08 00:38:16.619 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:38:16.622 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:38:16.622 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鎼滅储鏃ュ織(String), 鏃ュ織(String)
+2021-05-08 00:38:16.696 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:38:16.698 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:38:16.698 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鎼滅储鏃ュ織(String), 鏃ュ織(String)
+2021-05-08 00:38:16.769 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:38:16.771 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:38:16.772 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鍒犻櫎鍥句功(String), 鍥句功(String)
+2021-05-08 00:38:16.846 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:38:16.847 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:38:16.848 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鏌ヨ鏃ュ織璁板綍鐨勭敤鎴�(String), 鏃ュ織(String)
+2021-05-08 00:38:16.921 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:38:16.922 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:38:16.923 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鍒犻櫎鍥句功(String), 鍥句功(String)
+2021-05-08 00:38:16.999 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:38:17.001 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:38:17.001 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鏌ヨ鏃ュ織璁板綍鐨勭敤鎴�(String), 鏃ュ織(String)
+2021-05-08 00:38:17.078 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:38:17.080 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 00:38:17.081 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鏌ヨ鎵�鏈夋棩蹇�(String), 鏃ュ織(String)
+2021-05-08 00:38:17.154 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 00:38:17.158 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectList - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL
+2021-05-08 00:38:17.159 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectList - ==> Parameters: 
+2021-05-08 00:38:17.236 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectList - <==      Total: 8
+2021-05-08 00:38:17.241 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE lin_permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2021-05-08 00:38:17.245 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==> Parameters: 查询所有日志(String), 日志(String), false(Boolean), 2021-04-03 15:26:57.576(Timestamp), 2021-04-03 15:26:57.576(Timestamp), 1(Integer)
+2021-05-08 00:38:17.394 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - <==    Updates: 1
+2021-05-08 00:38:17.396 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE lin_permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2021-05-08 00:38:17.396 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==> Parameters: 删除图书(String), 图书(String), false(Boolean), 2021-04-03 15:26:57.594(Timestamp), 2021-04-03 15:26:57.594(Timestamp), 2(Integer)
+2021-05-08 00:38:17.540 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - <==    Updates: 1
+2021-05-08 00:38:17.541 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE lin_permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2021-05-08 00:38:17.542 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==> Parameters: 搜索日志(String), 日志(String), false(Boolean), 2021-04-03 15:26:57.625(Timestamp), 2021-04-03 15:26:57.625(Timestamp), 3(Integer)
+2021-05-08 00:38:17.686 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - <==    Updates: 1
+2021-05-08 00:38:17.688 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE lin_permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2021-05-08 00:38:17.688 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==> Parameters: 查询日志记录的用户(String), 日志(String), false(Boolean), 2021-04-03 15:26:57.637(Timestamp), 2021-04-03 15:26:57.637(Timestamp), 4(Integer)
+2021-05-08 00:38:17.837 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - <==    Updates: 1
+2021-05-08 00:38:27.644 [http-nio-5000-exec-2] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2021-05-08 00:38:27.651 [http-nio-5000-exec-2] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-05-08 00:38:27.670 [http-nio-5000-exec-2] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.v1.CommendController#createPatient(CreateOrUpdatePatientDTO)
+2021-05-08 00:38:27.681 [http-nio-5000-exec-2] "POST /v1/commend HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/v1/commend", parameters={}
+2021-05-08 00:38:27.683 [http-nio-5000-exec-2] "POST /v1/commend HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.v1.CommendController#createPatient(CreateOrUpdatePatientDTO)
+2021-05-08 00:38:27.754 [http-nio-5000-exec-2] "POST /v1/commend HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [CreateOrUpdatePatientDTO(name=zxl, age=11, sex=man, symptom=发热)]
+2021-05-08 00:38:55.774 [http-nio-5000-exec-2] "POST /v1/commend HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.PatientMapper.selectOne - ==>  Preparing: SELECT id,name,age,sex,symptom,user_id,create_time,update_time,delete_time FROM t_patient WHERE delete_time IS NULL
+2021-05-08 00:38:55.775 [http-nio-5000-exec-2] "POST /v1/commend HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.PatientMapper.selectOne - ==> Parameters: 
+2021-05-08 00:38:55.911 [http-nio-5000-exec-2] "POST /v1/commend HTTP/1.1" DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler io.github.talelin.latticy.common.exception.RestExceptionHandler#processException(Exception, HttpServletRequest, HttpServletResponse)
+2021-05-08 00:38:55.939 [http-nio-5000-exec-2] "POST /v1/commend HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-05-08 00:38:55.940 [http-nio-5000-exec-2] "POST /v1/commend HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [UnifyResponseVO(code=9999, message=服务器未知错误, request=POST /v1/commend)]
+2021-05-08 00:38:55.954 [http-nio-5000-exec-2] "POST /v1/commend HTTP/1.1" DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'user_id' in 'field list'
+### The error may exist in io/github/talelin/latticy/mapper/PatientMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT  id,name,age,sex,symptom,user_id,create_time,update_time,delete_time  FROM t_patient   WHERE  delete_time IS NULL
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'user_id' in 'field list'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'user_id' in 'field list']
+2021-05-08 00:38:55.956 [http-nio-5000-exec-2] "POST /v1/commend HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 500 INTERNAL_SERVER_ERROR
+2021-05-08 00:38:59.936 [http-nio-5000-exec-4] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.v1.CommendController#createPatient(CreateOrUpdatePatientDTO)
+2021-05-08 00:38:59.937 [http-nio-5000-exec-4] "POST /v1/commend HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/v1/commend", parameters={}
+2021-05-08 00:38:59.937 [http-nio-5000-exec-4] "POST /v1/commend HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.v1.CommendController#createPatient(CreateOrUpdatePatientDTO)
+2021-05-08 00:38:59.938 [http-nio-5000-exec-4] "POST /v1/commend HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [CreateOrUpdatePatientDTO(name=zxl, age=11, sex=man, symptom=发热)]
+2021-05-08 00:39:23.131 [http-nio-5000-exec-4] "POST /v1/commend HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.PatientMapper.selectOne - ==>  Preparing: SELECT id,name,age,sex,symptom,user_id,create_time,update_time,delete_time FROM t_patient WHERE delete_time IS NULL
+2021-05-08 00:39:23.131 [http-nio-5000-exec-4] "POST /v1/commend HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.PatientMapper.selectOne - ==> Parameters: 
+2021-05-08 00:39:23.207 [http-nio-5000-exec-4] "POST /v1/commend HTTP/1.1" DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler io.github.talelin.latticy.common.exception.RestExceptionHandler#processException(Exception, HttpServletRequest, HttpServletResponse)
+2021-05-08 00:39:23.210 [http-nio-5000-exec-4] "POST /v1/commend HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-05-08 00:39:23.211 [http-nio-5000-exec-4] "POST /v1/commend HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [UnifyResponseVO(code=9999, message=服务器未知错误, request=POST /v1/commend)]
+2021-05-08 00:39:23.212 [http-nio-5000-exec-4] "POST /v1/commend HTTP/1.1" DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'user_id' in 'field list'
+### The error may exist in io/github/talelin/latticy/mapper/PatientMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT  id,name,age,sex,symptom,user_id,create_time,update_time,delete_time  FROM t_patient   WHERE  delete_time IS NULL
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'user_id' in 'field list'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'user_id' in 'field list']
+2021-05-08 00:39:23.213 [http-nio-5000-exec-4] "POST /v1/commend HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 500 INTERNAL_SERVER_ERROR
+2021-05-08 01:15:11.216 [main] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: springSecurityFilterChain urls=[/*] order=-100, mdc-access-servlet-filter urls=[/*] order=2147483647, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-05-08 01:15:11.216 [main] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2021-05-08 01:15:14.219 [main] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 37 mappings in 'requestMappingHandlerMapping'
+2021-05-08 01:15:14.314 [main] "  " DEBUG o.s.web.servlet.config.annotation.WebMvcConfigurer - Default resource handling disabled
+2021-05-08 01:15:14.326 [main] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/assets/**] in 'resourceHandlerMapping'
+2021-05-08 01:15:14.393 [main] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 2 ResponseBodyAdvice
+2021-05-08 01:15:14.425 [main] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 2 ResponseBodyAdvice
+2021-05-08 01:15:14.825 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 01:15:14.845 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鎼滅储鏃ュ織(String), 鏃ュ織(String)
+2021-05-08 01:15:14.935 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 01:15:14.938 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 01:15:14.938 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鏌ヨ鎵�鏈夋棩蹇�(String), 鏃ュ織(String)
+2021-05-08 01:15:15.030 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 01:15:15.032 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 01:15:15.032 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鏌ヨ鎵�鏈夋棩蹇�(String), 鏃ュ織(String)
+2021-05-08 01:15:15.101 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 01:15:15.103 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 01:15:15.104 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鎼滅储鏃ュ織(String), 鏃ュ織(String)
+2021-05-08 01:15:15.175 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 01:15:15.177 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 01:15:15.177 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鏌ヨ鏃ュ織璁板綍鐨勭敤鎴�(String), 鏃ュ織(String)
+2021-05-08 01:15:15.246 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 01:15:15.248 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 01:15:15.248 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鍒犻櫎鍥句功(String), 鍥句功(String)
+2021-05-08 01:15:15.335 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 01:15:15.337 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 01:15:15.337 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鍒犻櫎鍥句功(String), 鍥句功(String)
+2021-05-08 01:15:15.410 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 01:15:15.411 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 01:15:15.412 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鏌ヨ鏃ュ織璁板綍鐨勭敤鎴�(String), 鏃ュ織(String)
+2021-05-08 01:15:15.483 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 01:15:15.488 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectList - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL
+2021-05-08 01:15:15.488 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectList - ==> Parameters: 
+2021-05-08 01:15:15.564 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectList - <==      Total: 8
+2021-05-08 01:15:15.569 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE lin_permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2021-05-08 01:15:15.571 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==> Parameters: 查询所有日志(String), 日志(String), false(Boolean), 2021-04-03 15:26:57.576(Timestamp), 2021-04-03 15:26:57.576(Timestamp), 1(Integer)
+2021-05-08 01:15:15.718 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - <==    Updates: 1
+2021-05-08 01:15:15.719 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE lin_permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2021-05-08 01:15:15.720 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==> Parameters: 删除图书(String), 图书(String), false(Boolean), 2021-04-03 15:26:57.594(Timestamp), 2021-04-03 15:26:57.594(Timestamp), 2(Integer)
+2021-05-08 01:15:15.868 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - <==    Updates: 1
+2021-05-08 01:15:15.870 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE lin_permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2021-05-08 01:15:15.870 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==> Parameters: 搜索日志(String), 日志(String), false(Boolean), 2021-04-03 15:26:57.625(Timestamp), 2021-04-03 15:26:57.625(Timestamp), 3(Integer)
+2021-05-08 01:15:16.010 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - <==    Updates: 1
+2021-05-08 01:15:16.012 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE lin_permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2021-05-08 01:15:16.013 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==> Parameters: 查询日志记录的用户(String), 日志(String), false(Boolean), 2021-04-03 15:26:57.637(Timestamp), 2021-04-03 15:26:57.637(Timestamp), 4(Integer)
+2021-05-08 01:15:16.151 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - <==    Updates: 1
+2021-05-08 01:15:54.101 [http-nio-5000-exec-2] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2021-05-08 01:15:54.110 [http-nio-5000-exec-2] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-05-08 01:15:54.133 [http-nio-5000-exec-2] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.cms.UserController#login(LoginDTO)
+2021-05-08 01:15:54.155 [http-nio-5000-exec-2] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.cms.UserController#login(LoginDTO)
+2021-05-08 01:15:54.170 [http-nio-5000-exec-2] "POST /cms/user/login HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/cms/user/login", parameters={}
+2021-05-08 01:15:54.171 [http-nio-5000-exec-2] "POST /cms/user/login HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.cms.UserController#login(LoginDTO)
+2021-05-08 01:15:54.233 [http-nio-5000-exec-2] "POST /cms/user/login HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [LoginDTO(username=root, password=123456)]
+2021-05-08 01:15:54.398 [http-nio-5000-exec-2] "POST /cms/user/login HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectOne - ==>  Preparing: SELECT id,username,nickname,avatar,email,create_time,update_time,delete_time FROM lin_user WHERE delete_time IS NULL AND (username = ?)
+2021-05-08 01:15:54.399 [http-nio-5000-exec-2] "POST /cms/user/login HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectOne - ==> Parameters: root(String)
+2021-05-08 01:15:54.471 [http-nio-5000-exec-2] "POST /cms/user/login HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectOne - <==      Total: 1
+2021-05-08 01:15:54.482 [http-nio-5000-exec-2] "POST /cms/user/login HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserIdentityMapper.selectOne - ==>  Preparing: SELECT id,user_id,identity_type,identifier,credential,create_time,update_time,delete_time FROM lin_user_identity WHERE delete_time IS NULL AND (user_id = ? AND identity_type = ? AND identifier = ?)
+2021-05-08 01:15:54.482 [http-nio-5000-exec-2] "POST /cms/user/login HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserIdentityMapper.selectOne - ==> Parameters: 1(Integer), USERNAME_PASSWORD(String), root(String)
+2021-05-08 01:15:54.559 [http-nio-5000-exec-2] "POST /cms/user/login HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserIdentityMapper.selectOne - <==      Total: 1
+2021-05-08 01:15:54.923 [http-nio-5000-exec-2] "POST /cms/user/login HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-05-08 01:15:54.923 [http-nio-5000-exec-2] "POST /cms/user/login HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Tokens{accessToken='eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6MSwic2NvcGUiOiJsaW4iLCJ0eXB (truncated)...]
+2021-05-08 01:15:54.933 [http-nio-5000-exec-2] "POST /cms/user/login HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2021-05-08 01:15:54.950 [http-nio-5000-exec-1] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.cms.UserController#getPermissions()
+2021-05-08 01:15:54.957 [http-nio-5000-exec-3] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.cms.UserController#getPermissions()
+2021-05-08 01:15:54.958 [http-nio-5000-exec-3] "GET /cms/user/permissions HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/cms/user/permissions", parameters={}
+2021-05-08 01:15:54.958 [http-nio-5000-exec-3] "GET /cms/user/permissions HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.cms.UserController#getPermissions()
+2021-05-08 01:15:54.980 [http-nio-5000-exec-3] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - ==>  Preparing: SELECT id,username,nickname,avatar,email,create_time,update_time,delete_time FROM lin_user WHERE id=? AND delete_time IS NULL
+2021-05-08 01:15:54.982 [http-nio-5000-exec-3] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - ==> Parameters: 1(Integer)
+2021-05-08 01:15:55.051 [http-nio-5000-exec-3] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.UserMapper.selectById - <==      Total: 1
+2021-05-08 01:15:55.062 [http-nio-5000-exec-3] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.GroupMapper.selectOne - ==>  Preparing: SELECT id,name,info,`level`,create_time,update_time,delete_time FROM lin_group WHERE delete_time IS NULL AND (`level` = ?)
+2021-05-08 01:15:55.062 [http-nio-5000-exec-3] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.GroupMapper.selectOne - ==> Parameters: 1(Integer)
+2021-05-08 01:15:55.135 [http-nio-5000-exec-3] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.GroupMapper.selectOne - <==      Total: 1
+2021-05-08 01:15:55.141 [http-nio-5000-exec-3] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserGroupMapper.selectOne - ==>  Preparing: SELECT id,user_id,group_id FROM lin_user_group WHERE (user_id = ? AND group_id = ?)
+2021-05-08 01:15:55.142 [http-nio-5000-exec-3] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserGroupMapper.selectOne - ==> Parameters: 1(Integer), 1(Integer)
+2021-05-08 01:15:55.217 [http-nio-5000-exec-3] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.t.latticy.mapper.UserGroupMapper.selectOne - <==      Total: 1
+2021-05-08 01:15:55.219 [http-nio-5000-exec-3] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.t.l.mapper.GroupMapper.selectUserGroupIds - ==>  Preparing: SELECT g.id from lin_group AS g WHERE g.delete_time IS NULL AND g.id IN ( SELECT ug.group_id FROM lin_user AS u LEFT JOIN lin_user_group as ug ON ug.user_id = u.id WHERE u.id = ? AND u.delete_time IS NULL )
+2021-05-08 01:15:55.219 [http-nio-5000-exec-3] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.t.l.mapper.GroupMapper.selectUserGroupIds - ==> Parameters: 1(Integer)
+2021-05-08 01:15:55.296 [http-nio-5000-exec-3] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.t.l.mapper.GroupMapper.selectUserGroupIds - <==      Total: 1
+2021-05-08 01:15:55.327 [http-nio-5000-exec-3] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.t.l.m.P.selectPermissionsByGroupIds - ==>  Preparing: SELECT p.id, p.name, p.module, p.mount, p.create_time, p.update_time, p.delete_time FROM lin_permission AS p WHERE p.delete_time IS NULL AND p.mount = true AND p.id IN ( SELECT gp.permission_id FROM lin_group_permission AS gp WHERE gp.group_id IN ( ? ) )
+2021-05-08 01:15:55.327 [http-nio-5000-exec-3] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.t.l.m.P.selectPermissionsByGroupIds - ==> Parameters: 1(Integer)
+2021-05-08 01:15:55.401 [http-nio-5000-exec-3] "GET /cms/user/permissions HTTP/1.1" DEBUG i.g.t.l.m.P.selectPermissionsByGroupIds - <==      Total: 0
+2021-05-08 01:15:55.413 [http-nio-5000-exec-3] "GET /cms/user/permissions HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-05-08 01:15:55.413 [http-nio-5000-exec-3] "GET /cms/user/permissions HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [UserPermissionVO(id=1, nickname=root, avatar=null, admin=true, email=null, permissions=[])]
+2021-05-08 01:15:55.417 [http-nio-5000-exec-3] "GET /cms/user/permissions HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2021-05-08 01:30:27.746 [main] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: springSecurityFilterChain urls=[/*] order=-100, mdc-access-servlet-filter urls=[/*] order=2147483647, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-05-08 01:30:27.747 [main] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2021-05-08 01:30:30.896 [main] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 35 mappings in 'requestMappingHandlerMapping'
+2021-05-08 01:30:30.991 [main] "  " DEBUG o.s.web.servlet.config.annotation.WebMvcConfigurer - Default resource handling disabled
+2021-05-08 01:30:31.012 [main] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/assets/**] in 'resourceHandlerMapping'
+2021-05-08 01:30:31.101 [main] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 2 ResponseBodyAdvice
+2021-05-08 01:30:31.142 [main] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 2 ResponseBodyAdvice
+2021-05-08 01:30:31.583 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 01:30:31.608 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鏌ヨ鏃ュ織璁板綍鐨勭敤鎴�(String), 鏃ュ織(String)
+2021-05-08 01:30:31.700 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 01:30:31.702 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 01:30:31.702 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鏌ヨ鎵�鏈夋棩蹇�(String), 鏃ュ織(String)
+2021-05-08 01:30:31.773 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 01:30:31.775 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 01:30:31.775 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鎼滅储鏃ュ織(String), 鏃ュ織(String)
+2021-05-08 01:30:31.842 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 01:30:31.845 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 01:30:31.845 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鎼滅储鏃ュ織(String), 鏃ュ織(String)
+2021-05-08 01:30:31.915 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 01:30:31.917 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 01:30:31.918 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鍒犻櫎鍥句功(String), 鍥句功(String)
+2021-05-08 01:30:31.986 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 01:30:31.989 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 01:30:31.989 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鏌ヨ鎵�鏈夋棩蹇�(String), 鏃ュ織(String)
+2021-05-08 01:30:32.058 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 01:30:32.059 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 01:30:32.060 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鏌ヨ鏃ュ織璁板綍鐨勭敤鎴�(String), 鏃ュ織(String)
+2021-05-08 01:30:32.130 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 01:30:32.132 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 01:30:32.133 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鍒犻櫎鍥句功(String), 鍥句功(String)
+2021-05-08 01:30:32.205 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 01:30:32.208 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectList - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL
+2021-05-08 01:30:32.209 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectList - ==> Parameters: 
+2021-05-08 01:30:32.286 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectList - <==      Total: 8
+2021-05-08 01:30:32.291 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE lin_permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2021-05-08 01:30:32.293 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==> Parameters: 查询所有日志(String), 日志(String), false(Boolean), 2021-04-03 15:26:57.576(Timestamp), 2021-04-03 15:26:57.576(Timestamp), 1(Integer)
+2021-05-08 01:30:32.454 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - <==    Updates: 1
+2021-05-08 01:30:32.455 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE lin_permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2021-05-08 01:30:32.456 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==> Parameters: 删除图书(String), 图书(String), false(Boolean), 2021-04-03 15:26:57.594(Timestamp), 2021-04-03 15:26:57.594(Timestamp), 2(Integer)
+2021-05-08 01:30:32.600 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - <==    Updates: 1
+2021-05-08 01:30:32.602 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE lin_permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2021-05-08 01:30:32.602 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==> Parameters: 搜索日志(String), 日志(String), false(Boolean), 2021-04-03 15:26:57.625(Timestamp), 2021-04-03 15:26:57.625(Timestamp), 3(Integer)
+2021-05-08 01:30:32.739 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - <==    Updates: 1
+2021-05-08 01:30:32.740 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE lin_permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2021-05-08 01:30:32.740 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==> Parameters: 查询日志记录的用户(String), 日志(String), false(Boolean), 2021-04-03 15:26:57.637(Timestamp), 2021-04-03 15:26:57.637(Timestamp), 4(Integer)
+2021-05-08 01:30:32.875 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - <==    Updates: 1
+2021-05-08 01:36:46.034 [main] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: springSecurityFilterChain urls=[/*] order=-100, mdc-access-servlet-filter urls=[/*] order=2147483647, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-05-08 01:36:46.034 [main] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2021-05-08 01:36:49.025 [main] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 35 mappings in 'requestMappingHandlerMapping'
+2021-05-08 01:36:49.124 [main] "  " DEBUG o.s.web.servlet.config.annotation.WebMvcConfigurer - Default resource handling disabled
+2021-05-08 01:36:49.137 [main] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/assets/**] in 'resourceHandlerMapping'
+2021-05-08 01:36:49.236 [main] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 2 ResponseBodyAdvice
+2021-05-08 01:36:49.288 [main] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 2 ResponseBodyAdvice
+2021-05-08 01:36:49.835 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 01:36:49.861 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鏌ヨ鎵�鏈夋棩蹇�(String), 鏃ュ織(String)
+2021-05-08 01:36:49.956 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 01:36:49.958 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 01:36:49.959 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鎼滅储鏃ュ織(String), 鏃ュ織(String)
+2021-05-08 01:36:50.029 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 01:36:50.031 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 01:36:50.032 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鏌ヨ鎵�鏈夋棩蹇�(String), 鏃ュ織(String)
+2021-05-08 01:36:50.112 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 01:36:50.114 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 01:36:50.115 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鎼滅储鏃ュ織(String), 鏃ュ織(String)
+2021-05-08 01:36:50.197 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 01:36:50.201 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 01:36:50.202 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鏌ヨ鏃ュ織璁板綍鐨勭敤鎴�(String), 鏃ュ織(String)
+2021-05-08 01:36:50.272 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 01:36:50.274 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 01:36:50.274 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鏌ヨ鏃ュ織璁板綍鐨勭敤鎴�(String), 鏃ュ織(String)
+2021-05-08 01:36:50.350 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 01:36:50.352 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 01:36:50.352 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鍒犻櫎鍥句功(String), 鍥句功(String)
+2021-05-08 01:36:50.423 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 01:36:50.425 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL AND (name = ? AND module = ?)
+2021-05-08 01:36:50.427 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - ==> Parameters: 鍒犻櫎鍥句功(String), 鍥句功(String)
+2021-05-08 01:36:50.501 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectOne - <==      Total: 1
+2021-05-08 01:36:50.505 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectList - ==>  Preparing: SELECT id,name,module,mount,create_time,update_time,delete_time FROM lin_permission WHERE delete_time IS NULL
+2021-05-08 01:36:50.505 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectList - ==> Parameters: 
+2021-05-08 01:36:50.581 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.selectList - <==      Total: 8
+2021-05-08 01:36:50.586 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE lin_permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2021-05-08 01:36:50.588 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==> Parameters: 查询所有日志(String), 日志(String), false(Boolean), 2021-04-03 15:26:57.576(Timestamp), 2021-04-03 15:26:57.576(Timestamp), 1(Integer)
+2021-05-08 01:36:50.744 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - <==    Updates: 1
+2021-05-08 01:36:50.745 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE lin_permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2021-05-08 01:36:50.746 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==> Parameters: 删除图书(String), 图书(String), false(Boolean), 2021-04-03 15:26:57.594(Timestamp), 2021-04-03 15:26:57.594(Timestamp), 2(Integer)
+2021-05-08 01:36:50.890 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - <==    Updates: 1
+2021-05-08 01:36:50.891 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE lin_permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2021-05-08 01:36:50.892 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==> Parameters: 搜索日志(String), 日志(String), false(Boolean), 2021-04-03 15:26:57.625(Timestamp), 2021-04-03 15:26:57.625(Timestamp), 3(Integer)
+2021-05-08 01:36:51.039 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - <==    Updates: 1
+2021-05-08 01:36:51.040 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==>  Preparing: UPDATE lin_permission SET name=?, module=?, mount=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2021-05-08 01:36:51.041 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - ==> Parameters: 查询日志记录的用户(String), 日志(String), false(Boolean), 2021-04-03 15:26:57.637(Timestamp), 2021-04-03 15:26:57.637(Timestamp), 4(Integer)
+2021-05-08 01:36:51.192 [main] "  " DEBUG i.g.t.latticy.mapper.PermissionMapper.updateById - <==    Updates: 1
+2021-05-08 01:37:07.400 [http-nio-5000-exec-2] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2021-05-08 01:37:07.409 [http-nio-5000-exec-2] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-05-08 01:37:07.427 [http-nio-5000-exec-2] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.v1.CommendController#getPrescription(PatientDO)
+2021-05-08 01:37:07.438 [http-nio-5000-exec-2] "POST /v1/commend HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/v1/commend", parameters={}
+2021-05-08 01:37:07.439 [http-nio-5000-exec-2] "POST /v1/commend HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to io.github.talelin.latticy.controller.v1.CommendController#getPrescription(PatientDO)
+2021-05-08 01:37:07.511 [http-nio-5000-exec-2] "POST /v1/commend HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [PatientDO(name=zxl, age=11, sex=man, symptom=发热,胸痛, prescription=null)]
+2021-05-08 01:37:11.472 [http-nio-5000-exec-2] "POST /v1/commend HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.PatientMapper.insert - ==>  Preparing: INSERT INTO t_patient ( name, age, sex, symptom ) VALUES ( ?, ?, ?, ? )
+2021-05-08 01:37:11.473 [http-nio-5000-exec-2] "POST /v1/commend HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.PatientMapper.insert - ==> Parameters: zxl(String), 11(Integer), man(String), 发热,胸痛(String)
+2021-05-08 01:37:11.623 [http-nio-5000-exec-2] "POST /v1/commend HTTP/1.1" DEBUG i.g.talelin.latticy.mapper.PatientMapper.insert - <==    Updates: 1
+2021-05-08 01:37:11.646 [http-nio-5000-exec-2] "POST /v1/commend HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-05-08 01:37:11.647 [http-nio-5000-exec-2] "POST /v1/commend HTTP/1.1" DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [PatientDO(name=zxl, age=11, sex=man, symptom=发热,胸痛, prescription=null)]
+2021-05-08 01:37:11.664 [http-nio-5000-exec-2] "POST /v1/commend HTTP/1.1" DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
