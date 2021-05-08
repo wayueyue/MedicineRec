@@ -2,7 +2,6 @@ package io.github.talelin.latticy.service.impl;
 
 import io.github.talelin.latticy.dto.patient.CreateOrUpdatePatientDTO;
 import io.github.talelin.latticy.mapper.PatientMapper;
-import io.github.talelin.latticy.model.BookDO;
 import io.github.talelin.latticy.model.PatientDO;
 import io.github.talelin.latticy.service.CommendService;
 import org.apache.commons.lang3.StringUtils;
