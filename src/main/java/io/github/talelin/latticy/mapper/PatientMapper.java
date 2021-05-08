@@ -13,6 +13,5 @@ import java.util.List;
 @Repository
 public interface PatientMapper extends BaseMapper<PatientDO> {
 
-    List<PatientDO> selectByNameLikeKeyword(@Param("q") String q);
-
+    List<PatientDO> selectByName(@Param("q") String q);
 }

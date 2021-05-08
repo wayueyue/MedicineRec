@@ -2,6 +2,7 @@ package io.github.talelin.latticy.service.impl;
 
 import io.github.talelin.latticy.dto.patient.CreateOrUpdatePatientDTO;
 import io.github.talelin.latticy.mapper.PatientMapper;
+import io.github.talelin.latticy.model.BookDO;
 import io.github.talelin.latticy.model.PatientDO;
 import io.github.talelin.latticy.service.CommendService;
 import org.apache.commons.lang3.StringUtils;
@@ -12,6 +13,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.util.List;
 
 @Service
 public class CommendServiceImpl implements CommendService {
@@ -47,6 +49,13 @@ public class CommendServiceImpl implements CommendService {
         patientMapper.insert(patientDTO);
         return patientDTO;
     }
+
+    @Override
+    public List<PatientDO> getByName(String name) {
+        List<PatientDO> patient = patientMapper.selectByName(name);
+        return patient;
+    }
+
 
 
     /**
