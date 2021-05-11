@@ -11,4 +11,8 @@
         <result column="prescription"  property="prescription"/>
     </resultMap>
 
+    <select id="getByName" resultMap="BaseResultMap">
+        SELECT * FROM t_patient WHERE t_patient.name=#{name}
+    </select>
+
 </mapper>

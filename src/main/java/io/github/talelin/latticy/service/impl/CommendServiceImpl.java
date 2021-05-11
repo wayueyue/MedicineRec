@@ -84,4 +84,10 @@ public class CommendServiceImpl implements CommendService {
         }
         return null;
     }
+
+    @Override
+    public PatientDO getByName(String name) {
+        PatientDO patient = patientMapper.getByName(name);
+        return patient;
+    }
 }

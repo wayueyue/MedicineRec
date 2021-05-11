@@ -8,4 +8,5 @@ public interface CommendService {
 
     PatientDO getPrescription(PatientDO patientDTO);
     List<SymptomDO> getSymptoms();
+    PatientDO getByName(String name);
 }
