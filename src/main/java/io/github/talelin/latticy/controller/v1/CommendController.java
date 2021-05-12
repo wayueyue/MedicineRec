@@ -18,8 +18,8 @@ public class CommendController {
 
 
     @PostMapping("")
-    public void getPrescription(@RequestBody PatientDO patientDTO) {
-        commendService.getPrescription(patientDTO);
+    public PatientDO getPrescription(@RequestBody PatientDO patientDTO) {
+        return commendService.getPrescription(patientDTO);
     }
 
     @GetMapping("")
