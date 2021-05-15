@@ -68,7 +68,7 @@ public class CommendServiceImpl implements CommendService {
      */
     private String getPrescriptionByPython(String symptom) {
         try {
-            String[] args = new String[]{"python", "E:\\Destop\\medicine\\he_20210425(3).py", symptom};
+            String[] args = new String[]{"python", "E:\\Destop\\medicine2\\he_20210425.py", symptom};
             Process proc = Runtime.getRuntime().exec(args);
             InputStream inputStream = proc.getInputStream();
             InputStreamReader outputReader = new InputStreamReader(inputStream, "utf-8");
